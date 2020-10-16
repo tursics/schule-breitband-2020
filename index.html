@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,13 +7,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=7; IE=EmulateIE9; IE=10" />
 
 	<!-- put in your app icon here -->
+
 	<!-- put in the lib here -->
+	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.7/dist/ddj.map.css" />
+	<script src="https://unpkg.com/ddj.map@1.0.7/dist/ddj.map.js"></script>
+
 	<!-- put in the data here -->
+	<meta name="ddj:data" content="https://docs.google.com/spreadsheets/d/e/2PACX-1vScl7jb69gHjX5QPH_JU3Aj3z2v4kd1PhiTt1lHwa0oyS1AgsJmVNiwV8UjIgq63a9q1fsSHtLH_qlx/pub?gid=0&single=true&output=csv">
+	<meta name="ddj:dataType" content="csv">
+	<meta name="ddj:dataUniqueIdentifier" content="BSN">
+	<meta name="ddj:dataNoCache" content="false">
+
 	<!-- put in the map here -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<meta name="ddj:mapCenter" content="52.527040, 13.338440"> <!-- center old city hall of Berlin-Mitte -->
+	<meta name="ddj:mapZoom" content="11">
+
 	<!-- put in the map pins here -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+	<script src="https://kit.fontawesome.com/d2a4339e1e.js" crossorigin="anonymous"></script>
+	<meta name="ddj:pinColorColumn" content="currentColor">
+	<meta name="ddj:pinIconPrefixColumn" content="currentIconPrefix">
+	<meta name="ddj:pinIconColumn" content="currentIcon">
 
 	<!-- placeholder for Google, Facebook and Twitter -->
 </head>
-<body>
+<body class="m-0">
+	<div data-map id="map">
+		<div data-map="attribution">
+			<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
+		</div>
+	</div>
 </body>
 </html>
