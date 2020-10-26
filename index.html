@@ -20,7 +20,7 @@
 
 	<!-- put in the map here -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
 	<meta name="ddj:mapCenter" content="52.527040, 13.338440"> <!-- center old city hall of Berlin-Mitte -->
 	<meta name="ddj:mapZoom" content="11">
 
@@ -32,13 +32,336 @@
 	<meta name="ddj:pinIconPrefixColumn" content="currentIconPrefix">
 	<meta name="ddj:pinIconColumn" content="currentIcon">
 
+	<!-- scrollama -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+	<script src="https://unpkg.com/intersection-observer"></script>
+	<script src="https://unpkg.com/scrollama"></script>
+
 	<!-- placeholder for Google, Facebook and Twitter -->
+	<!-- custom style -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 1280px;
+  color: #3b3b3b;
+  font-size: 24px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  margin: 0;
+  font-weight: 400;
+}
+
+a,
+a:visited,
+a:hover {
+  color: teal;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f3f3f3;
+  padding: 1rem;
+  padding-right: 5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.nav__examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.nav__examples > * {
+  margin-right: 0.5rem;
+}
+
+#intro {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.intro__hed {
+  font-size: 2em;
+  margin: 2rem auto 0.5rem auto;
+}
+
+.intro__dek {
+  color: #8a8a8a;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+#intro {
+  margin-bottom: 320px;
+}
+
+#outro {
+  height: 640px;
+}
+
+@media (min-width: 840px) {
+  .nav__examples {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}	
+	
+	
+	
+	
+      #scrolly {
+        position: relative;
+        background-color: #f3f3f3;
+        padding: 1rem;
+      }
+
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
+
+      figure {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        background-color: #8a8a8a;
+        z-index: 0;
+      }
+
+      figure p {
+        text-align: center;
+        padding: 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active p {
+        background-color: goldenrod;
+        color: #3b3b3b;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: #3b3b3b;
+      }
+    </style>
 </head>
-<body class="m-0">
-	<div data-map id="map">
-		<div data-map="attribution">
-			<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
-		</div>
-	</div>
+<body>
+	<main>
+      <nav>
+        <a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
+        <div class="nav__examples">
+          <p>Examples:</p>
+          <a href="https://russellgoldenberg.github.io/scrollama/basic">Basic</a>
+          <a href="https://russellgoldenberg.github.io/scrollama/progress">Progress</a>
+          <a href="https://russellgoldenberg.github.io/scrollama/sticky-side">Sticky Side</a>
+          <a href="https://russellgoldenberg.github.io/scrollama/sticky-overlay">Sticky Overlay</a>
+          <a href="https://russellgoldenberg.github.io/scrollama/mobile-pattern">Mobile Pattern</a>
+        </div>
+      </nav>
+      <section id="intro">
+        <h1 class="intro__hed">Sticky Overlay Example</h1>
+        <p class="intro__dek">
+          Start scrolling to see how it works.
+        </p>
+      </section>
+
+      <section id="scrolly">
+        <figure style="height: 371.5px; top: 185.75px;">
+			<div data-map id="map">
+				<div data-map="attribution">
+					<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
+				</div>
+			</div>
+        </figure>
+
+        <article>
+          <div class="step is-active" data-step="1" data-scrollama-index="0" style="height: 557px;">
+            <p>Berlin</p>
+          </div>
+          <div class="step" data-step="2" data-scrollama-index="1" style="height: 557px;">
+            <p>Mitte</p>
+          </div>
+          <div class="step" data-step="3" data-scrollama-index="2" style="height: 557px;">
+            <p>Marzahn-Hellersdorf</p>
+          </div>
+          <div class="step" data-step="4" data-scrollama-index="3" style="height: 557px;">
+            <p>Pankow</p>
+          </div>
+          <div class="step" data-step="5" data-scrollama-index="4" style="height: 557px;">
+            <p>Spandau</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="outro"></section>
+	</main>
+
+	<div id="scrollama__debug-offset--mfa1603488015593" class="scrollama__debug-offset" style="position: fixed; left: 0px; width: 100%; height: 0px; border-top: 2px dashed black; z-index: 9999; top: 245.19px;"><p style="font-size: 12px; font-family: monospace; color: black; margin: 0px; padding: 6px;">".step" trigger: <span>0.33</span></p></div>
+
+	<script>
+		var main = document.querySelector('main');
+		var scrolly = main.querySelector('#scrolly');
+		var figure = scrolly.querySelector('figure');
+		var article = scrolly.querySelector('article');
+		var step = article.querySelectorAll('.step');
+
+		var scroller = scrollama();
+
+		function handleResize() {
+			var stepH = Math.floor(window.innerHeight * 0.75);
+			for (var s = 0; s < step.length; ++s) {
+				step[s].style.height = stepH + 'px';
+			}
+
+			var figureHeight = window.innerHeight / 2;
+			var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
+			figure.style.height = figureHeight + 'px';
+			figure.style.top = figureMarginTop + 'px';
+
+			scroller.resize();
+		}
+
+		function handleStepEnter(response) {
+			for (var s = 0; s < step.length; ++s) {
+				step[s].className = 'step' + (s === response.index ? ' is-active' : '');
+			}
+
+			if (0 === response.index) {
+				ddj.map.get().flyTo([52.527040, 13.338440], 11);
+			} else if (1 === response.index) {
+				ddj.map.get().flyTo([52.529321, 13.376280], 13);
+			} else if (2 === response.index) {
+				ddj.map.get().flyTo([52.529633, 13.589601], 14);
+			} else if (3 === response.index) {
+				ddj.map.get().flyTo([52.582588, 13.430645], 12);
+			} else if (4 === response.index) {
+				ddj.map.get().flyTo([52.525020, 13.207684], 13);
+			}
+		}
+
+		function setupStickyfill() {
+			var sticky = document.querySelectorAll('.sticky');
+			if (sticky) {
+				for (var s = 0; s < sticky.length; ++s) {
+					Stickyfill.add(sticky[s]);
+				}
+
+			}
+		}
+
+		function init() {
+			setupStickyfill();
+
+			handleResize();
+
+			scroller
+			.setup({
+				step: '#scrolly article .step',
+				offset: 0.33,
+				debug: true
+			})
+			.onStepEnter(handleStepEnter);
+
+			window.addEventListener('resize', handleResize);
+		}
+
+		init();
+
+		ddj.autostart.onDone(function() {
+			ddj.map.get().scrollWheelZoom.disable();
+		});
+	</script>
 </body>
 </html>
