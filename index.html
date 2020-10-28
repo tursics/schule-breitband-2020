@@ -15,12 +15,12 @@
 	<!-- put in the data here -->
 	<meta name="ddj:data" content="https://docs.google.com/spreadsheets/d/e/2PACX-1vScl7jb69gHjX5QPH_JU3Aj3z2v4kd1PhiTt1lHwa0oyS1AgsJmVNiwV8UjIgq63a9q1fsSHtLH_qlx/pub?gid=0&single=true&output=csv">
 	<meta name="ddj:dataType" content="csv">
-	<meta name="ddj:dataUniqueIdentifier" content="BSN">
+	<meta name="ddj:dataUniqueIdentifier" content="Building">
 	<meta name="ddj:dataNoCache" content="false">
 
 	<!-- put in the map here -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 	<meta name="ddj:mapCenter" content="52.527040, 13.338440"> <!-- center old city hall of Berlin-Mitte -->
 	<meta name="ddj:mapZoom" content="11">
 
@@ -40,6 +40,70 @@
 	<!-- placeholder for Google, Facebook and Twitter -->
 	<!-- custom style -->
 <style>
+	.bgPage {
+		background: #f5f3f2;
+	}
+	.colorWhite {
+		color: #fff;
+	}
+	.colorBlack {
+		color: #000;
+	}
+	.bgGray {
+		background: #b9b0ac;
+	}
+	.colorGray {
+		color: #b9b0ac;
+	}
+	.bgLightGrey {
+		background: #dfdad8;
+	}
+	.bgLightViolett {
+		background: #efccd8;
+	}
+	.bgViolett {
+		background: #a31562;
+	}
+	.colorLightViolett {
+		color: #efccd8;
+	}
+	.colorViolett {
+		color: #a31562;
+	}
+	.bgLightOrange {
+		background: #fbd4b3;
+	}
+	.bgOrange {
+		background: #f47216;
+	}
+	.colorOrange {
+		color: #f47216;
+	}
+	.bgLightYellow {
+		background: #fde7a0;
+	}
+	.bgYellow {
+		background: #f9c108;
+	}
+	.colorYellow {
+		color: #f9c108;				
+	}
+	.bgLightGreen {
+		background: #e0efc2;
+	}
+	.bgGreen {
+		background: #82b829;
+	}
+	.colorGreen {
+		color: #82b829;
+	}
+	.bgLightBlue {
+		background: #00ace2;
+	}
+	.bgBlue {
+		background: #48a8e2;
+	}
+
 * {
   box-sizing: border-box;
 }
@@ -54,7 +118,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 1280px;
-  color: #3b3b3b;
   font-size: 24px;
 }
 
@@ -86,14 +149,13 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background: #f3f3f3;
   padding: 1rem;
   padding-right: 5rem;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-.nav__examples {
+/*.nav__examples {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +169,7 @@ nav {
 
 .nav__examples > * {
   margin-right: 0.5rem;
-}
+}*/
 
 #intro {
   max-width: 40rem;
@@ -115,14 +177,23 @@ nav {
   text-align: center;
 }
 
-.intro__hed {
+#intro h1 {
   font-size: 2em;
   margin: 2rem auto 0.5rem auto;
 }
 
-.intro__dek {
-  color: #8a8a8a;
+#intro p.subheader {
+	font-size: 1em !important;
+	padding-bottom: 1em;
 }
+
+#intro p {
+	font-size: .8em;
+}
+
+	#intro small {
+		font-size: .5em;
+	}
 
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
@@ -156,7 +227,7 @@ nav {
 }
 
 #intro {
-  margin-bottom: 320px;
+  margin-bottom: 1em;
 }
 
 #outro {
@@ -164,10 +235,10 @@ nav {
 }
 
 @media (min-width: 840px) {
-  .nav__examples {
+/*  .nav__examples {
     margin-top: 0;
     margin-left: 2rem;
-  }
+  }*/
 }	
 	
 	
@@ -175,7 +246,6 @@ nav {
 	
       #scrolly {
         position: relative;
-        background-color: #f3f3f3;
         padding: 1rem;
       }
 
@@ -236,34 +306,39 @@ nav {
       }
     </style>
 </head>
-<body>
+<body class="bgPage">
 	<main>
-      <nav>
-        <a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
-        <div class="nav__examples">
-          <p>Examples:</p>
-          <a href="https://russellgoldenberg.github.io/scrollama/basic">Basic</a>
-          <a href="https://russellgoldenberg.github.io/scrollama/progress">Progress</a>
-          <a href="https://russellgoldenberg.github.io/scrollama/sticky-side">Sticky Side</a>
-          <a href="https://russellgoldenberg.github.io/scrollama/sticky-overlay">Sticky Overlay</a>
-          <a href="https://russellgoldenberg.github.io/scrollama/mobile-pattern">Mobile Pattern</a>
-        </div>
-      </nav>
-      <section id="intro">
-        <h1 class="intro__hed">Sticky Overlay Example</h1>
-        <p class="intro__dek">
-          Start scrolling to see how it works.
-        </p>
-      </section>
-
-      <section id="scrolly">
-        <figure style="height: 371.5px; top: 185.75px;">
-			<div data-map id="map">
-				<div data-map="attribution">
-					<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
-				</div>
+		<nav class="bgGray colorViolett">
+			<div>
+				Missing maps
 			</div>
-        </figure>
+<!--			<div class="nav__examples">
+				<p>Examples:</p>
+				<a href="https://russellgoldenberg.github.io/scrollama/basic">Basic</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/progress">Progress</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/sticky-side">Sticky Side</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/sticky-overlay">Sticky Overlay</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/mobile-pattern">Mobile Pattern</a>
+			</div> -->
+		</nav>
+		<section id="intro" class="colorViolett">
+			<h1>Schulen@Internet <small class="colorGray">in Berlin</small></h1>
+			<p class="subheader">
+				So schnell ist das Internet an Berliner Schulen - und so schnell könnte es heute schon sein.
+			</p>
+			<p>
+				Ein Teil der Daten sind noch nicht komplett gesammelt. In Kürze findest du hier mehr Informationen.
+			</p>
+		</section>
+
+		<section id="scrolly">
+			<figure style="height: 371.5px; top: 185.75px;">
+				<div data-map id="map">
+					<div data-map="attribution">
+						<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
+					</div>
+				</div>
+			</figure>
 
         <article>
           <div class="step is-active" data-step="1" data-scrollama-index="0" style="height: 557px;">
