@@ -203,7 +203,7 @@ nav {
 }
 
 #outro {
-  height: 640px;
+  height: 80vh;
 }
 
 @media (min-width: 840px) {
@@ -259,7 +259,6 @@ nav {
 		margin: 0 auto 2rem auto;
 		box-shadow: 0 0 5px 0px black;
 	}
-
 	.step:last-child {
 		margin-bottom: 0;
 	}
@@ -308,7 +307,7 @@ nav {
 			</figure>
 
 			<article>
-				<div class="step colorBlack bgLightViolett" data-step="1" data-scrollama-index="0" style="height: 557px;">
+				<div class="step colorBlack bgLightViolett" data-step="1" data-scrollama-index="0">
 					<h2 class="colorWhite bgDarkViolett">Berlin</h2>
 					<p>
 						Der Text kommt noch. Bestimmt.
@@ -317,7 +316,7 @@ nav {
 						Derzeit habe ich 4 Bezirke aufgenommen.
 					</p>
 				</div>
-				<div class="step colorBlack bgLightOrange" data-step="2" data-scrollama-index="1" style="height: 557px;">
+				<div class="step colorBlack bgLightOrange" data-step="2" data-scrollama-index="1">
 					<h2 class="colorWhite bgDarkOrange">Mitte</h2>
 					<p>
 						Mhhh.
@@ -326,19 +325,19 @@ nav {
 						Oder wurden hier einfach nicht die Zahlen abgefragt?
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="3" data-scrollama-index="2" style="height: 557px;">
+				<div class="step colorBlack bgLightViolett" data-step="3" data-scrollama-index="2">
 					<h2 class="colorWhite bgDarkViolett">Marzahn-Hellersdorf</h2>
 					<p>
 						Marzahn-Hellersdorf ist durchwachsen mit der Geschwindigkeit.
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="4" data-scrollama-index="3" style="height: 557px;">
+				<div class="step colorBlack bgLightViolett" data-step="4" data-scrollama-index="3">
 					<h2 class="colorWhite bgDarkViolett">Pankow</h2>
 					<p>
 						Pankow hat auch Geschwindigkeit ;-)
 					</p>
 				</div>
-				<div class="step colorBlack bgLightGreen" data-step="5" data-scrollama-index="4" style="height: 557px;">
+				<div class="step colorBlack bgLightGreen" data-step="5" data-scrollama-index="4">
 					<h2 class="colorWhite bgDarkGreen">Spandau</h2>
 					<p>
 						Spandau. Wow.
@@ -365,11 +364,6 @@ nav {
 		var scroller = scrollama();
 
 		function handleResize() {
-			var stepH = Math.floor(window.innerHeight * 0.75);
-			for (var s = 0; s < step.length; ++s) {
-				step[s].style.height = stepH + 'px';
-			}
-
 			scroller.resize();
 		}
 
