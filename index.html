@@ -40,69 +40,48 @@
 	<!-- placeholder for Google, Facebook and Twitter -->
 	<!-- custom style -->
 <style>
-	.bgPage {
-		background: #f5f3f2;
-	}
-	.colorWhite {
-		color: #fff;
-	}
-	.colorBlack {
-		color: #000;
-	}
-	.bgGray {
-		background: #b9b0ac;
-	}
-	.colorGray {
-		color: #b9b0ac;
-	}
-	.bgLightGrey {
-		background: #dfdad8;
-	}
-	.bgLightViolett {
-		background: #efccd8;
-	}
-	.bgViolett {
-		background: #a31562;
-	}
-	.colorLightViolett {
-		color: #efccd8;
-	}
-	.colorViolett {
-		color: #a31562;
-	}
-	.bgLightOrange {
-		background: #fbd4b3;
-	}
-	.bgOrange {
-		background: #f47216;
-	}
-	.colorOrange {
-		color: #f47216;
-	}
-	.bgLightYellow {
-		background: #fde7a0;
-	}
-	.bgYellow {
-		background: #f9c108;
-	}
-	.colorYellow {
-		color: #f9c108;				
-	}
-	.bgLightGreen {
-		background: #e0efc2;
-	}
-	.bgGreen {
-		background: #82b829;
-	}
-	.colorGreen {
-		color: #82b829;
-	}
-	.bgLightBlue {
-		background: #00ace2;
-	}
-	.bgBlue {
-		background: #48a8e2;
-	}
+	.bgPage { background: #f5f3f2; }
+	.colorWhite { color: #fff; }
+	.colorBlack { color: #000; }
+
+	.bgLightGray    { background: #dfdad8; }
+	.colorLightGray { color: #dfdad8; }
+	.bgGray    { background: #b9b0ac; }
+	.colorGray { color: #b9b0ac; }
+
+	.bgLightViolett    { background: #efccd8; }
+	.colorLightViolett { color: #efccd8; }
+	.bgViolett    { background: #e0a5bb; }
+	.colorViolett { color: #e0a5bb; }
+	.bgDarkViolett     { background: #a31562; }
+	.colorDarkViolett  { color: #a31562; }
+	.borderDarkViolett { border: #a31562 2px solid; }
+
+	.bgLightOrange    { background: #fbd4b3; }
+	.colorLightOrange { color: #fbd4b3; }
+	.bgOrange    { background: #fab578; }
+	.colorOrange { color: #fab578; }
+	.bgDarkOrange    { background: #f47216; }
+	.colorDarkOrange { color: #f47216; }
+
+	.bgLightYellow    { background: #fde7a0; }
+	.colorLightYellow { color: #fde7a0; }
+	.bgDarkYellow    { background: #f9c108; }
+	.colorDarkYellow { color: #f9c108; }
+
+	.bgLightGreen    { background: #e0efc2; }
+	.colorLightGreen { color: #e0efc2; }
+	.bgGreen    { background: #c4db8d; }
+	.colorGreen { color: #c4db8d; }
+	.bgDarkGreen    { background: #82b829; }
+	.colorDarkGreen { color: #82b829;}
+
+	.bgLightBlue    { background: #00ace2; }
+	.colorLightBlue { color: #00ace2; }
+	.bgBlue    { background: #36aee8; }
+	.colorBlue { color: #36aee8; }
+	.bgDarkBlue    { background: #48a8e2; }
+	.colorDarkBlue { color: #48a8e2; }
 
 * {
   box-sizing: border-box;
@@ -177,19 +156,13 @@ nav {
   text-align: center;
 }
 
-#intro h1 {
-  font-size: 2em;
-  margin: 2rem auto 0.5rem auto;
-}
+	#intro h1 {
+		font-size: 2em;
+		margin: 2rem auto 0.5rem auto;
+	}
 
-#intro p.subheader {
-	font-size: 1em !important;
-	padding-bottom: 1em;
-}
-
-#intro p {
-	font-size: .8em;
-}
+	#intro p {
+	}
 
 	#intro small {
 		font-size: .5em;
@@ -227,7 +200,6 @@ nav {
 }
 
 #intro {
-  margin-bottom: 1em;
 }
 
 #outro {
@@ -244,17 +216,17 @@ nav {
 	
 	
 	
-      #scrolly {
-        position: relative;
-        padding: 1rem;
-      }
+	#scrolly {
+		position: relative;
+		padding: 0;
+	}
 
-      article {
-        position: relative;
-        padding: 0;
-        max-width: 20rem;
-        margin: 0 auto;
-      }
+	article {
+		position: relative;
+		padding: 10px 10px 0 0;
+		max-width: 20rem;
+		margin: 0 0 0 auto;
+	}
 
       figure {
         position: -webkit-sticky;
@@ -283,32 +255,30 @@ nav {
         color: #fff;
       }
 
-      .step {
-        margin: 0 auto 2rem auto;
-        color: #fff;
-        background-color: rgba(0, 0, 0, 0.1);
-      }
+	.step {
+		margin: 0 auto 2rem auto;
+		box-shadow: 0 0 5px 0px black;
+	}
 
-      .step:last-child {
-        margin-bottom: 0;
-      }
+	.step:last-child {
+		margin-bottom: 0;
+	}
 
-      .step.is-active p {
-        background-color: goldenrod;
-        color: #3b3b3b;
-      }
-
-      .step p {
-        text-align: center;
-        padding: 1rem;
-        font-size: 1.5rem;
-        background-color: #3b3b3b;
-      }
-    </style>
+	.step h2 {
+		text-align: center;
+		margin: 0;
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+	.step p {
+		font-size: 1rem;
+		padding: 1rem;
+	}
+	</style>
 </head>
 <body class="bgPage">
 	<main>
-		<nav class="bgGray colorViolett">
+		<nav class="bgOrange colorBlack">
 			<div>
 				Missing maps
 			</div>
@@ -321,48 +291,69 @@ nav {
 				<a href="https://russellgoldenberg.github.io/scrollama/mobile-pattern">Mobile Pattern</a>
 			</div> -->
 		</nav>
-		<section id="intro" class="colorViolett">
-			<h1>Internet@Schulen <small class="colorGray">in Berlin</small></h1>
-			<p class="subheader">
-				So schnell ist das Internet an Berliner Schulen - und so schnell könnte es heute schon sein.
-			</p>
+		<section id="intro" class="colorDarkViolett">
+			<h1>Internet@Schulen <small class="colorViolett">in Berlin</small></h1>
 			<p>
-				Ein Teil der Daten sind noch nicht komplett gesammelt. In Kürze findest du hier mehr Informationen.
+				So schnell ist das Internet an Berliner Schulen - und so schnell könnte es heute schon sein.
 			</p>
 		</section>
 
 		<section id="scrolly">
-			<figure style="height: 371.5px; top: 185.75px;">
-				<div data-map id="map">
+			<figure style="height: 0; top: 0;">
+				<div data-map id="map" style="height: 100vh;">
 					<div data-map="attribution">
 						<a href="https://www.npmjs.com/package/ddj.map" title="ddj.map" target="_blank">ddj.map</a>
 					</div>
 				</div>
 			</figure>
 
-        <article>
-          <div class="step is-active" data-step="1" data-scrollama-index="0" style="height: 557px;">
-            <p>Berlin</p>
-          </div>
-          <div class="step" data-step="2" data-scrollama-index="1" style="height: 557px;">
-            <p>Mitte</p>
-          </div>
-          <div class="step" data-step="3" data-scrollama-index="2" style="height: 557px;">
-            <p>Marzahn-Hellersdorf</p>
-          </div>
-          <div class="step" data-step="4" data-scrollama-index="3" style="height: 557px;">
-            <p>Pankow</p>
-          </div>
-          <div class="step" data-step="5" data-scrollama-index="4" style="height: 557px;">
-            <p>Spandau</p>
-          </div>
-        </article>
-      </section>
+			<article>
+				<div class="step colorBlack bgLightViolett" data-step="1" data-scrollama-index="0" style="height: 557px;">
+					<h2 class="colorWhite bgDarkViolett">Berlin</h2>
+					<p>
+						Der Text kommt noch. Bestimmt.
+					</p>
+					<p>
+						Derzeit habe ich 4 Bezirke aufgenommen.
+					</p>
+				</div>
+				<div class="step colorBlack bgLightOrange" data-step="2" data-scrollama-index="1" style="height: 557px;">
+					<h2 class="colorWhite bgDarkOrange">Mitte</h2>
+					<p>
+						Mhhh.
+						Mitte sieht sehr orange aus.
+						Der Standart ist 16 MBit/s und die meisten Schulen in Mitte haben genau diese Geschwindigkeit.
+						Oder wurden hier einfach nicht die Zahlen abgefragt?
+					</p>
+				</div>
+				<div class="step colorBlack bgLightViolett" data-step="3" data-scrollama-index="2" style="height: 557px;">
+					<h2 class="colorWhite bgDarkViolett">Marzahn-Hellersdorf</h2>
+					<p>
+						Marzahn-Hellersdorf ist durchwachsen mit der Geschwindigkeit.
+					</p>
+				</div>
+				<div class="step colorBlack bgLightViolett" data-step="4" data-scrollama-index="3" style="height: 557px;">
+					<h2 class="colorWhite bgDarkViolett">Pankow</h2>
+					<p>
+						Pankow hat auch Geschwindigkeit ;-)
+					</p>
+				</div>
+				<div class="step colorBlack bgLightGreen" data-step="5" data-scrollama-index="4" style="height: 557px;">
+					<h2 class="colorWhite bgDarkGreen">Spandau</h2>
+					<p>
+						Spandau. Wow.
+						So viel Breitband. Wirklich, 1 GBit/s.
+						Und wenn nicht, dann sind es viele viele 100te MBit/s.
+					</p>
+					<p>
+						OK. Und einige Schulen haben überhaupt kein Internet.
+					</p>
+				</div>
+			</article>
+		</section>
 
-      <section id="outro"></section>
+		<section id="outro"></section>
 	</main>
-
-	<div id="scrollama__debug-offset--mfa1603488015593" class="scrollama__debug-offset" style="position: fixed; left: 0px; width: 100%; height: 0px; border-top: 2px dashed black; z-index: 9999; top: 245.19px;"><p style="font-size: 12px; font-family: monospace; color: black; margin: 0px; padding: 6px;">".step" trigger: <span>0.33</span></p></div>
 
 	<script>
 		var main = document.querySelector('main');
@@ -379,20 +370,10 @@ nav {
 				step[s].style.height = stepH + 'px';
 			}
 
-			var figureHeight = window.innerHeight / 2;
-			var figureMarginTop = (window.innerHeight - figureHeight) / 2;
-
-			figure.style.height = figureHeight + 'px';
-			figure.style.top = figureMarginTop + 'px';
-
 			scroller.resize();
 		}
 
 		function handleStepEnter(response) {
-			for (var s = 0; s < step.length; ++s) {
-				step[s].className = 'step' + (s === response.index ? ' is-active' : '');
-			}
-
 			if (0 === response.index) {
 				ddj.map.get().flyTo([52.527040, 13.338440], 11);
 			} else if (1 === response.index) {
@@ -424,8 +405,8 @@ nav {
 			scroller
 			.setup({
 				step: '#scrolly article .step',
-				offset: 0.33,
-				debug: true
+				offset: 0.4,
+				debug: false
 			})
 			.onStepEnter(handleStepEnter);
 
