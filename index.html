@@ -9,8 +9,8 @@
 	<!-- put in your app icon here -->
 
 	<!-- put in the lib here -->
-	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.7/dist/ddj.map.css" />
-	<script src="https://unpkg.com/ddj.map@1.0.7/dist/ddj.map.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.8/dist/ddj.map.css" />
+	<script src="https://unpkg.com/ddj.map@1.0.8/dist/ddj.map.js"></script>
 
 	<!-- put in the data here -->
 	<meta name="ddj:data" content="https://docs.google.com/spreadsheets/d/e/2PACX-1vScl7jb69gHjX5QPH_JU3Aj3z2v4kd1PhiTt1lHwa0oyS1AgsJmVNiwV8UjIgq63a9q1fsSHtLH_qlx/pub?gid=0&single=true&output=csv">
@@ -324,7 +324,7 @@ nav {
 					<p class="bgViolett">
 						<i class="fas fa-question fa-fw" style="background: white;color: #fff;padding: 3px 0"></i> unbekannt<br>
 						<i class="fas fa-times fa-fw" style="background: red;color: #fff;padding: 3px 0"></i> unter 1 MBit/s<br>
-						<i class="fas fa-battery-empty fa-fw" style="background: coral;color: #fff;padding: 3px 0"></i> bis 6 MBit/s<br>
+						<i class="fas fa-battery-empty fa-fw" style="background: salmon;color: #fff;padding: 3px 0"></i> bis 6 MBit/s<br>
 						<i class="fas fa-battery-quarter fa-fw" style="background: orange;color: #fff;padding: 3px 0"></i> bis 16 MBit/s<br>
 						<i class="fas fa-battery-half fa-fw" style="background: lightgreen;color: #fff;padding: 3px 0"></i> bis 50 MBit/s<br>
 						<i class="fas fa-battery-three-quarters fa-fw" style="background: green;color: #fff;padding: 3px 0"></i> bis 100 MBit/s<br>
@@ -369,7 +369,19 @@ nav {
 					<p>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightGreen" data-step="5" data-scrollama-index="4">
+				<div class="step colorBlack bgLightViolett" data-step="5" data-scrollama-index="4">
+					<h2 class="colorWhite bgDarkViolett">Treptow-Köpenick</h2>
+					<p>
+						Der grüne Bezirk hat auch "grüne" Internet-Geschwindigkeit.
+					</p>
+					<p>
+					</p>
+					<p>
+					</p>
+					<p>
+					</p>
+				</div>
+				<div class="step colorBlack bgLightGreen" data-step="6" data-scrollama-index="5">
 					<h2 class="colorWhite bgDarkGreen">Spandau</h2>
 					<p>
 						Spandau. Wow.
@@ -380,7 +392,7 @@ nav {
 						OK. Und einige Schulen haben überhaupt kein Internet.
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="6" data-scrollama-index="5">
+				<div class="step colorBlack bgLightViolett" data-step="7" data-scrollama-index="6">
 					<p>
 						In einer weiteren Ansicht möchte ich die maximal mögliche Geschwindigkeit (von der Telekom) pro Schule anzeigen.
 					</p>
@@ -397,6 +409,8 @@ nav {
 		var figure = scrolly.querySelector('figure');
 		var article = scrolly.querySelector('article');
 		var step = article.querySelectorAll('.step');
+		var currentDistrict = '';
+		var dataLoaded = false;
 
 		var scroller = scrollama();
 
@@ -406,15 +420,33 @@ nav {
 
 		function handleStepEnter(response) {
 			if (0 === response.index) {
-				ddj.map.get().flyTo([52.527040, 13.338440], 11);
+				// Berlin
+				currentDistrict = '';
 			} else if (1 === response.index) {
-				ddj.map.get().flyTo([52.529321, 13.376280], 13);
+				// Mitte
+				currentDistrict = '01';
 			} else if (2 === response.index) {
-				ddj.map.get().flyTo([52.529633, 13.589601], 14);
+				// Marzahn-Hellersdorf
+				currentDistrict = '10';
 			} else if (3 === response.index) {
-				ddj.map.get().flyTo([52.582588, 13.430645], 12);
+				// Pankow
+				currentDistrict = '03';
 			} else if (4 === response.index) {
-				ddj.map.get().flyTo([52.525020, 13.207684], 13);
+				// Treptow-Köpenick
+				currentDistrict = '09';
+			} else if (5 === response.index) {
+				// Spandau
+				currentDistrict = '05';
+			}
+
+			if (dataLoaded) {
+				ddj.marker.update();
+				ddj.map.get().flyToBounds(
+					ddj.marker.default.layerGroup.getBounds(),
+					{
+						paddingBottomRight: L.point(300, 0)
+					}
+				);
 			}
 		}
 
@@ -448,6 +480,63 @@ nav {
 
 		ddj.autostart.onDone(function() {
 			ddj.map.get().scrollWheelZoom.disable();
+			dataLoaded = true;
+		});
+
+		ddj.autostart.onAddMarker(function(marker, value) {
+			if (value.BSN.indexOf(currentDistrict) !== 0) {
+				return false;
+			}
+
+			var iconFace = '';
+			if (value.AktuelleBandbreite === '-') {
+				iconFace = 'fa-question';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 1) {
+				iconFace = 'fa-times';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 7) {
+				iconFace = 'fa-battery-empty';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 17) {
+				iconFace = 'fa-battery-quarter'
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 51) {
+				iconFace = 'fa-battery-half'
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 101) {
+				iconFace = 'fa-battery-three-quarters';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 1000) {
+				iconFace = 'fa-battery-full';
+			} else {
+				iconFace = 'fa-rocket';
+			}
+
+			var iconColor = '';
+			if (value.AktuelleBandbreite === '-') {
+				iconColor = 'white';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 1) {
+				iconColor = 'red';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 7) {
+				iconColor = 'lightred';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 17) {
+				iconColor = 'orange'
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 51) {
+				iconColor = 'lightgreen'
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 101) {
+				iconColor = 'green';
+			} else if (parseInt(value.AktuelleBandbreite, 10) < 1000) {
+				iconColor = 'darkgreen';
+			} else {
+				iconColor = 'black';
+			}
+
+//			marker.index
+//			marker.count
+//			marker.lat
+//			marker.lng
+			marker.color = iconColor;
+//			marker.opacity = 1;
+//			marker.clickable = 1;
+			marker.iconPrefix = 'fas';
+			marker.iconFace = iconFace;
+
+			return true;
 		});
 	</script>
 </body>
