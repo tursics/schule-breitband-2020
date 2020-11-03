@@ -308,7 +308,7 @@ nav {
 			</figure>
 
 			<article>
-				<div class="step colorBlack bgLightViolett" data-step="1" data-scrollama-index="0">
+				<div class="step colorBlack bgLightViolett" data-scrollama-index="0">
 					<h2 class="colorWhite bgDarkViolett">Berlin</h2>
 					<p>
 						Der Text kommt noch. Bestimmt.
@@ -332,7 +332,7 @@ nav {
 						<i class="fas fa-rocket fa-fw" style="background: black;color: #fff;padding: 3px 0"></i> mindestens 1 GBit/s<br>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightOrange" data-step="2" data-scrollama-index="1">
+				<div class="step colorBlack bgLightOrange" data-scrollama-index="1">
 					<h2 class="colorWhite bgDarkOrange">Mitte</h2>
 					<p>
 						Mhhh.
@@ -345,7 +345,36 @@ nav {
 					<p>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="3" data-scrollama-index="2">
+				<div class="step colorBlack bgLightOrange" data-scrollama-index="2">
+					<p>
+						Und so könnte Mitte aussehen, wenn man als Privat-Mensch bei der Telekom schnelles Internet bestellen möchte.
+					</p>
+					<p>
+					</p>
+					<p>
+					</p>
+				</div>
+				<div class="step colorBlack bgLightOrange" data-scrollama-index="3">
+					<p>
+						Wie viel Geschwindigkeit könnte man also oben drauf packen?
+					</p>
+					<p>
+					</p>
+					<p>
+					</p>
+				</div>
+				<div class="step colorBlack bgLightOrange" data-scrollama-index="4">
+					<p><s>
+						Aber eigentlich sollte man 50 MBit/s pro Klasse bereit halten, damit ordentlich gearbeitet werden kann.
+						Bei 25 Schüler*innen in der Grundschule (um auch einfacher zu rechnen), benötigt man ca. 2 MBit/s pro Schüler*in.
+					</s></p>
+					<p><s>
+						So schnell müsste die Internetanbindung an die Schule sein...
+					</s></p>
+					<p>
+					</p>
+				</div>
+				<div class="step colorBlack bgLightViolett" data-scrollama-index="5">
 					<h2 class="colorWhite bgDarkViolett">Marzahn-Hellersdorf</h2>
 					<p>
 						Marzahn-Hellersdorf ist durchwachsen mit der Geschwindigkeit.
@@ -357,7 +386,7 @@ nav {
 					<p>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="4" data-scrollama-index="3">
+				<div class="step colorBlack bgLightViolett" data-scrollama-index="6">
 					<h2 class="colorWhite bgDarkViolett">Pankow</h2>
 					<p>
 						Pankow hat auch Geschwindigkeit ;-)
@@ -369,7 +398,7 @@ nav {
 					<p>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="5" data-scrollama-index="4">
+				<div class="step colorBlack bgLightViolett" data-scrollama-index="7">
 					<h2 class="colorWhite bgDarkViolett">Treptow-Köpenick</h2>
 					<p>
 						Der grüne Bezirk hat auch "grüne" Internet-Geschwindigkeit.
@@ -381,7 +410,7 @@ nav {
 					<p>
 					</p>
 				</div>
-				<div class="step colorBlack bgLightGreen" data-step="6" data-scrollama-index="5">
+				<div class="step colorBlack bgLightGreen" data-scrollama-index="8">
 					<h2 class="colorWhite bgDarkGreen">Spandau</h2>
 					<p>
 						Spandau. Wow.
@@ -392,7 +421,7 @@ nav {
 						OK. Und einige Schulen haben überhaupt kein Internet.
 					</p>
 				</div>
-				<div class="step colorBlack bgLightViolett" data-step="7" data-scrollama-index="6">
+				<div class="step colorBlack bgLightViolett" data-scrollama-index="9">
 					<p>
 						In einer weiteren Ansicht möchte ich die maximal mögliche Geschwindigkeit (von der Telekom) pro Schule anzeigen.
 					</p>
@@ -410,6 +439,7 @@ nav {
 		var article = scrolly.querySelector('article');
 		var step = article.querySelectorAll('.step');
 		var currentDistrict = '';
+		var currentType = 'today';
 		var dataLoaded = false;
 
 		var scroller = scrollama();
@@ -422,21 +452,39 @@ nav {
 			if (0 === response.index) {
 				// Berlin
 				currentDistrict = '';
+				currentType = 'today';
 			} else if (1 === response.index) {
-				// Mitte
+				// Mitte - heute
 				currentDistrict = '01';
+				currentType = 'today';
 			} else if (2 === response.index) {
+				// Mitte - Maximum Telekom
+				currentDistrict = '01';
+				currentType = 'telekom';
+			} else if (3 === response.index) {
+				// Mitte - Differenz
+				currentDistrict = '01';
+				currentType = 'diff';
+			} else if (4 === response.index) {
+				// Mitte - pro Kopf
+				currentDistrict = '01';
+				currentType = 'perHead';
+			} else if (5 === response.index) {
 				// Marzahn-Hellersdorf
 				currentDistrict = '10';
-			} else if (3 === response.index) {
+				currentType = 'today';
+			} else if (6 === response.index) {
 				// Pankow
 				currentDistrict = '03';
-			} else if (4 === response.index) {
+				currentType = 'today';
+			} else if (7 === response.index) {
 				// Treptow-Köpenick
 				currentDistrict = '09';
-			} else if (5 === response.index) {
+				currentType = 'today';
+			} else if (8 === response.index) {
 				// Spandau
 				currentDistrict = '05';
+				currentType = 'today';
 			}
 
 			if (dataLoaded) {
@@ -488,42 +536,59 @@ nav {
 				return false;
 			}
 
-			var iconFace = '';
-			if (value.AktuelleBandbreite === '-') {
-				iconFace = 'fa-question';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 1) {
-				iconFace = 'fa-times';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 7) {
-				iconFace = 'fa-battery-empty';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 17) {
-				iconFace = 'fa-battery-quarter'
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 51) {
-				iconFace = 'fa-battery-half'
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 101) {
-				iconFace = 'fa-battery-three-quarters';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 1000) {
-				iconFace = 'fa-battery-full';
-			} else {
-				iconFace = 'fa-rocket';
+			var data = '';
+			if (currentType === 'today') {
+				data = value.AktuelleBandbreite;
+			} else if (currentType === 'telekom') {
+				data = value.TelekomDownload;
+			} else if (currentType === 'diff') {
+				data = Math.max(0, parseInt(value.TelekomDownload, 10) - parseInt(value.AktuelleBandbreite, 10));
+			} else if (currentType === 'perHead') {
 			}
 
+			var dataInt = parseInt(data, 10);
+			var iconFace = '';
 			var iconColor = '';
-			if (value.AktuelleBandbreite === '-') {
-				iconColor = 'white';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 1) {
-				iconColor = 'red';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 7) {
-				iconColor = 'lightred';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 17) {
-				iconColor = 'orange'
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 51) {
-				iconColor = 'lightgreen'
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 101) {
-				iconColor = 'green';
-			} else if (parseInt(value.AktuelleBandbreite, 10) < 1000) {
-				iconColor = 'darkgreen';
+			if (currentType === 'diff') {
+				if (data === 0) {
+					iconColor = 'beige';
+					iconFace = 'fa-minus';
+				} else if (data < 100) {
+					iconColor = 'blue';
+					iconFace = 'fa-angle-up';
+				} else {
+					iconColor = 'darkblue';
+					iconFace = 'fa-angle-double-up';
+				}
+			} else if (currentType === 'perHead') {
+				iconColor = 'pink';
+				iconFace = 'fa-circle';
 			} else {
-				iconColor = 'black';
+				if (data === '-') {
+					iconColor = 'white';
+					iconFace = 'fa-question';
+				} else if (dataInt < 1) {
+					iconColor = 'red';
+					iconFace = 'fa-times';
+				} else if (dataInt < 7) {
+					iconColor = 'lightred';
+					iconFace = 'fa-battery-empty';
+				} else if (dataInt < 17) {
+					iconColor = 'orange'
+					iconFace = 'fa-battery-quarter'
+				} else if (dataInt < 51) {
+					iconColor = 'lightgreen'
+					iconFace = 'fa-battery-half'
+				} else if (dataInt < 101) {
+					iconColor = 'green';
+					iconFace = 'fa-battery-three-quarters';
+				} else if (dataInt < 1000) {
+					iconColor = 'darkgreen';
+					iconFace = 'fa-battery-full';
+				} else {
+					iconColor = 'black';
+					iconFace = 'fa-rocket';
+				}
 			}
 
 //			marker.index
