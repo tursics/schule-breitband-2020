@@ -610,7 +610,10 @@ nav {
 				iconColor = 'pink';
 				iconFace = 'fa-circle';
 			} else {
-				if (data === '-') {
+				if (data === '') {
+					iconColor = 'white';
+					iconFace = 'fa-question';
+				} else if (data === '-') {
 					iconColor = 'white';
 					iconFace = 'fa-question';
 				} else if (dataInt < 1) {
