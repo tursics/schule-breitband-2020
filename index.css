@@ -185,34 +185,64 @@ article {
 	padding: 10px;
 	max-width: 20rem;
 	margin: 0 0 0 auto;
+	right: 0;
+	transition: all 1s ease;
 }
 
-  figure {
+article.small {
+	right: -19rem;
+}
+
+figure {
+	background-color: #8a8a8a;
+	left: 0;
+	margin: 0;
 	position: -webkit-sticky;
 	position: sticky;
-	left: 0;
-	width: 100%;
-	margin: 0;
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	background-color: #8a8a8a;
+	width: 100%;
 	z-index: 0;
-  }
+}
 
-  figure p {
-	text-align: center;
+figure .overMap {
+	cursor: pointer;
+	display: none;
+	font-size: 1rem;
+	font-weight: 300;
+	left: 50%;
 	padding: 1rem;
 	position: absolute;
+	text-align: center;
 	top: 50%;
-	left: 50%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	font-size: 8rem;
-	font-weight: 900;
-	color: #fff;
-  }
+	z-index: 500;
+}
+
+figure .overMap.show {
+	display: block;
+}
+
+figure .overMap.open {
+	left: unset;
+	margin-right: 1.5rem;
+	right: 20rem;
+	top: 50vh;
+	-moz-transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	transform: translate(50%, 0) rotate(90deg);
+}
+
+figure .overMap.close {
+	left: 1rem;
+	top: 1rem;
+	-moz-transform: none;
+	-webkit-transform: none;
+	transform: none;
+}
 
 .step {
 	margin: 0 auto 2rem auto;

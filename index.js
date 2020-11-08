@@ -44,8 +44,37 @@ function setupStickyfill() {
 	}
 }
 
+function setupScrollerController() {
+	var openElement = document.querySelector('.overMap.open');
+	var closeElement = document.querySelector('.overMap.close');
+	var articleElement = document.querySelector('article');
+
+	openElement.addEventListener('click', function (event) {
+		event.preventDefault();
+
+		openElement.className = openElement.className.substring(0, openElement.className.length - 5);
+		closeElement.className += ' show';
+		articleElement.className += ' small';
+
+		ddj.map.get().scrollWheelZoom.enable();
+	}, false);
+
+	closeElement.addEventListener('click', function (event) {
+		event.preventDefault();
+
+		openElement.className += ' show';
+		closeElement.className = closeElement.className.substring(0, closeElement.className.length - 5);
+		articleElement.className = articleElement.className.substring(0, articleElement.className.length - 6);
+
+		ddj.map.get().scrollWheelZoom.disable();
+	}, false);
+
+	openElement.className += ' show';
+}
+
 function init() {
 	setupStickyfill();
+	setupScrollerController();
 
 	handleResize();
 
