@@ -1,0 +1,234 @@
+.bgPage { background: #f5f3f2; }
+.colorWhite { color: #fff; }
+.colorBlack { color: #000; }
+
+.bgLightGray    { background: #dfdad8; }
+.colorLightGray { color: #dfdad8; }
+.bgGray    { background: #b9b0ac; }
+.colorGray { color: #b9b0ac; }
+
+.bgLightViolett    { background: #efccd8; }
+.colorLightViolett { color: #efccd8; }
+.bgViolett    { background: #e0a5bb; }
+.colorViolett { color: #e0a5bb; }
+.bgDarkViolett     { background: #a31562; }
+.colorDarkViolett  { color: #a31562; }
+.borderDarkViolett { border: #a31562 2px solid; }
+
+.bgLightOrange    { background: #fbd4b3; }
+.colorLightOrange { color: #fbd4b3; }
+.bgOrange    { background: #fab578; }
+.colorOrange { color: #fab578; }
+.bgDarkOrange    { background: #f47216; }
+.colorDarkOrange { color: #f47216; }
+
+.bgLightYellow    { background: #fde7a0; }
+.colorLightYellow { color: #fde7a0; }
+.bgDarkYellow    { background: #f9c108; }
+.colorDarkYellow { color: #f9c108; }
+
+.bgLightGreen    { background: #e0efc2; }
+.colorLightGreen { color: #e0efc2; }
+.bgGreen    { background: #c4db8d; }
+.colorGreen { color: #c4db8d; }
+.bgDarkGreen    { background: #82b829; }
+.colorDarkGreen { color: #82b829;}
+
+.bgLightBlue    { background: #00ace2; }
+.colorLightBlue { color: #00ace2; }
+.bgBlue    { background: #36aee8; }
+.colorBlue { color: #36aee8; }
+.bgDarkBlue    { background: #48a8e2; }
+.colorDarkBlue { color: #48a8e2; }
+
+* {
+box-sizing: border-box;
+}
+
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+min-height: 1280px;
+font-size: 24px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+margin: 0;
+font-weight: 400;
+}
+
+a,
+a:visited,
+a:hover {
+color: teal;
+text-decoration: none;
+border-bottom: 2px solid currentColor;
+}
+
+nav {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: baseline;
+-ms-flex-align: baseline;
+align-items: baseline;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+padding: 1rem;
+padding-right: 5rem;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+
+/*.nav__examples {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: baseline;
+-ms-flex-align: baseline;
+align-items: baseline;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-top: 1rem;
+}
+
+.nav__examples > * {
+margin-right: 0.5rem;
+}*/
+
+#intro {
+max-width: 40rem;
+margin: 1rem auto;
+text-align: center;
+}
+
+#intro h1 {
+	font-size: 2em;
+	margin: 2rem auto 0.5rem auto;
+}
+
+#intro p {
+}
+
+#intro small {
+	font-size: .5em;
+}
+
+.github-corner:hover .octo-arm {
+animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+0%,
+100% {
+transform: rotate(0);
+}
+
+20%,
+60% {
+transform: rotate(-25deg);
+}
+
+40%,
+80% {
+transform: rotate(10deg);
+}
+}
+
+@media (max-width: 500px) {
+.github-corner:hover .octo-arm {
+animation: none;
+}
+
+.github-corner .octo-arm {
+animation: octocat-wave 560ms ease-in-out;
+}
+}
+
+#intro {
+}
+
+#outro {
+height: 80vh;
+}
+
+@media (min-width: 840px) {
+/*  .nav__examples {
+margin-top: 0;
+margin-left: 2rem;
+}*/
+}	
+
+
+
+
+#scrolly {
+	position: relative;
+	padding: 0;
+}
+
+article {
+	background: #b9b0acc0;
+	position: relative;
+	padding: 10px;
+	max-width: 20rem;
+	margin: 0 0 0 auto;
+}
+
+  figure {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	background-color: #8a8a8a;
+	z-index: 0;
+  }
+
+  figure p {
+	text-align: center;
+	padding: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 8rem;
+	font-weight: 900;
+	color: #fff;
+  }
+
+.step {
+	margin: 0 auto 2rem auto;
+	box-shadow: 0 0 5px 0px #888;
+}
+.step:last-child {
+	margin-bottom: 0;
+}
+
+.step h2 {
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+.step p {
+	font-size: 1rem;
+	padding: 1rem;
+}
