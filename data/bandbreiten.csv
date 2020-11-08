@@ -1,0 +1,720 @@
+BSN,Building,Name,eMail,Internet,AktuellerTarif,AktuelleBandbreite,Standort,Straße,PLZ,lat,lng,TelekomTarif,TelekomDownload,TelekomUpload,TelekomLTE
+01A04,01A04,Berlin-Kolleg,leitung@berlin-kolleg.de,http://www.berlin-kolleg.de,DSL 16000 RAM IP,16,,Turmstraße 75,10551,52.526574,13.334076,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01B01,01B01,"OSZ Banken, Immobilien und Versicherungen",mail@osz-biv.de,http://www.osz-biv.de,,,,,,,,,,,
+01B02,01B02,Staatliche Technikerschule Berlin,info@technikerschule-berlin.de,http://www.technikerschule-berlin.de,,,,,,,,,,,
+01B03,01B03,"OSZ Kommunikations-, Informations- und Medientechnik",verwaltung@oszkim.de,http://www.oszkim.de,,,,,,,,,,,
+01B04,01B04,OSZ Gesundheit I,sekretariat@osz-gesundheit.de,http://www.osz-gesundheit.de,,,,,,,,,,,
+01B05,01B05,Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin,info@hotelfachschule-berlin.de,http://www.hotelfachschule-berlin.de,,,,,,,,,,,
+01G01,01G01,Grundschule am Arkonaplatz,sekretariat@arkonaplatz.schule.berlin.de,http://www.grundschuleamarkonaplatz.de,DSL 16000 RAM IP,16,,Ruppiner Str. 47-48,10115,52.53684,13.40039,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G02,01G02,Papageno-Grundschule,sekretariat@papageno-grundschule.de,http://www.papageno-grundschule.de,DSL 16000 RAM IP,16,,Bergstr. 58,10115,52.532833,13.391048,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G04,01G04,Kastanienbaum-Grundschule,sekretariat@kastanienbaumgrundschule.de,http://www.kastanienbaumgrundschule.de,DSL 16000 RAM IP,16,,Gipsstr. 23 A,10119,52.52678,13.4018,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01G05,01G05,Grundschule Neues Tor,schulleitung@01G05.schule.berlin.de,http://www.neues-tor.de,DSL 16000 RAM IP,16,,Hannoversche Str. 20,10115,52.52759,13.38033,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G07,01G07,GutsMuths-Grundschule,sekretariat@gutsmuths.schule.berlin.de,http://www.gutsmuths-grundschule.de,DSL 16000 RAM IP,16,,Singerstr. 8,10179,52.516365,13.42412,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G08,01G08,Grundschule am Brandenburger Tor,sekretariat@gsabt.schule.berlin.de,http://www.Grundschule-am-Brandenburger-Tor.de,DSL 16000 RAM IP,16,,Wilhelmstr. 52,10117,52.51318,13.38276,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G10,01G10,City-Grundschule,Sekretariat@city.schule.berlin.de,http://www.city-grundschule.de,DSL 16000 RAM IP,16,,Sebastianstr. 57,10179,52.50737,13.40892,MagentaZuhause GIGA,1000 MBit/s,200 MBit/s,
+01G11,01G11,Kurt-Tucholsky-Grundschule,01g11@01g11.schule.berlin.de,http://www.kurt-tucholsky-grundschule.de,DSL 16000 RAM IP,16,,Rathenower Str. 18,10559,52.53026,13.35303,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G15,01G15,Anne-Frank-Grundschule,sekretariat@anne-frank-grundschule.de,http://anne-frank-grundschule.de,DSL 16000 RAM IP,16,,Paulstr. 20 B,10557,52.51827,13.35527,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G16,01G16,Moabiter Grundschule,kontakt@moabiter-grundschule.de,http://www.moabiter-grundschule.de,DSL 16000 RAM IP,16,,Paulstr. 28,10557,52.521974,13.35657,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G18,01G18,Carl-Bolle-Grundschule,info@carl-bolle-grundschule.de,http://www.carl-bolle-grundschule.de,DSL 16000 RAM IP,16,,Waldenserstr. 20-21,10551,52.528894,13.331807,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G19,01G19,Hansa-Grundschule,sekretariat@hansa.online,http://www.hansa-grundschule-online.de,DSL 16000 RAM IP,16,,Lessingstr. 5,10555,52.5214,13.34019,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G24,01G24,Gottfried-Röhl-Grundschule,01G24@01G24.schule.berlin.de,,DSL 16000 RAM IP,16,,Ungarnstr. 75,13349,52.55719,13.35717,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G25,01G25,Rudolf-Wissell-Grundschule,Schulleitung@rudolf-wissell.schule.berlin.de,http://www.rudolf-wissell-grundschule.de,DSL 16000 RAM IP,16,,Ellerbeker Str. 7-8,13357,52.55158,13.39611,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G27,01G27,Gesundbrunnen-Grundschule,sekretariat@gesundbrunnen-grundschule.de,http://www.gesundbrunnen-grundschule.de,DSL 16000 RAM IP,16,,Prinzenallee 8,13357,52.55338,13.38292,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01G28,01G28,Brüder-Grimm-Grundschule,sekretariat@bggs.schule.berlin.de,http://bggs-berlin.de,DSL 16000 RAM IP,16,,Tegeler Str. 18-19,13353,52.54146,13.35783,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G29,01G29,Wilhelm-Hauff-Grundschule,01g29@01g29.schule.berlin.de,http://wilhelm-hauff-grundschule.de,DSL 16000 RAM IP,16,,Gotenburger Str. 8,13359,52.557813,13.384347,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01G31,01G31,Wedding-Grundschule,plorenz@wedding-schule.de,http://www.wedding-schule.de,DSL 16000 RAM IP,16,,Antonstr. 10,13347,52.546206,13.362468,MagentaZuhause XL,250 MBit/s,50 MBit/s,300 MBit/s
+01G32,01G32,Carl-Kraemer-Grundschule,carl-kraemer-grundschule@t-online.de,http://www.carl-kraemer-gs.de,DSL 16000 RAM IP,16,,Zechliner Str. 4,13359,52.56107,13.38284,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G35,01G35,Humboldthain-Grundschule,sekretariat@humboldthain.schule.berlin.de,http://www.humboldthain-grundschule.de,DSL 16000 RAM IP,16,,Grenzstr. 7,13355,52.54323,13.380143,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G36,01G36,Andersen-Grundschule,info@andersen-grundschule.de,http://www.andersen-grundschule.de,VDSL 100,100,,Kattegatstr. 26,13359,52.56553,13.38891,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G37,01G37,Heinrich-Seidel-Grundschule,info@hsgs.berlin,http://www.hsgs.berlin,DSL 16000 RAM IP,16,,Ramlerstr. 9-10,13355,52.54695,13.39407,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G38,01G38,Gustav-Falke-Grundschule,info@gustav-falke-schule.de,http://www.gustav-falke-schule.de,DSL 16000 RAM IP,16,,Strelitzer Str. 42,13355,52.53795,13.39162,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G39,01G39,Vineta-Grundschule,info@vineta.schule.berlin.de,http://www.vineta-grundschule.de,DSL 16000 RAM IP,16,,Demminer Str. 27,13355,52.54222,13.3969,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G40,01G40,Möwensee-Grundschule,sekretariat@moewensee-schule.de,http://www.moewensee-schule.de,DSL 16000 RAM IP,16,,Afrikanische Str. 123-125,13351,52.55575,13.33375,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01G41,01G41,Erika-Mann-Grundschule,erika.mann.grundschule@googlemail.com,http://www.erika-mann-grundschule.com,DSL 16000 RAM IP,16,,Utrechter Str. 25-27,13347,52.55099,13.35786,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G42,01G42,Anna-Lindh-Schule (Grundschule),01G42@01G42.schule.berlin.de,http://www.anna-lindh-schule.de,DSL 16000 RAM IP,16,,Guineastr. 17-18,13351,52.550375,13.341886,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G43,01G43,Albert-Gutzmann-Schule (Grundschule),info@gutzmannschule.de,http://www.gutzmannschule.de,DSL 16000 RAM IP,16,,Orthstr. 1,13357,52.549234,13.373261,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01G44,01G44,Allegro-Grundschule,berlin@allegro-grundschule.de,http://www.allegro-grundschule.de,DSL 16000 RAM IP,16,,Lützowstr. 83-85,10785,52.503571,13.363001,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01G45,01G45,Leo-Lionni-Grundschule,info@leo-lionni-grundschule.de,http://www.leo-lionni-grundschule.de,VDSL 25,25,,Müllerstr. 158,13353,52.544342,13.361352,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G46,01G46a,Grundschule am Koppenplatz,sekretariat@koppenplatz.schule.berlin.de,http://www.schule-am-koppenplatz.de,VDSL 50,50,,Koppenplatz 12,10115,52.52778,13.39745,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G46,01G46b,Grundschule am Koppenplatz,,,VDSL 50,50,Standort,Auguststr. 21,10117,52.526814,13.396224,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G46,01G46c,Grundschule am Koppenplatz,,,VDSL 50,50,Standort,Bergstr. 5-9,10115,52.529508,13.395273,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01G47,01G47,Miriam-Makeba-Grundschule,01G47@01G47.schule.berlin.de,http://www.miriam-makeba-schule.de,DSL 16000 RAM IP,16,,Zinzendorfstr. 15-16,10555,52.52232,13.331446,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01G48,01G48,48. Schule (Grundschule),01G48@01G48.schule.berlin.de,http://www.48-schule-berlin.de,DSL 16000 RAM IP,16,,Chausseestr. 82,13353,52.538256,13.372242,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",
+01K01,01K01,Willy-Brandt-Schule,kontakt@willy-brandt-teamschule.de,http://www.willy-brandt-teamschule.de,DSL 16000 RAM IP,16,,Grüntaler Str. 5,13357,52.55101,13.386048,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01K02,01K02,Ernst-Schering-Schule,info@ernst-schering-schule.de,http://www.ernst-schering-schule.de,DSL 16000 RAM IP,16,,Lütticher Str. 47/48,13353,52.54701,13.34782,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01K03,01K03,Ernst-Reuter-Schule,info@ernst-reuter-oberschule.de,http://ernst-reuter-schule.berlin,DSL 16000 RAM IP,16,,Stralsunder Str. 57,13355,52.538896,13.394373,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01K04,01K04,Heinrich-von-Stephan-Gemeinschaftsschule,sekretariat@hvs.schule.berlin.de,http://www.hvs-schule-berlin.de,VDSL 50,50,Grundstufe,Neues Ufer 6,10553,52.524775,13.316714,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+01K06,01K06,Herbert-Hoover-Schule (Integrierte Sekundarschule),schulleitung@hhs-berlin.de,http://www.hhs-berlin.de,DSL 16000 RAM IP,16,,Pankstraße 18-19,13357,52.546324,13.373398,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01K07,01K07,Hemingway-Schule,sekretariat@hemingway-schule.de,http://www.hemingway-oberschule.de,VDSL 50,50,,Gartenstr. 10-17,10115,52.530483,13.391682,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+01K08,01K08,Schule am Schillerpark (Integrierte Sekundarschule),sekretariat@schule-am-schillerpark.de,http://www.Schule-am-Schillerpark.de,DSL 16000 RAM IP,16,,Ofener Str. 6,13349,52.55628,13.3457,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01K09,01K09,Hedwig-Dohm-Schule (Integrierte Sekundarschule),hedwig-dohm-os@web.de,http://www.hedwig-dohm-os.de,VDSL 50,50,,Stephanstraße 27,10559,52.53367,13.34651,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01K10,01K10a,Theodor-Heuss-Gemeinschaftsschule,sekretariat@thgberlin.de,http://www.thgberlin.de,DSL 16000 RAM IP,16,Mittelstufe / Oberstufe,Quitzowstr. 141,10559,52.535722,13.354875,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01K10,01K10b,Theodor-Heuss-Gemeinschaftsschule,,,DSL 16000 RAM IP,16,Grundstufe,Siemensstr. 20,10551,52.532971,13.335494,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01S01,01S01,Schule am Zille-Park,info@schule-am-zille-park.de,http://www.schule-am-zille-park.de,DSL 16000 RAM IP,16,,Ravenéstraße 10-12,13347,52.542859,13.372782,MagentaZuhause XL,175 MBit/s,40 MBit/s,
+01S05,01S05,Schule in der Charité,sekretariat@sidc.schule.berlin.de,klinikschulecharite.wordpress.com,Nutzung der Krankenhäuser,-,,Augustenburger Platz 1,13353,52.542216,13.347104,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01S06,01S06,Albert-Gutzmann-Schule,info@gutzmannschule.de,http://www.gutzmannschule.de,DSL 16000 RAM IP,16,,Orthstraße 1,13357,52.549234,13.373261,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01S07,01S07,Charlotte-Pfeffer-Schule,charlotte-pfeffer-schule@gmx.de,http://www.charlotte-pfeffer.schule-berlin.net,DSL 16000 RAM IP,16,,Berolinastraße 8,10178,52.52226,13.42328,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01Y02,01Y02,John-Lennon-Gymnasium,sekretariat@jlgym-berlin.de,http://www.jlgym-berlin.de,SVDSL 250,250,,Zehdenicker Straße 17,10119,52.530923,13.404105,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01Y04,01Y04,Musikgymnasium Carl Philipp Emanuel Bach,bach.musikgymnasium@berlin.de,http://musikgymnasium-berlin.de,,,,Rheinsberger Straße 4-5,10115,52.536635,13.395435,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+01Y07,01Y07,Französisches Gymnasium,mdormann-farnir@fg-berlin.eu,http://www.fg-berlin.eu,,,,Derfflingerstr. 7,10785,52.50318,13.35549,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+01Y08,01Y08,Lessing-Gymnasium,post@lessing-gymnasium-berlin.de,http://www.lessing-gymnasium-berlin.eu,VDSL 50,50,,Schöningstraße 17,13349,52.55734,13.34371,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01Y09,01Y09,Diesterweg-Gymnasium,sekretariat@diesterweg-gymnasium-berlin.de,http://www.diesterweg-gymnasium-berlin.de,DSL 16000 RAM IP,16,,Böttgerstraße 2,13357,52.550012,13.378338,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01Y11,01Y11,Max-Planck-Gymnasium,sekretariat@mpg-berlin.de,http://www.mpg-berlin.de,DSL 16000 RAM IP,16,,Singerstraße 8a,10179,52.515983,13.422886,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+01Y12,01Y12,Gymnasium Tiergarten,sekretariat@gymnasium-tiergarten.de,http://gymnasium-tiergarten.de,VDSL 50,50,,Altonaer Straße 26,10555,52.51935,13.3394,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+02B01,02B01,August-Sander-Schule,schulbuero@august-sander-schule.de,http://www.august-sander-schule.de,,,,,,,,,,,
+02B02,02B02,Hans-Böckler-Schule (OSZ Konstruktionsbautechnik),info@osz-kt.de,http://www.osz-kt.de,,,,,,,,,,,
+02B03,02B03,Modeschule Berlin (OSZ Bekleidung und Mode),info@osz-bekleidung-mode.de,http://www.osz-bekleidung-mode.de,,,,,,,,,,,
+02B04,02B04,OSZ Handel 1,sekretariat-schulleitung@oszhandel1.de,http://www.oszhandel.de,,,,,,,,,,,
+02B05,02B05,Jane-Addams-Schule (OSZ Sozialwesen),kontakt@osz-soz.de,http://www.osz-soz.de,,,,,,,,,,,
+02G01,02G01,Spartacus-Grundschule,schulleitung@grundschule-friedrichshain.de,http://www.grundschule-friedrichshain.de,,-,,Friedenstr. 40-45,10249,52.52106,13.43582,,,,
+02G02,02G02,Hausburg-Grundschule,sek@hausburg-gs.schule-berlin-fk.de,http://www.hausburgschule.de,,-,,Hausburgstr. 20,10249,52.524208,13.454324,,,,
+02G03,02G03,Justus-von-Liebig-Grundschule,02g03@02g03.schule.berlin.de,http://www.jvl-gs.de,,-,,Liebigstr. 18A,10247,52.518699,13.457697,,,,
+02G04,02G04,Pettenkofer-Grundschule,Sekretariat@pettenkofer.schule.berlin.de,http://www.pettenkofer-grundschule.de,,-,,Pettenkoferstr. 20-24,10247,52.518656,13.471,,,,
+02G07,02G07,Ludwig-Hoffmann-Grundschule,schulleitung@l-hoffmann.schule.berlin.de,http://www.ludwig-hoffmann-grundschule.de,,-,,Lasdehner Str. 21-23,10243,52.514357,13.448886,,,,
+02G08,02G08,Grundschule am Traveplatz,sek@gs-am-traveplatz.schule-berlin-fk.de,http://www.grundschule-am-traveplatz.de,,-,,Jessnerstr. 24-32,10247,52.511492,13.471855,,,,
+02G09,02G09,Zille-Grundschule,schulleitung@zille-grundschule.de,http://www.Zille-Grundschule.de,,-,,Boxhagener Str. 46,10245,52.50898,13.4653,,,,
+02G10,02G10,Modersohn-Grundschule,Schulleitung@modersohn.schule.berlin.de,http://www.modersohn-schule.de,,-,,Niemannstr. 3,10245,52.50705,13.46024,,,,
+02G11,02G11,Thalia-Grundschule,Schulleitung@thalia-gs.schule.berlin.de,http://www.thalia-grundschule.de,,-,,Alt-Stralau 34,10245,52.492881,13.476151,,,,
+02G12,02G12,Kurt-Schumacher-Grundschule,02g12@02g12.schule.berlin.de,http://www.kurt-schumacher-grundschule.de,,-,,Puttkamerstr. 19,10969,52.504384,13.388493,,,,
+02G13,02G13,Charlotte-Salomon-Grundschule,Sekretariat@02G13.schule.berlin.de,http://www.charlotte-salomon-grundschule.de,,-,,Großbeerenstr. 40,10965,52.49041,13.38183,,,,
+02G14,02G14,Galilei-Grundschule,sekretariat@galilei-grundschule.de,http://www.galilei-grundschule.de,,-,,Friedrichstr. 13,10969,52.501885,13.391531,,,,
+02G16,02G16,Lenau-Grundschule,info@lenau.net,http://lenau.net,,-,,Nostitzstr. 60,10961,52.49381,13.39154,,,,
+02G18,02G18,Nürtingen-Grundschule,sek@nuertingen.schule.berlin.de,http://www.nuertingen-grundschule.de,,-,,Mariannenplatz 28,10997,52.505469,13.426859,,,,
+02G19,02G19,Fanny-Hensel-Grundschule,info@fanny-hensel-grundschule.de,http://www.Fanny-Hensel-Grundschule.de,,-,,Schöneberger Str. 23,10963,52.50303,13.38014,,,,
+02G20,02G20,Bürgermeister-Herz-Grundschule,sekretariat@bmh.schule.berlin.de,http://www.bmh-schule.de,,-,,Wilmsstr. 10,10961,52.49488,13.40516,,,,
+02G21,02G21,Reinhardswald-Grundschule,sekretariat@reinhardswald.schule.berlin.de,http://www.reinhardswald-grundschule.de,,-,,Gneisenaustr. 73-74,10961,52.49059,13.3999,,,,
+02G22,02G22,Jens-Nydahl-Grundschule,sekretariat@jng.schule.berlin.de,,,-,,Kohlfurter Str. 20,10999,52.497294,13.41619,,,,
+02G23,02G23,Fichtelgebirge-Grundschule,schulleitung@fichtelgebirge.schule.berlin.de,http://fichtelgebirge-grundschule-berlin.de,,-,,Görlitzer Ufer 2,10997,52.49575,13.44495,,,,
+02G24,02G24,Otto-Wels-Grundschule,sekretariat@otto-wels.schule.berlin.de,http://www.owg-berlin.de,,-,,Alexandrinenstr. 12,10969,52.499923,13.401623,,,,
+02G26,02G26,Lemgo-Grundschule,Sekretariat@lemgo.schule.de,http://www.lemgo-grundschule.de,,-,,Böckhstr. 5,10967,52.494198,13.416454,,,,
+02G27,02G27,Hunsrück-Grundschule,schulleitung@hunsrueck-grundschule.de,http://www.Hunsrueck-Grundschule.de,,-,,Manteuffelstr. 79,10999,52.497732,13.426632,,,,
+02G29,02G29,Heinrich-Zille-Grundschule,Heinrich-Zille-GS@web.de,http://www.Heinrich-Zille-Grundschule.de,,-,,Waldemarstr. 118,10997,52.500729,13.429182,,,,
+02G31,02G31,Adolf-Glaßbrenner-Grundschule,Adolf-Glassbrenner-Schule@web.de,http://www.adolf-glassbrenner-schule.de,,-,,Hagelberger Str. 34,10965,52.49085,13.38065,,,,
+02G32,02G32,Clara-Grunwald-Grundschule,clara-grunwald-gs@gmx.de,http://www.clara-grunwald.cidsnet.de,,-,,Hallesche Str. 24,10963,52.50077,13.38313,,,,
+02G33,02G33,Aziz-Nesin-Grundschule,Sekretariat@aziz-nesin.schule.berlin.de,http://www.aziz-nesin-schule.de,,-,,Urbanstr. 15,10961,52.49312,13.40611,,,,
+02G34,02G34,Jane-Goodall-Grundschule,sekretariat@jane-goodall.schule.berlin.de,http://www.jane-goodall-grundschule.de,,-,,Scharnweberstr. 19,10247,52.51279,13.46783,,,,
+02G35,02G35,Rosa-Parks-Grundschule,mail@rosa-parks-grundschule.de,http://www.rosa-parks-grundschule.de,,-,,Reichenberger Str. 65,10999,52.495472,13.43052,,,,
+02G36,02G36,Blumen-Grundschule,buero@36-grundschule.de,http://www.36-grundschule.de,,-,,Andreasstr. 50,10243,52.51663,13.43215,,,,
+02K01,02K01,Ellen-Key-Schule,sek@e.key-os.schule-berlin-fk.de,http://www.eko-online.net,,-,,Rüdersdorfer Str. 20-28,10243,52.5152,13.43689,,,,
+02K02,02K02,Carl-von-Ossietzky-Schule (Gemeinschaftsschule),sekretariat@cvo-berlin.de,http://www.cvo-berlin.de,,-,,Blücherstr. 46,10961,52.491647,13.404491,,,,
+02K03,02K03,Hector-Peterson-Schule,sekretariat@hps-berlin.schule,http://www.hps-berlin.schule,,-,,Tempelhofer Ufer 15,10963,52.49832,13.3841,,,,
+02K04,02K04,Lina-Morgenstern-Schule (Gemeinschaftsschule),schulleitung@lmg.schule.berlin.de,http://lina-morgenstern-gemeinschaftsschule.de,,-,,Gneisenaustr. 7,10961,52.49178,13.38971,,,,
+02K05,02K05,Schule am Königstor (Integrierte Sekundarschule),sek@koenigstor-os.schule-berlin-fk.de,www.schule-am-koenigstor.de,,-,,Weinstr. 3,10249,52.525666,13.425987,,,,
+02K06,02K06,Emanuel-Lasker-Schule,sekretariat@els.schule,http://www.els.schule,,-,,Modersohnstr. 53,10245,52.50277,13.45729,,,,
+02K07,02K07,Georg-Weerth-Schule,info@georg-weerth-schule.de,http://www.georg-weerth-schule.de,,-,,Eckertstr. 16,10249,52.518996,13.450401,,,,
+02K08,02K08,Refik-Veseli-Schule (Integrierte Sekundarschule),sekretariat@refik-veseli-schule.eu,http://www.schule-skalitzer.de,,-,,Skalitzer Str. 55,10997,52.49962,13.43555,,,,
+02K09,02K09,Albrecht-von-Graefe-Schule (Integrierte Sekundarschule),sekretariat@graefemail.de,http://www.albrecht-von-graefe-schule.de,,-,,Graefestr. 85-88,10967,52.494205,13.418709,,,,
+02K10,02K10,Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule),sekretariat@ferdinand-freiligrath-schule.de,http://www.ferdinand-freiligrath-schule.de,,-,,Bergmannstr. 64,10961,52.488798,13.40149,,,,
+02S01,02S01,Temple-Grandin-Schule,Schulleitung@temple-grandin.schule.berlin.de,http://www.temple-grandin-schule.de,,-,,Lasdehner Str. 19,10243,52.51449,13.4491,,,,
+02S02,02S02,Gustav-Meyer-Schule,02S02@02S02.schule.berlin.de,,,-,,Kohlfurter Str. 22,10999,52.497102,13.416721,,,,
+02S03,02S03,Margarethe-von-Witzleben-Schule,schulleitung@witzleben.schule.berlin.de,http://www.witzleben-schule.de,,-,,Palisadenstr. 76-77,10243,52.51984,13.4346,,,,
+02S06,02S06,Liebmann-Schule,02S06@02S06.schule.berlin.de,,,-,,Friedrichstr. 13,10969,52.501885,13.391531,,,,
+02Y01,02Y01,Andreas-Gymnasium,sekretariat@andreas.schule.berlin.de,http://www.andreas-schule.org,,-,,Koppenstr. 76,10243,52.514039,13.434606,,,,
+02Y03,02Y03,Heinrich-Hertz-Gymnasium,Sek@H.Hertz-OS.Schule-Berlin-FK.de,http://www.hhgym.de,,-,,Rigaer Str. 81-82,10247,52.51695,13.46306,,,,
+02Y04,02Y04,Georg-Friedrich-Händel-Gymnasium,sekretariat@haendelgym.de,http://www.haendelgym.de,,-,,Frankfurter Allee 6A,10247,52.515331,13.455796,,,,
+02Y05,02Y05,Dathe-Gymnasium,sek@dathe-gymnasium.de,http://www.dathe-gymnasium.de,,-,,Helsingforser Str. 11-13,10243,52.510001,13.445399,,,,
+02Y06,02Y06,Leibniz-Gymnasium,sekretariat@leibnizschule-berlin.de,http://www.leibnizschule-berlin.de,,-,,Schleiermacherstr. 23,10961,52.48978,13.39747,,,,
+02Y07,02Y07,Robert-Koch-Gymnasium,Koch-Gymnasium@web.de,http://www.Robert-Koch-Oberschule.de,,-,,Dieffenbachstr. 60,10967,52.49323,13.41596,,,,
+02Y08,02Y08,Hermann-Hesse-Gymnasium,kontakt@hesse-kreuzberg.de,http://www.hesse-kreuzberg.de,,-,,Böckhstr. 16,10967,52.493579,13.419151,,,,
+03A04,03A04,Abendgymnasium Prenzlauer Berg,mail@abendgymnasium-berlin.de,http://www.abendgymnasium-berlin.de,,,,,,,,,,,
+03B02,03B02,Berufliche Schule für Sozialwesen Pankow,sekretariat@schule-sozialwesen-pankow.de,http://www.schule-sozialwesen-pankow.de,,,,,,,,,,,
+03B04,03B04,Brillat-Savarin-Schule (OSZ Gastgewerbe),sekretariat@osz-gastgewerbe.de,http://www.osz-gastgewerbe.de,,,,,,,,,,,
+03B06,03B06,Konrad-Zuse-Schule,sekretariat@konrad-zuse-schule-berlin.de,http://www.konrad-zuse-schule-berlin.de,,,,,,,,,,,
+03B07,03B07,Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen),info@oszeos.de,http://www.oszeos.de,,,,,,,,,,,
+03B08,03B08,Staatliche Ballettschule Berlin und Schule für Artistik,schulleitung@ballettschule-berlin.de,http://www.ballettschule-berlin.de,,,,,,,,,,,
+03B10,03B10,"Max-Bill-Schule (OSZ Planen, Bauen, Gestalten)",03B10@03B10.schule.berlin.de,http://www.max-bill-schule.de,,,,,,,,,,,
+03G01,03G01,Schule am Hamburger Platz (Grundschule),info@schule-am-hamburger-platz.de,http://www.schule-am-hamburger-platz.de,VDSL 25 IP,25,,Gustav-Adolf-Str. 21,13086,52.55381,13.43681,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G02,03G02,Heinrich-Roller-Grundschule,sekretariat@roller.schule.berlin.de,http://www.Heinrich-Roller-Grundschule.de,VDSL100 splitterlos,100,,Heinrich-Roller-Str. 18,10405,52.53064,13.42364,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G03,03G03,Grundschule am Kollwitzplatz,Sekretariat@gsak.schule.berlin.de,http://www.gs-am-Kollwitzplatz.de,VDSL 50 IP,50,,Knaackstr. 67,10435,52.53768,13.41489,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G04,03G04,Grundschule an der Marie,Sekretariat@marie.schule.berlin.de,http://www.schule-an-der-Marie.de,VDSL 25 IP,25,,Christburger Str. 7,10405,52.536148,13.42559,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G05,03G05,Homer-Grundschule,post@homergs.de,http://www.homer-grundschule.de,VDSL 25 IP,25,,Pasteurstr. 10-12,10407,52.53371,13.43237,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03G06,03G06,Bötzow-Grundschule,info@boetzow-grundschule.de,http://www.boetzow-grundschule.de,SVDSL 250,250,,John-Schehr-Str. 38,10407,52.535104,13.439793,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G08,03G08,Grundschule am Planetarium,03G08@03G08.schule.berlin.de,http://www.gsap.de,VDSL 25 IP,25,,Ella-Kay-Str. 47,10405,52.54145,13.43118,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G09,03G09,Thomas-Mann-Grundschule,03g09@03g09.schule.berlin.de,http://www.thomas-mann-grundschule.de,VDSL 25 IP,25,,Greifenhagener Str. 58-59,10437,52.54663,13.41479,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G10,03G10,Grundschule am Hohen Feld,sekretariat@grundschule-amhohenfeld.de,http://grundschule-amhohenfeld.de,SVDSL 175,175,,Bedeweg 1,13125,52.61492,13.49606,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G11,03G11,Schule am Falkplatz (Grundschule),schulleiterin@schule-am-falkplatz.berlin,http://www.schule-am-falkplatz.berlin,VDSL 25 IP,25,,Gleimstr. 49,10437,52.54749,13.40538,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G12,03G12,Paul-Lincke-Grundschule,paul-lincke-grundschule@gmx.de,,VDSL 25 IP,25,,Pieskower Weg 39,10409,52.54129,13.44553,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G13,03G13,Rudolf-Dörrier-Grundschule,info@doerrier-grundschule.de,,VDSL 25 IP,25,,Kastanienallee 59,13158,52.59125,13.37612,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G14,03G14,Bornholmer Grundschule,bornholmer14@t-online.de,http://www.bornholmer-grundschule.de,DSL 16.000,16,,Ibsenstr. 17,10439,52.55572,13.40768,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+03G15,03G15,Schule am Senefelderplatz,03g15@03g15.schule.berlin.de,http://www.schule-am-senefelderplatz.de,DSL 16.000 RAM IP,15,,Schönhauser Allee 165,10435,52.534675,13.411884,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03G16,03G16,Grundschule am Teutoburger Platz,schulleitung@teute.schule.berlin.de,http://www.schule-am-teute.de,VDSL 50 IP,50,,Templiner Str. 1-3,10119,52.533635,13.408651,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G17,03G17,Grundschule am Weißen See,03G17@03G17.schule.berlin.de,,DSL 6.000 RAM,6,,Amalienstr. 6,13086,52.555294,13.457004,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G18,03G18a,Picasso-Grundschule,sekretariat@picasso.schule.berlin.de,http://www.picasso-grundschule.de,DSL 6.000,6,,Gounodstr. 71,13088,52.547032,13.460359,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G18,03G18b,Picasso-Grundschule,,,VDSL 25,25,Filiale,Smetanastr. 27,13088,52.547689,13.460009,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G20,03G20,Grundschule im Moselviertel,grundschule-im-moselviertel@gmx.de,http://www.moselschule.de,DSL 6.000 RAM IP,6,,Brodenbacher Weg 31,13088,52.559028,13.475454,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+03G21,03G21,Grundschule unter den Bäumen,gudbaeumen@t-online.de,http://www.gudbaeumen.de,VDSL 25 IP,25,,Alt-Blankenburg 26,13129,52.592262,13.454422,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G22,03G22a,Grundschule am Wasserturm,gsamwasserturm@freenet.de,http://www.grundschule-am-wasserturm.com/,VDSL 25 IP,25,,Tino-Schwierzina-Str. 66,13089,52.56546,13.43664,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G22,03G22b,Grundschule am Wasserturm,,,VDSL 50,50,Container,Rennbahnstr. 45,13086,52.561846,13.455172,MagentaZuhause L,100 MBit/s,50 MBit/s,300 MBit/s
+03G23,03G23,Grundschule Alt-Karow,grundschule-alt-karow@gmx.de,http://www.grundschule-alt-karow.de,VDSL 25 IP,25,,Bahnhofstr. 32,13125,52.609682,13.479743,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G24,03G24,Grundschule im Panketal,gs-im-panketal@gmx.de,http://www.grundschule-im-panketal.de,VDSL 25 IP,25,,Achillesstr. 31,13125,52.61986,13.486729,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G25,03G25,Carl-Humann-Grundschule,humann-grundschule@gmx.de,,SVDSL 250,250,,Scherenbergstr. 7,10439,52.55101,13.42173,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G26,03G26,Arnold-Zweig-Grundschule,sekretariat@arnold-zweig.schule.berlin.de,http://www.arnold-zweig-grundschule.com,VDSL 25 IP,25,,Wollankstr. 131,13187,52.56868,13.40012,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03G27,03G27,Elizabeth-Shaw-Grundschule,info@shaw-grundschule.de,http://shaw-grundschule.de,VDSL 25 IP,25,,Grunowstr. 17,13187,52.56831,13.41044,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G28,03G28,Hasengrund-Schule (Grundschule),sekretariat@hasengrund.schule.berlin.de,http://www.hasengrund.edupage.org,DSL 6.000 RAM,6,,Charlottenstr. 19,13156,52.59089,13.410577,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G29,03G29,Grundschule Am Sandhaus,sandhaus-gs@t-online.de,http://www.sandhaus-schule.cidsnet.de,VDSL 25,25,,Wiltbergstr. 37-39,13125,52.637343,13.490967,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G32,03G32,Grundschule an den Buchen,sekretariat-gsbuchen@gmx.de,http://www.gs-buchen.de,VDSL 25 IP,25,,Wilhelm-Wolff-Str. 19,13156,52.579207,13.394536,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03G33,03G33a,Jeanne-Barez-Schule,sekretariat@jeaba.de,http://www.jeanne-barez-schule.de,VDSL 25 IP,25,,Hauptstr. 66,13127,52.60417,13.43415,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G33,03G33b,Jeanne-Barez-Schule,,,VDSL 25 IP,25,,Berliner Straße 19,13127,52.600324,13.431823,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+03G34,03G34,Mendel-Grundschule,mendel-schule@t-online.de,,DSL 16.000 RAM IP,16,,Stiftsweg 3,13187,52.573478,13.416325,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03G35,03G35,Platanengrundschule,platanengrundschule@gmx.de,,VDSL 25 IP,25,,Hauptstr. 20,13159,52.618258,13.389549,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G36,03G36,Elisabeth-Christinen-Grundschule,ecg.03g36@t-online.de,ecg.schule,DSL 16000 RAM IP,16,,Lindenberger Str. 12,13156,52.582633,13.407530,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G37,03G37,Klecks-Grundschule,sekretariat@klecks-grund.schule.berlin.de,,VDSL 25 IP,25,,Brixener Str. 40,13187,52.55989,13.40756,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G38,03G38,Grundschule im Blumenviertel,Grundschule_im_Blumenviertel@t-online.de,http://www.grundschule-im-blumenviertel.de,VDSL 25 IP,25,,Syringenplatz 30,10407,52.535141,13.458074,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G39,03G39,Grundschule Wolkenstein,sekretariat@wolkenstein.schule.berlin.de,http://www.gs-wolkenstein.de,VDSL 25 IP,25,,Neumannstr. 65,13189,52.56527,13.42024,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G40,03G40,Schule am Birkenhof,info@schule-am-birkenhof.de,http://www.schule-am-birkenhof.de,VDSL 25,25,,Arnouxstr. 18,13127,52.60791,13.42388,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G41,03G41,Trelleborg-Schule,trelleborg-schule@t-online.de,http://www.trelleborg-schule.de,DSL 16.000 RAM IP,16,,Eschengraben 40,13189,52.556012,13.421818,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+03G43,03G43,Grundschule Wilhelmsruh,sekretariat@grundschule-wilhelmsruh.de,http://www.grundschule-wilhelmsruh.de,VDSL100 IP,100,,Lessingstr. 44,13158,52.5903,13.36421,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03G44,03G44,Georg-Zacharias-Grundschule,44.Grundschule-Pankow@web.de,http://44gspankow.be.schule.de,DSL 6.000 RAM,6,,Sulzfelder Str. 15,13088,52.55219,13.47502,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+03G45,03G45,Grundschule im Hofgarten,sekretariat@hofgarten.schule.berlin.de,http://www.grundschuleimhofgarten.de,VDSL 25 IP,25,,Danziger Str. 50,10435,52.53921,13.41918,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G46,03G46,Grundschule im Eliashof,sekretariat@03g46.schule.berlin.de,,VDSL 50 IP,50,,Senefelderstr. 6,10437,52.540786,13.422734,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G47,03G47,Schule an der Strauchwiese,info@schuleanderstrauchwiese.de,http://www.schuleanderstrauchwiese.de,SVDSL 175 IP,175,,Mendelstr. 54,13187,52.57805,13.41782,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03G48,03G48,MEB,,,VDSL 100,100,MEB,Conrad-Blenkle-Str. 20,10407,52.530214,13.447295,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K01,03K01,Kurt-Schwitters-Schule,ksoberlin.cids@t-online.de,,SVDSL 175,175,,Greifswalder Str. 25,10405,52.5314,13.42807,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K02,03K02,Kurt-Tucholsky-Schule,sekretariat1@kto-berlin.de,http://www.kto-berlin.de,SVDSL 175,175,,Neumannstr. 9-11,13189,52.55812,13.42333,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03K03,03K03,Konrad-Duden-Schule,konrad-duden-oberschule@gmx.de,http://www.isskd.de,VDSL 50 IP,50,,Rolandstr. 35,13156,52.58183,13.41744,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+03K04,03K04,Gustave-Eiffel-Schule,sekretariat@03K04.schule.berlin.de,http://www.gustave-eiffel-schule.de/,DSL 16.000 RAM,16,,Hanns-Eisler-Str. 78-80,10409,52.540662,13.44844,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+03K05,03K05,Heinz-Brandt-Schule,kontakt@heinz-brandt-schule.de,http://www.heinz-brandt-schule.de,SVDSL 250,250,,Langhansstr. 120,13086,52.551192,13.441808,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K06,03K06,Reinhold-Burger-Schule,Sekretariat@03k06.schule.berlin.de,http://www.reinhold-burger-schule.de,VDSL 100,100,,Neue Schönholzer Str. 32,13187,52.56838,13.40303,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K07,03K07,Tesla-Schule (Gemeinschaftsschule),sekretariat@tesla-schule.de,http://www.tesla-schule.de,VDSL 25 IP,25,,Rudi-Arndt-Str. 18,10407,52.529086,13.446061,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K08,03K08,Hagenbeck-Schule,info@hagenbeck-schule.de,http://www.hagenbeck-schule.de,VDSL 50 IP,50,,Gustav-Adolf-Str. 60,13086,52.55879,13.44729,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+03K09,03K09,Janusz-Korczak-Schule,Janusz-Korczak-OR@web.de,,VDSL 50 IP,50,,Dolomitenstr. 94,13187,52.562908,13.407559,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03K10,03K10,Hufeland-Schule,sekretariat@hufelandschule.berlin,http://www.hufelandschule.berlin,VDSL 100,100,,Walter-Friedrich-Str. 16-18,13125,52.63325,13.49373,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03K11,03K11,Wilhelm-von-Humboldt-Gemeinschaftsschule,sekretariat@wvh-gemeinschaftsschule.de,http://wvh-gemeinschaftsschule.de,SVDSL-175,175,,Erich-Weinert-Str. 70,10439,52.54845,13.42476,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03S03,03S03,Helene-Haeusler-Schule,sekretariat@helene-haeusler-schule.de,http://www.helene-haeusler-schule.de,VDSL 25 IP,25,,Mendelssohnstr. 10,10405,52.5267,13.42002,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03S06,03S06,Schule am Birkenhof,info@schule-am-birkenhof.de,http://www.schule-am-birkenhof.de,VDSL 25,25,,Arnouxstraße 18,13127,52.607855,13.424033,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03S07,03S07,Ausweichstandort für Schulen mit Baumaßnahmen,,,SVDSL 250,250,,Hermann-Hesse-Str. 48,13156,52.577960,13.394423,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03S08,03S08,Panke-Schule,kontakt@panke-schule.de,http://www.panke-schule.de,DSL 16.000,16,,Galenusstr. 64,13187,52.57877,13.41699,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03S09,03S09,Schule an der Strauchwiese,info@schuleanderstrauchwiese.de,http://www.schuleanderstrauchwiese.de,SVDSL 175 IP,175,,Mendelstr. 54,13187,52.578340,13.417743,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03S10,03S10a,Marianne-Buggenhagen-Schule,info.mbs-berlin@t-online.de,,VDSL 50 IP,50,,Ernst-Busch-Str. 29,13125,52.62953,13.49149,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03S10,03S10b,Marianne-Buggenhagen-Schule,,,DSL 16.000 RAM IP,16,Klinikschule/Haus 211,Schwanebecker Chaussee 50,13125,52.633192,13.508962,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+03Y03,03Y03,Käthe-Kollwitz-Gymnasium,sekretariat@kkos.net,http://www.kkos.net,VDSL 100,100,,Dunckerstr. 65-66,10439,52.5458,13.42271,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y04,03Y04,Heinrich-Schliemann-Gymnasium,schulleitung@hsg-berlin.de,http://www.hsg-berlin.de,VDSL 100,100,,Dunckerstr. 64,10439,52.54663,13.42365,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03Y08,03Y08,Carl-von-Ossietzky-Gymnasium,sekretariat@cvo.berlin,https://cvo.berlin,SVDSL 175 IP,175,,Görschstr. 42-44,13187,52.566429,13.40007,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y10,03Y10,Rosa-Luxemburg-Gymnasium,sekretariat@rlo-berlin.de,http://www.rlo-berlin.de,SVDSL 175,175,,Kissingenstr. 12,13189,52.56669,13.41948,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y13,03Y13a,Felix-Mendelssohn-Bartholdy-Gymnasium,sekretariat@fmbg.schule.berlin.de,http://www.fmbg-berlin.de,VDSL 25,25,,Eugen-Schönhaar-Str. 18,10407,52.537087,13.437857,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y13,03Y13b,Felix-Mendelssohn-Bartholdy-Gymnasium,,,VDSL 50 IP,50,Standort,Pasteurstr. 7-11,10407,52.534084,13.432526,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+03Y14,03Y14a,Primo-Levi-Gymnasium,sekretariat@plg-berlin.de,http://www.plg-berlin.de,VDSL 250 IP,250,,Pistoriusstr. 133,13086,52.5516,13.45369,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y14,03Y14b,Primo-Levi-Gymnasium,,,SVDSL 175,175,Standort,Woelckpromenade 38,13086,52.553637,13.453551,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+03Y15,03Y15,Max-Delbrück-Gymnasium,sekretariat@max-delbrueck-gymnasium.de,http://www.Max-Delbrück-Gymnasium.de,VDSL 50 IP,50,,Kuckhoffstr. 2-22,13156,52.583884,13.402118,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+03Y16,03Y16,Robert-Havemann-Gymnasium,schulleitung@rhgym.de,http://www.robert-havemann-gymnasium.de,SVDSL 175,175,,Achillesstr. 79,13125,52.615393,13.494218,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+03Y17,03Y17,Gymnasium am Europasportpark,sekretariat@gesp-berlin.de,http://www.gesp-berlin.de,,-,,Conrad-Blenkle-Str. 34,10407,52.534329,13.447008,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+04A04,04A04,Charlotte-Wolff-Kolleg,Leitung@charlotte-wolff-kolleg.de,http://www.charlotte-wolff-kolleg.de,,,,,,,,,,,
+04A06,04A06,Peter-A.-Silbermann-Schule,info@abendgymnasium.de,http://www.abendgymnasium.de,,,,,,,,,,,
+04A08,04A08,Sportschule im Olympiapark - Poelchau-Schule,kontakt@sportschule-olympiapark-poelchau.de,http://www.sportschule-olympiapark-poelchau.de,,,,,,,,,,,
+04B01,04B01,Loschmidt-Oberschule,zentrale@loschmidt-oberschule.de,http://www.loschmidt-oberschule.de,,,,,,,,,,,
+04B02,04B02,Hans-Litten-Schule (OSZ Recht und Wirtschaft),leitung@hans-litten-schule.de,http://www.hans-litten-schule.de,,,,,,,,,,,
+04B03,04B03,OSZ Kraftfahrzeugtechnik,info@osz-kfz.de,http://www.osz-kfz.de,,,,,,,,,,,
+04B04,04B04,Ruth-Cohn-Schule (OSZ Sozialwesen),04b04@sozialpaedagogik-berlin.de,http://www.osz-ruth-cohn.de,,,,,,,,,,,
+04B05,04B05,Anna-Freud-Schule (OSZ Sozialwesen),04b05@04B05.schule.berlin.de,http://www.anna-freud-osz.de,,,,,,,,,,,
+04B06,04B06,Leopold-Ullstein-Schule (OSZ Wirtschaft),info@leopold-ullstein-schule.de,http://www.leopold-ullstein-schule.de,,,,,,,,,,,
+04B07,04B07,OSZ Körperpflege,info@osz-koerperpflege.de,http://www.osz-koerperpflege.de,,,,,,,,,,,
+04B08,04B08,Kläre-Bloch-Schule,buero@klaere-bloch-schule.de,http://www.klaere-bloch-schule.de,,,,,,,,,,,
+04G01,04G01,Eichendorff-Grundschule,sekretariat@eichendorff.schule.berlin.de,http://www.eichendorff-grundschule-berlin.de,,-,,Goethestr. 19,10625,52.50921,13.31305,,,,
+04G02,04G02,Lietzensee-Grundschule,sekretariat@lietzenseeschule.schule.berlin.de,http://www.lietzenseeschule.de,,-,,Witzlebenstr. 34,14057,52.5094,13.29502,,,,
+04G04,04G04,Joan-Miró-Grundschule,mail@joan-miro-grundschule.de,http://www.joan-miro-grundschule.de,,-,,Bleibtreustr. 43,10623,52.50357,13.32014,,,,
+04G05,04G05,Dietrich-Bonhoeffer-Grundschule,Sekretariat@dibog.schule.berlin.de,,,-,,Spandauer Damm 205-215,14050,52.521371,13.26202,,,,
+04G06,04G06,Wald-Grundschule,sekretariat@wald-grundschule.de,http://wald-grundschule.de,,-,,Waldschulallee 83-93,14055,52.50259,13.259,,,,
+04G07,04G07,Ludwig-Cauer-Grundschule,04G07@04G07.schule.berlin.de,http://www.cauerschule.de,,-,,Cauerstr. 36-38,10587,52.515043,13.315123,,,,
+04G08,04G08,Mierendorff-Grundschule,schulleitung@mierendorff-schule.de,http://www.mierendorff-grundschule.de,,-,,Mierendorffstr. 20-24,10589,52.523791,13.303338,,,,
+04G09,04G09,Erwin-von-Witzleben-Grundschule,erwin-von-witzleben-gs@t-online.de,,,-,,Halemweg 34,13627,52.53967,13.2873,,,,
+04G11,04G11,Helmuth-James-von-Moltke-Grundschule,sekretariat@moltke.grundschule.berlin.de,http://www.moltke-grundschule.de,,-,,Heckerdamm 221,13627,52.53903,13.30104,,,,
+04G12,04G12,Schinkel-Grundschule,esgbuero@t-online.de,,,-,,Nithackstr. 8,10585,52.51782,13.29876,,,,
+04G13,04G13,Nehring-Grundschule,info@nehring-grundschule.de,http://www.nehring-grundschule.de,,-,,Nehringstr. 9-10,14059,52.514893,13.293865,,,,
+04G14,04G14,Reinhold-Otto-Grundschule,04G14@04G14.schule.berlin.de,http://www.reinhold-otto.de,,-,,Leistikowstr. 7-8,14050,52.513329,13.268399,,,,
+04G15,04G15,Charles-Dickens-Grundschule,sekretariat@charles-dickens.schule.berlin.de,http://www.charles-dickens-gs.de,,-,,Dickensweg 15,14055,52.508946,13.236971,,,,
+04G17,04G17,Johann-Peter-Hebel-Grundschule,verwaltung@hebelschule-berlin.de,http://www.hebelschule-berlin.de,,-,,Emser Str. 50,10719,52.49541,13.31942,,,,
+04G18,04G18,Ernst-Habermann-Grundschule,schule@ernst-habermann.de,http://www.ernst-habermann.de,,-,,Prinzregentenstr. 33-34,10715,52.48328,13.33269,,,,
+04G19,04G19,Grundschule am Rüdesheimer Platz,Sekretariat@garp.schule.berlin.de,http://www.garp-schule.de,,-,,Rüdesheimer Str. 24-30,14197,52.47113,13.31312,,,,
+04G20,04G20,Katharina-Heinroth-Grundschule,sekretariat@katharina-heinroth-grundschule.de,http://katharina-heinroth-grundschule.de,,-,,Münstersche Str. 15-17,10709,52.494,13.30619,,,,
+04G21,04G21,Halensee-Grundschule,sekretariat@halensee.schule.berlin.de,http://www.Halensee-Grundschule.de,,-,,Joachim-Friedrich-Str. 35-36,10711,52.49993,13.2961,,,,
+04G22,04G22,Grunewald-Grundschule,sekretariat@grunewald.schule.berlin.de,http://www.grunewald-grundschule.de,,-,,Delbrückstr. 20A,14193,52.484525,13.281094,,,,
+04G23,04G23,Alt-Schmargendorf-Grundschule,schulleitung@asg.schule.berlin.de,http://www.alt-schmargendorf-grundschule.de,,-,,Reichenhaller Str. 8,14199,52.477085,13.293432,,,,
+04G24,04G24,Carl-Orff-Grundschule,sekretariat@carl-orff-gs.de,http://www.carl-orff-gs.de,,-,,Berkaer Str. 9-10,14199,52.47841,13.28709,,,,
+04G25,04G25,Cecilien-Schule (Grundschule),04G25@04G25.schule.berlin.de,http://www.cecilien-schule.de,,-,,Nikolsburger Platz 5,10717,52.49331,13.32769,,,,
+04G26,04G26,Birger-Forell-Grundschule,post@birger-forell-grundschule.de,http://www.birger-forell-grundschule.de,,-,,Koblenzer Str. 22-24,10715,52.480726,13.321893,,,,
+04G27,04G27,Judith-Kerr-Grundschule,verwaltung@04G27.schule.berlin.de,http://www.judith-kerr-grundschule.de,,-,,Friedrichshaller Str. 13,14199,52.476131,13.293228,,,,
+04K02,04K02,Friedensburg-Schule,sekretariat@fosbe.de,http://www.fosbe.de,,-,,Goethestr. 8-9,10623,52.50908,13.32082,,,,
+04K03,04K03,Robert-Jungk-Schule,schulleitung@r-j-o.de,http://www.Robert-Jungk-Oberschule.de,,-,,Sächsische Str. 58,10707,52.49448,13.31872,,,,
+04K04,04K04,Nelson-Mandela-Schule,katja.sajid@nelson-mandela-schule.net,http://www.nelson-mandela-school.net,,-,,Pfalzburger Straße 30,10719,52.490921,13.321079,,,,
+04K05,04K05,Paula-Fürst-Schule (Gemeinschaftsschule),sekretariat@paula-fuerst.schule.berlin.de,http://www.paula-fuerst-gemeinschaftsschule.de,,-,,Sybelstr. 20-21,10629,52.50227,13.30194,,,,
+04K06,04K06,Schule am Schloss (Integrierte Sekundarschule),sekretariat@schuleamschloss.de,http://www.schuleamschloss.de,,-,,Schloßstr. 55A,14059,52.5161,13.29812,,,,
+04K07,04K07,Integrierte Sekundarschule Wilmersdorf,kontakt@sekundarschule-wilmersdorf.de,http://www.sekundarschule-wilmersdorf.de,,-,,Kranzer Str. 3,14199,52.482808,13.296098,,,,
+04K08,04K08,Peter-Ustinov-Schule,sekretariat@peter-ustinov-schule.de,http://www.peter-ustinov-schule.de,,-,,Kuno-Fischer-Str. 22-26,14057,52.505241,13.290548,,,,
+04K09,04K09,Otto-von-Guericke-Schule (Integrierte Sekundarschule),kontakt@ovgos.de,http://www.ovgos.de,,-,,Eisenzahnstr. 47-48,10709,52.49276,13.30516,,,,
+04K10,04K10,Wangari-Maathai-Internationale-Schule,secretary@wangari-maathai-schule.de,http://wangari-maathai-schule.jimdofree.com,,-,,Babelsberger Str. 24,10715,52.482373,13.335080,,,,
+04S02,04S02,Arno-Fuchs-Schule,r.gehret@arno-fuchs-schule.de,http://www.arno-fuchs-schule.de,,-,,Richard-Wagner-Str. 30,10585,52.51489,13.30717,,,,
+04S04,04S04,Reinfelder-Schule,post@reinfelder-schule.de,http://www.reinfelder-schule.de,,-,,Maikäferpfad 30,14055,52.49693,13.26373,,,,
+04S05,04S05,Ernst-Adolf-Eschke-Schule für Gehörlose,post@eaeschule.de,http://www.eschke-schule.de,,-,,Waldschulallee 29,14055,52.4989,13.26508,,,,
+04S06,04S06,Finkenkrug-Schule,kontakt@finkenkrug-schule.de,,,-,,Mannheimer Str. 21-22,10713,52.48448,13.31606,,,,
+04S07,04S07,Comenius-Schule,schulleitung@schule-comenius.de,http://www.schule-comenius.de,,-,,Gieselerstr. 4,10713,52.48869,13.3181,,,,
+04Y01,04Y01,Schiller-Gymnasium,sekretariat@sgym.schule.berlin.de,http://www.sgym.de,,-,,Schillerstr. 125-127,10625,52.50993,13.321596,,,,
+04Y02,04Y02,Wald-Gymnasium,waldgymnasium@gmx.de,http://www.waldgymnasium.de,,-,,Waldschulallee 95,14055,52.50343,13.25701,,,,
+04Y03,04Y03,Sophie-Charlotte-Gymnasium,sekretariat@scg.schule.berlin.de,http://www.scgberlin.de,,-,,Sybelstr. 2,10629,52.5023,13.31237,,,,
+04Y04,04Y04,Gottfried-Keller-Gymnasium,kontakt@gks-berlin.de,http://www.gks-berlin.de,,-,,Olbersstr. 38,10589,52.52888,13.3022,,,,
+04Y05,04Y05,Herder-Gymnasium,sekretariat@herder-gymnasium.eu,http://www.herder-gymnasium.eu,,-,,Westendallee 45-46,14052,52.510663,13.257932,,,,
+04Y06,04Y06,Heinz-Berggruen-Gymnasium,info@hbgym.de,http://hbgym.de,,-,,Bayernallee 4,14052,52.51103,13.26722,,,,
+04Y07,04Y07,Friedrich-Ebert-Gymnasium,danz@feo-berlin.de,http://feo.schule.de,,-,,Blissestr. 22,10713,52.484621,13.319289,,,,
+04Y08,04Y08,Hildegard-Wegscheider-Gymnasium,wegscheider-gymnasium@gmx.de,http://www.hwos.de,,-,,Lassenstr. 16-20,14193,52.485116,13.275931,,,,
+04Y09,04Y09,Walther-Rathenau-Gymnasium,sekretariat@wrs-berlin.de,http://www.wrs-berlin.de,,-,,Herbertstr. 2-6,14193,52.49143,13.28135,,,,
+04Y10,04Y10,Marie-Curie-Gymnasium,schulleitung@mcg-berlin.de,http://www.mcg-berlin.de,,-,,Weimarische Str. 21,10715,52.480119,13.324748,,,,
+04Y11,04Y11,Goethe-Gymnasium,info.goethe-gymnasium@t-online.de,,,-,,Gasteiner Str. 23,10717,52.48759,13.3225,,,,
+05A03,05A03,Volkshochschule Spandau,sekretariat-zbw@vhs-spandau.de,http://www.vhs.berlin.de,,,,,,,,,,,
+05B01,05B01,"OSZ TIEM (Technische Informatik, Industrieelektronik und EnergieManagement)",info@osztiem.de,http://www.osztiem.de,,,,,,,,,,,
+05B02,05B02,Knobelsdorff-Schule (OSZ Bautechnik I),kontakt@knobelsdorff-schule.de,http://www.knobelsdorff-schule.de,,,,,,,,,,,
+05G01,05G01,Ernst-Ludwig-Heim-Grundschule,elhg@web.de,,1.000 Mbit/s,1000,,Grunewaldstr. 8,13597,52.5304,13.20672,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G02,05G02,Grundschule am Eichenwald,Grundschule_am_Eichenwald@t-online.de,,500 Mbit/s,500,,Gaismannshofer Weg 2,13587,52.558423,13.199146,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+05G04,05G04,Klosterfeld-Grundschule,05G04@05G04.schule.berlin.de,http://www.klosterfeld-grundschule.de,z.Z. kein geeignetes Kabelnetz,0,,Seegefelder Str. 125,13583,52.53861,13.17968,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G05,05G05,Christoph-Földerich-Grundschule,foelderich-schule@t-online.de,http://www.foelleschule-berlin.de,1.000 Mbit/s,1000,,Földerichplatz 5,13595,52.51986,13.193276,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G06,05G06,Siegerland-Grundschule,sekretariat@siegerland-schule.de,http://www.siegerland-schule.de,1.000 Mbit/s,1000,,Hermann-Schmidt-Weg 4,13589,52.55125,13.175203,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+05G07,05G07,Lynar-Grundschule,info@lynar-grundschule.de,http://www.lynar-grundschule.de,1.000 Mbit/s,1000,,Lutherstr. 19-20,13585,52.54766,13.20683,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G08,05G08,Konkordia-Grundschule,Konkordia-Grundschule@web.de,http://www.konkordia-grundschule.de,1.000 Mbit/s,1000,,Elsflether Weg 26,13581,52.53018,13.19202,MagentaZuhause L,100 MBit/s,50 MBit/s,300 MBit/s
+05G10,05G10,Grundschule am Birkenhain,info@grundschule-am-birkenhain.de,http://www.grundschule-am-birkenhain.de,1.000 Mbit/s,1000,,Seeburger Str. 59,13581,52.52596,13.180519,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G11,05G11,Robert-Reinick-Grundschule,sekretariat@05g11.schule.berlin.de,http://www.robert-reinick-grundschule.de,z.Z. kein geeignetes Kabelnetz,0,,Jungfernheideweg 33-48,13629,52.54065,13.27277,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G12,05G12,Grundschule am Weinmeisterhorn,gs.am.weinmeisterhorn@t-online.de,http://www.gsamweinmeisterhorn.schule-berlin.net,1.000 Mbit/s,1000,,Daberkowstr. 27,13593,52.50825,13.1742,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+05G13,05G13,Bernd-Ryke-Grundschule,info@bernd-ryke-gs.de,http://www.bernd-ryke-gs.de,1.000 Mbit/s,1000,,Daumstr. 12,13599,52.54494,13.2325,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G14,05G14,Linden-Grundschule,sekretariat@linden-gs.schule.berlin.de,http://www..linden-grundschule.de,z.Z. kein geeignetes Kabelnetz,0,,Staakener Feldstr. 6-8,13591,52.53517,13.14081,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G15,05G15,Askanier-Grundschule,t.berlin@askanier-gs.de,http://www.askanier-gs.de,1.000 Mbit/s,1000,,Borkzeile 34,13583,52.54049,13.19242,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G16,05G16,Zeppelin-Grundschule,info@zeppelin-gs.de,http://www.zeppelin-gs.de,1.000 Mbit/s,1000,,Heidebergplan 3-4,13591,52.5409,13.14635,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G17,05G17,Astrid-Lindgren-Grundschule,sekretariat@lindgren.schule.berlin.de,http://www.lindgrenschule.de,1.000 Mbit/s,1000,,Südekumzeile 5,13591,52.5311,13.15652,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G18,05G18,Grundschule im Beerwinkel,schulleitung@beerwinkel.de,http://www.beerwinkel.de,z.Z. kein geeignetes Kabelnetz,0,,Im Spektefeld 31,13589,52.549023,13.154969,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G19,05G19,Grundschule am Ritterfeld,schule@ritterfeld.berlin,http://www.grundschuleamritterfeld.de,1.000 Mbit/s,1000,,Schallweg 31,14089,52.455239,13.138357,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05G20,05G20,Carl-Schurz-Grundschule,sekretariat@05g20.schule.berlin.de,http://www.carl-schurz-grundschule.de,1.000 Mbit/s,1000,,Hakenfelder Str. 32,13587,52.56751,13.199061,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+05G21,05G21,Paul-Moor-Grundschule,sekretariat@paulmoor.schule,http://www.paulmoor.schule,1.000 Mbit/s,1000,,Adamstr. 24-25,13595,52.521,13.19029,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G22,05G22,Christian-Morgenstern-Grundschule,christian-morgenstern-gs.cids@t-online.de,http://www.christian-morgenstern-grundschule.de,1.000 Mbit/s,1000,,Räcknitzer Steig 12,13593,52.5227,13.16816,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+05G23,05G23,Grundschule am Brandwerder,sekretariat@brandwerder.de,http://www.brandwerder.de,1.000 Mbit/s,1000,,Spandauer Str. 86,13591,52.53595,13.15293,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G24,05G24,Grundschule am Windmühlenberg,sekretariat@schuleamwindmuehlenberg.de,http://www.SchuleAmWindmuehlenberg.de,1.000 Mbit/s,1000,,Am Kinderdorf 23-37,14089,52.48547,13.17431,MagentaZuhause M,50 MBit/s,10 MBit/s,
+05G25,05G25,Grundschule am Wasserwerk,schuastawa@t-online.de,,1.000 Mbit/s,1000,,Pionierstr. 197,13589,52.55625,13.16467,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+05G26,05G26,Grundschule am Amalienhof,schule.amalienhof@gmail.com,http://gsamalienhof.de,z.Z. kein geeignetes Kabelnetz,0,,Weinmeisterhornweg 122,13593,52.51289,13.1667,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+05G27,05G27,Peter-Härtling-Grundschule,sekretariat@peter-haertling.schule.berlin.de,http://www.peter-haertling-gs.de,z.Z. kein geeignetes Kabelnetz,0,,Flankenschanze 20,13585,52.543893,13.1996,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+05G28,05G28,Grundschule an der Pulvermühle,sekretariat@gs-pulvermuehle.de,http://www.gs-pulvermuehle.de,1.000 Mbit/s,1000,,Grützmacherweg 7,13599,52.544061,13.228327,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G29,05G29,Mary-Poppins-Grundschule,mary-poppins-grundschule@arcor.de,,z.Z. kein geeignetes Kabelnetz,0,,Am Flugplatz Gatow 20,14089,52.472209,13.127426,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05G30,05G30,Birken-Grundschule,sekretariat@05G30.schule.berlin.de,,1.000 Mbit/s,1000,,Hügelschanze 8-9,13585,52.54863,13.19756,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05K01,05K01,Martin-Buber-Oberschule (Integrierte Sekundarschule),info@martin-buber-oberschule.de,http://www.martin-buber-oberschule.de,1.000 Mbit/s,1000,,Im Spektefeld 33,13589,52.54895,13.1565,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05K02,05K02,Carlo-Schmid-Oberschule (Integrierte Sekundarschule),b.pobloth@carlo-schmid.schule,http://www.csoonline.de,500 Mbit/s,500,,Lutoner Str. 15-19,13581,52.5259,13.17464,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05K03,05K03,Bertolt-Brecht-Oberschule (Integrierte Sekundarschule),sekretariat@brecht-oberschule.de,http://www.brecht-oberschule.de,500 Mbit/s,500,,Wilhelmstr. 10,13595,52.525308,13.192692,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05K04,05K04,Heinrich-Böll-Oberschule (Integrierte Sekundarschule),hbo@boell-schule.de,http://www.boell-schule.de,500 Mbit/s,500,,Am Forstacker 9-11,13587,52.565166,13.199033,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05K05,05K05,B.-Traven-Gemeinschaftsschule,sekretariat@btg.schule.berlin.de,http://www.btg.schule,1.000 Mbit/s,1000,,Recklinghauser Weg 26-32,13583,52.5469,13.17403,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+05K06,05K06a,Wolfgang-Borchert-Schule (Integrierte Sekundarschule),info@borchertschule-spandau.de,http://borchertschule-spandau.de,1.000 Mbit/s,1000,Blumenstraße,Blumenstr. 13,13585,52.54571,13.1967,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05K06,05K06b,Wolfgang-Borchert-Schule (Integrierte Sekundarschule),,,z.Z. kein geeignetes Kabelnetz,0,Borchertweg,Borchertweg 2,13585,52.543459,13.194591,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+05K07,05K07,Schule an der Jungfernheide (Integrierte Sekundarschule),info@schule-an-der-jungfernheide.de,http://www.schule-an-der-jungfernheide.de,1.000 Mbit/s,1000,,Lenther Steig 1-3,13629,52.53843,13.26697,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05K08,05K08,Schule an der Haveldüne (Integrierte Sekundarschule),info@schuleanderhavelduene.de,https://havelduene.berlin/,500 Mbit/s,500,,Jaczostr. 53-67,13595,52.51098,13.18567,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05K09,05K09,Schule am Staakener Kleeblatt (Integrierte Sekundarschule),staakener.kleeblatt@gmail.com,http://www.schuleamstaakenerkleeblatt.de,z.Z. kein geeignetes Kabelnetz,0,,Brunsbütteler Damm 431-437,13591,52.5349,13.13491,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+05S01,05S01,Schule am Grüngürtel,sekretariat@05G30.schule.berlin.de,http://schule-am-gruenguertel.de,z.Z. kein geeignetes Kabelnetz,0,,Askanierring 42,13585,52.549099,13.1934,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05S03,05S03a,Schule am Gartenfeld,schule_am_gartenfeld-berlin@t-online.de,http://www.schule-am-gartenfeld.de,z.Z. kein geeignetes Kabelnetz,0,Gartenfelder Straße,Gartenfelder Str. 81,13599,52.543211,13.24234,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05S03,05S03b,Schule am Gartenfeld,,,z.Z. kein geeignetes Kabelnetz,0,Seecktstraße,Seecktstraße 2,13581,52.526844,13.188415,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05S04,05S04,Schule am Stadtrand,kontakt@zwei-schulen.de,http://www.zwei-schulen.de,1.000 Mbit/s,1000,,Pionierstr. 197,13589,52.555846,13.164834,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+05Y01,05Y01,Freiherr-vom-Stein-Gymnasium,freiherr-vom-stein-gymnasium@t-online.de,http://www.steingymnasium.de,1.000 Mbit/s,1000,,Galenstr. 40-44,13597,52.539684,13.198479,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+05Y02,05Y02,Kant-Gymnasium,info@kant-gym.de,http://www.Kant-gymnasium-berlin.de,1.000 Mbit/s,1000,,Bismarckstr. 54,13585,52.54286,13.20115,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+05Y03,05Y03,Hans-Carossa-Gymnasium,Sekretariat@hans-carossa-gymnasium.de,http://www.hcg-berlin.de,1.000 Mbit/s,1000,,Am Landschaftspark Gatow 40,14089,52.47244,13.13028,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+05Y04,05Y04,Carl-Friedrich-von-Siemens-Gymnasium,mail@cfvsiemens.de,http://www.c-f-v-siemens-og.de,500 Mbit/s,500,,Jungfernheideweg 79,13629,52.54559,13.26983,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+05Y05,05Y05,Lily-Braun-Gymnasium,e-post@lily-braun-gymnasium.de,http://www.lily-braun-gymnasium.de,500 Mbit/s,500,,Münsingerstr. 2,13597,52.538567,13.199029,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+06A05,06A05,Volkshochschule Steglitz-Zehlendorf,zbw-sekretariat@t-online.de,http://www.zbw-berlin.de,,,,,,,,,,,
+06B01,06B01,Peter-Lenné-Schule (OSZ Natur und Umwelt),info@peter-lenne-schule.de,http://www.peter-lenne-schule.de,,,,,,,,,,,
+06B02,06B02,Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung),info@oszbueroverw.de,http://www.osz-louise-schroeder.de,,,,,,,,,,,
+06B03,06B03,OSZ Bürowirtschaft 1,schulleitung@osz-buerowirtschaft-eins.de,http://www.osz-buerowirtschaft-eins.de,,,,,,,,,,,
+06B04,06B04,Wilhelm-Ostwald-Schule (OSZ Gestaltung),verwaltung@wilhelm-ostwald-schule.de,http://www.wilhelm-ostwald-schule.de,,,,,,,,,,,
+06G01,06G01,Nord-Grundschule,sekretariat@nord-grund.schule.berlin.de,http://www.nordgrundschule.de,,-,,Potsdamer Str. 7,14163,52.435951,13.25558,,,,
+06G02,06G02,Süd-Grundschule,info@sued-grundschule.de,http://www.süd-grundschule-berlin.de,,-,,Claszeile 56,14165,52.4189,13.25839,,,,
+06G03,06G03,Johannes-Tews-Grundschule,schulleitung@jtg-berlin.de,http://www.johannes-tews-grundschule.de,,-,,Wasgenstr. 50,14129,52.43162,13.21262,,,,
+06G04,06G04,Erich-Kästner-Grundschule,sekretariat@eks.schule.berlin.de,http://www.erich-kaestner-grundschule-berlin.de,,-,,Bachstelzenweg 2-8,14195,52.458141,13.283199,,,,
+06G05,06G05,Conrad-Schule (Grundschule),info@conrad-schule.de,http://www.conrad-schule.de,,-,,Schulstr. 4,14109,52.415181,13.146695,,,,
+06G06,06G06,Mühlenau-Grundschule,sekretariat@muehlenau.de,http://www.mühlenau.de,,-,,Molsheimer Str. 7,14195,52.443206,13.276002,,,,
+06G07,06G07,Zinnowwald-Grundschule,Sekretariat@zinnowwald.schule.berlin.de,,,-,,Wilskistr. 78,14163,52.44543,13.246529,,,,
+06G08,06G08,Schweizerhof-Grundschule,06G08@06G08.schule.berlin.de,http://www.schweizerhof-grundschule.de,,-,,Leo-Baeck-Str. 28-30,14167,52.42278,13.26571,,,,
+06G09,06G09,Dreilinden-Grundschule,sekretariat@dreilinden-grundschule.de,http://www.dreilinden-grundschule.de,,-,,Dreilindenstr. 65,14109,52.4205,13.18369,,,,
+06G10,06G10,Grundschule am Buschgraben,kontakt@grundschuleambuschgraben.de,http://www.grundschuleambuschgraben.de,,-,,Ludwigsfelder Str. 43-47,14165,52.42192,13.242834,,,,
+06G12,06G12,Quentin-Blake-Grundschule,schulleitung@quentin-blake.schule.berlin.de,http://www.quentin-blake-europe-school.de,,-,,Hüttenweg 40,14195,52.454097,13.27055,,,,
+06G14,06G14,Sachsenwald-Grundschule,sekretariat@sachsenwald.schule.berlin.de,http://www.sachsenwald-grundschule.de,,-,,Sachsenwaldstr. 20-21,12157,52.46151,13.3354,,,,
+06G15,06G15,Dunant-Grundschule,sekr@dunant-grundschule.de,http://www.dunant-grundschule.de,,-,,Gritznerstr. 19-23,12163,52.46486,13.31818,,,,
+06G16,06G16,Rothenburg-Grundschule,schulleitung@rothenburg-grundschule.de,http://www.rothenburg-grundschule.de,,-,,Rothenburgstr. 18,12165,52.45398,13.31302,,,,
+06G17,06G17,Grundschule am Insulaner,sekretariat.gsai@t-online.de,http://www.grundschule-am-insulaner.de,,-,,Hanstedter Weg 11-15,12169,52.45185,13.34956,,,,
+06G18,06G18,Athene-Grundschule,info@athene-grundschule.de,http://www.athene-grundschule.de,,-,,Curtiusstr. 37,12205,52.440565,13.290632,,,,
+06G20,06G20,Alt-Lankwitzer Grundschule,buero@a-l-gs.schule.berlin.de,http://www.alt-lankwitzer-grundschule.de,,-,,Schulstr. 17-21,12247,52.437023,13.351096,,,,
+06G21,06G21,Paul-Schneider-Grundschule,sekretariat@06g21.schule.berlin.de,http://www.paul-schneider-grundschule.de,,-,,Seydlitzstr. 30-34,12249,52.431002,13.341243,,,,
+06G22,06G22,Giesensdorfer Grundschule,sekretariat@giesensdorfer.grundschule.berlin.de,http://www.giesensdorfer-grundschule.de,,-,,Ostpreußendamm 63,12207,52.422226,13.31101,,,,
+06G23,06G23,Kronach-Grundschule,schulleitung@kronach.schule.berlin.de,http://www.kronach-grundschule.de,,-,,Moltkestr. 24-26,12203,52.44167,13.313098,,,,
+06G24,06G24,Grundschule unter den Kastanien,info@kastanie.schule.berlin.de,http://www.grundschule-unter-den-kastanien.de,,-,,Kastanienstr. 6 -8,12209,52.42546,13.32527,,,,
+06G25,06G25,Clemens-Brentano-Grundschule,schulleitung@c-brentano-grundschule.de,http://www.c-brentano-grundschule.de,,-,,Kommandantenstr. 83-84,12205,52.433511,13.29316,,,,
+06G26,06G26,Käthe-Kruse-Grundschule,Kaethe-Kruse-Grundschule@t-online.de,,,-,,Tietzenweg 108,12203,52.438186,13.310138,,,,
+06G27,06G27,Grundschule am Königsgraben,sekretariat@grundschule-am-koenigsgraben.de,http://www.grundschule-am-koenigsgraben.de,,-,,Gallwitzallee 136-144,12249,52.42303,13.34815,,,,
+06G28,06G28,Ludwig-Bechstein-Grundschule,06G28@gmx.de,http://www.ludwig-bechstein-grundschule.net,,-,,Halbauer Weg 25,12249,52.43255,13.36236,,,,
+06G29,06G29,Grundschule am Karpfenteich,info@karpfenteich.schule.berlin.de,http://www.grundschule-am-karpfenteich.de,,-,,Hildburghauser Str. 135,12209,52.417401,13.333982,,,,
+06G30,06G30,Mercator-Grundschule,schule@mercator-gs.de,http://www.mercator-gs.de,,-,,Mercatorweg 8-10,12207,52.41225,13.317376,,,,
+06G31,06G31,Grundschule an der Bäke,info@baeke.net,http://www.baeke.net,,-,,Haydnstr. 15,12203,52.447783,13.318838,,,,
+06G32,06G32,Grundschule am Stadtpark Steglitz,sekretariat06g32@gmx.de,http://www.grundschule-am-stadtpark-steglitz.de,,-,,Karl-Stieler-Str. 10-11,12167,52.449314,13.34298,,,,
+06G33,06G33,Friedrich-Drake-Grundschule,buero@f-d-gs.de,http://www.friedrich-drake-grundschule.de,,-,,Drakestr. 80,12205,52.43254,13.30621,,,,
+06G34,06G34,34. Schule (Grundschule),plantage34@gmx.de,http://www.plantage34.de,,-,,Plantagenstr. 8-9,12169,52.455499,13.330568,,,,
+06K01,06K01,John-F.-Kennedy-Schule,bsalzer@jfksberlin.org,http://www.jfks.de,,-,,Teltower Damm 87-93,14167,52.42589,13.26273,,,,
+06K02,06K02,Wilma-Rudolph-Schule (Integrierte Sekundarschule),buero@wilma-rudolph.de,http://www.wilma-rudolph.de,,-,,Am Hegewinkel 2A,14169,52.45479,13.26097,,,,
+06K03,06K03,Kopernikus-Schule (Integrierte Sekundarschule),buero@kos-mail.de,http://www.kopernikus-oberschule.de,,-,,Lepsiusstr. 24-28,12163,52.4643,13.32069,,,,
+06K04,06K04,Bröndby-Schule (Integrierte Sekundarschule),post@broendby.de,http://www.broendby.de,,-,,Dessauerstr. 63,12249,52.428237,13.345888,,,,
+06K08,06K08,Max-von-Laue-Schule,MvL-Berlin.Schulleitung@t-online.de,http://www.Max-von-Laue-Schule.de,,-,,Dürerstr. 27,12203,52.43725,13.305628,,,,
+06K09,06K09,Gail-S.-Halvorsen-Integrierte Sekundarschule,sekretariat@halvorsen-schule.de,http://www.halvorsen-schule.de,,-,,Im Gehege 6,14195,52.459454,13.284371,,,,
+06K10,06K10,Helene-Lange-Schule (Integrierte Sekundarschule),sekretariat@helene.berlin,http://www.helene-lange-schule-steglitz.de,,-,,Lauenburger Str. 110,12169,52.4528,13.33586,,,,
+06K11,06K11,Anna-Essinger-Gemeinschaftsschule,sekretariat-os@aegs.de,http://aegs.de,,-,,Tietzenweg 101,12203,52.438611,13.310161,,,,
+06S01,06S01,Pestalozzi-Schule,epost@pestalozzi-schule-berlin.de,http://www.pestalozzi-schule-berlin.de,,-,,Hartmannsweilerweg 47,14163,52.44346,13.24838,,,,
+06S02,06S02,Biesalski-Schule,buero@biesalski-schule.de,http://www.biesalski-schule.de,,-,,Hüttenweg 40,14195,52.454097,13.27055,,,,
+06S03,06S03,Peter-Frankenfeld-Schule,sekretariat@frankenfeld.schule.berlin.de,http://www.peter-frankenfeld-schule.de,,-,,Wedellstr. 26,12247,52.43515,13.35522,,,,
+06S05,06S05,J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex,sekretariat@zeune-schule.de,http://www.zeune-schule.de,,-,,Rothenburgstr. 14,12165,52.455569,13.315047,,,,
+06Y01,06Y01,Schadow-Gymnasium,sekretariat@schadow-gymnasium-berlin.de,http://www.schadow-gymnasium.de,,-,,Beuckestr. 27-29,14163,52.43149,13.25463,,,,
+06Y02,06Y02,Droste-Hülshoff-Gymnasium,sekretariat@droste-gymnasium-berlin.de,http://www.droste-gymnasium-berlin.de,,-,,Schönower Str. 8,14165,52.42846,13.25673,,,,
+06Y03,06Y03,Arndt-Gymnasium Dahlem,sekretariat@arndt-gymnasium.de,http://www.arndt-gymnasium.de,,-,,Königin-Luise-Str. 80-84,14195,52.45916,13.28001,,,,
+06Y04,06Y04,Dreilinden-Gymnasium,sekretariat@dreilinden-gymnasium.de,http://www.dreilinden-gymnasium.de,,-,,Dreilindenstr. 49,14109,52.42057,13.18778,,,,
+06Y05,06Y05,Werner-von-Siemens-Gymnasium,leitung@siemens-gymnasium-berlin.de,http://www.siemens-gymnasium-berlin.de,,-,,Beskidenstr. 3,14129,52.43194,13.21159,,,,
+06Y06,06Y06,Beethoven-Gymnasium,Leitung@beethoven-gymnasium.eu,http://www.beethoven-gymnasium.eu,,-,,Barbarastr. 9,12249,52.43293,13.34283,,,,
+06Y07,06Y07,Paulsen-Gymnasium,paulsengymnasium@pg-berlin.de,http://www.paulsen-gymnasium.de,,-,,Gritznerstr. 57,12163,52.46219,13.314388,,,,
+06Y08,06Y08,Hermann-Ehlers-Gymnasium,sekretariat@hermann-ehlers-schule.de,http://www.hermann-ehlers-schule.de,,-,,Elisenstr. 3-4,12169,52.45297,13.33373,,,,
+06Y09,06Y09,Fichtenberg-Oberschule,info@fichtenberg-oberschule.net,http://fichtenberg-oberschule.net,,-,,Rothenburgstr. 18,12165,52.45398,13.31302,,,,
+06Y10,06Y10,Lilienthal-Gymnasium,sekretariat@lilienthal-gymnasium-berlin.de,http://www.lilienthal-gymnasium-berlin.de,,-,,Ringstr. 2-3,12203,52.43595,13.31215,,,,
+06Y11,06Y11,Goethe-Gymnasium Lichterfelde,sekretariat@goethe-lichterfelde.schule.berlin.de,http://www.goethe-gymnasium-lichterfelde.de,,-,,Drakestr. 72-75,12205,52.434929,13.305363,,,,
+06Y12,06Y12,Willi-Graf-Gymnasium,sekretariat@willi-graf-os.de,http://www.willi-graf-gymnasium.de,,-,,Ostpreußendamm 166,12207,52.43469,13.32096,,,,
+06Y13,06Y13,Gymnasium Steglitz,sekretariat@gymnasiumsteglitz.de,http://www.gymnasiumsteglitz.de,,-,,Heesestr. 15,12169,52.45671,13.32644,,,,
+07A05,07A05,Kolleg Schöneberg,Sekretariat@KollegSchoeneberg.de,http://www.KollegSchoeneberg.de,,,,,,,,,,,
+07A06,07A06,Volkshochschule Tempelhof-Schöneberg,zbw-vhs.t-s@web.de,http://www.vhs-tempelhof-schoeneberg.de,,,,,,,,,,,
+07B02,07B02,Marie-Elisabeth-Lüders-Oberschule,sekretariat@melo-berlin.de,http://www.melo-berlin.de,,,,,,,,,,,
+07B03,07B03,"OSZ Lotis (Logistik, Touristik und Steuern)",sekretariat@osz-lotis.de,http://www.osz-lotis.de,,,,,,,,,,,
+07G01,07G01,Spreewald-Grundschule,Spreewald-Grundschule@gmx.de,http://www.spreewald-grundschule.de,,-,,Pallasstr. 15,10781,52.49539,13.35693,,,,
+07G02,07G02,Finow-Grundschule,sekretariat@finow.schule.berlin.de,http://www.finow-gs.de,,-,,Welserstr. 16-22,10777,52.49823,13.34251,,,,
+07G03,07G03,Werbellinsee-Grundschule,sekretariat@werbellinsee.schule.berlin.de,http://www.Werbellinsee-Grundschule.de,,-,,Luitpoldstr. 38,10781,52.495036,13.348236,,,,
+07G05,07G05,Havelland-Grundschule,sekretariat@havelland.schule.berlin.de,http://www.havelland-grundschule.de,,-,,Kolonnenstr. 30,10829,52.484772,13.367681,,,,
+07G06,07G06,Sternberg-Grundschule,Schulleitung@sternberg.schule.berlin.de,http://www.sternberg-grundschulen.de,,-,,Mettestr. 8,10825,52.48047,13.33924,,,,
+07G07,07G07,Lindenhof-Grundschule,sekretariat@lindenhof.schulen-ts.de,http://www.lindenhof-grundschule.de,,-,,Reglinstr. 29,12105,52.45809,13.36325,,,,
+07G10,07G10,Teltow-Grundschule,sekretariat@teltow.schule.berlin.de,http://www.teltow-grundschule.de,,-,,Feurigstr. 57,10827,52.484327,13.356154,,,,
+07G12,07G12,Scharmützelsee-Grundschule,sekretariat@scharmuetzelsee.schule.berlin.de,http://www.scharmuetzelseegrundschule.de,,-,,Hohenstaufenstr. 49,10779,52.494177,13.343268,,,,
+07G13,07G13,Neumark-Grundschule,sekretariat@neumark.schule.berlin.de,http://www.neumark-grundschule.de,,-,,Steinmetzstr. 46-50,10783,52.49282,13.36249,,,,
+07G14,07G14,Löcknitz-Grundschule,sekretariat@loecknitz.schule.berlin.de,http://www.loecknitz-grundschule.de,,-,,Berchtesgadener Str. 10-11,10779,52.489558,13.343356,,,,
+07G15,07G15,Fläming-Grundschule,flaeming@schulen-tempelhof-schoeneberg.de,http://www.flaeming-grundschule.de,,-,,Illstr. 4-6,12161,52.46839,13.3329,,,,
+07G16,07G16,Ruppin-Grundschule,ruppingrundschule@web.de,http://www.ruppin-grundschule.de,,-,,Offenbacher Str. 5A,14197,52.47538,13.32137,,,,
+07G17,07G17,Stechlinsee-Grundschule,Stechlinsee-Grundschule.Cids@t-online.de,http://www.stechlinsee-grundschule.de,,-,,Rheingaustr. 7,12161,52.46934,13.32242,,,,
+07G18,07G18,Grundschule am Barbarossaplatz,07g18@07g18.schule.berlin.de,http://www.grundschuleambarbarossaplatz.de,,-,,Barbarossaplatz 5,10781,52.49235,13.34978,,,,
+07G19,07G19,Paul-Simmel-Grundschule,sekretariat@paulsimmel.schule.berlin.de,http://www.paul-simmel-grundschule.de,,-,,Felixstr. 26-58,12099,52.46137,13.3926,,,,
+07G20,07G20,Maria-Montessori-Grundschule,sekretariat@mmg.schule.berlin.de,http://www.mmg-online.de,,-,,Friedrich-Wilhelm-Str. 72-74,12103,52.45817,13.38069,,,,
+07G21,07G21,Grundschule auf dem Tempelhofer Feld,sekretariat@tempelhoferfeld.schule.berlin.de,http://gs-tempelhoferfeld.de,,-,,Schulenburgring 7-11,12101,52.48081,13.38185,,,,
+07G22,07G22,Paul-Klee-Grundschule,Sekretariat@07G22.schule.berlin.de,http://www.paul-klee-schule.de,,-,,Konradinstr. 15-17,12105,52.454,13.37538,,,,
+07G23,07G23,Schätzelberg-Grundschule,07g23@07g23.schule.berlin.de,http://www.schaetzelberg-grundschule.de,,-,,Wolfsburger Weg 13-19,12109,52.4487,13.40066,,,,
+07G24,07G24,Tempelherren-Grundschule,sekretariat@tempelherren.schulen-ts.de,http://www.tempelherren-grundschule.de,,-,,Boelckestr. 58-60,12101,52.478603,13.37647,,,,
+07G25,07G25,Mascha-Kaléko-Grundschule,sekretariat@mascha-kaleko-grundschule.de,http://www.mascha-kaleko-grundschule.de,,-,,Königstr. 32,12105,52.447125,13.383928,,,,
+07G26,07G26,Grundschule im Taunusviertel,sekretariat@taunusviertel.schule.berlin.de,http://www.grundschule-im-taunusviertel.de,,-,,Wiesbadener Str. 20,12309,52.40019,13.41799,,,,
+07G27,07G27,Rudolf-Hildebrand-Grundschule,sekretariat@rhg.schule.berlin.de,https://rhg.schule/,,-,,Friedenstr. 23-25,12107,52.43886,13.3855,,,,
+07G28,07G28,Kiepert-Grundschule,schulleitung@kiepert.schule.berlin.de,http://www.kiepertgrundschule.de,,-,,Prechtlstr. 21-23,12277,52.41591,13.37327,,,,
+07G29,07G29,Käthe-Kollwitz-Grundschule,sekretariat@kollwitz-gs.schule.berlin.de,http://www.kkgs-berlin.de,,-,,Mellener Str. 38-42,12307,52.3862,13.40487,,,,
+07G30,07G30,Annedore-Leber-Grundschule,Schulleitung@algs.schule.berlin.de,http://www.algs.de,,-,,Halker Zeile 137-149,12305,52.39757,13.40197,,,,
+07G31,07G31,Carl-Sonnenschein-Grundschule,07g31@07g31.schule.berlin.de,http://www.carl-sonnenschein-gs.de,,-,,Am Hellespont 4-6,12109,52.443699,13.408152,,,,
+07G32,07G32,Bruno-H.-Bürgel-Grundschule,sekretariat@bhb.schule.berlin.de,http://www.bruno-h-buergel-grundschule.de,,-,,Rackebüller Weg 70,12305,52.404902,13.402536,,,,
+07G34,07G34,Marienfelder Schule (Grundschule),sekretariat@marienfelder.schulen-ts.de,http://www.marienfelder-gs.de,,-,,Erbendorfer Weg 13,12279,52.41209,13.35184,,,,
+07G35,07G35,Nahariya-Grundschule,sekretariat@nahariya.schule.berlin.de,http://www.nahariyaschule.de,,-,,Nahariyastr. 13-17,12309,52.39085,13.41943,,,,
+07G36,07G36,Grundschule am Dielingsgrund,sekretariat@dielingsgrund.schulen-ts.de,http://www.dielingsgrund.com,,-,,Dielingsgrund 35,12305,52.41166,13.40863,,,,
+07G37,07G37,Ikarus-Grundschule,07g37@07g37.schule.berlin.de,http://www.ikarus-grundschule.de,,-,,Körtingstr. 45,12107,52.43363,13.38389,,,,
+07K01,07K01,Sophie-Scholl-Schule,kontakt@sophie-scholl-schule.eu,http://sophie-scholl-schule.eu,,-,,Elßholzstr. 34-37,10781,52.492808,13.356583,,,,
+07K02,07K02,Carl-Zeiss-Schule,sekretariat@carl-zeiss-oberschule.de,http://www.carl-zeiss-oberschule.de,,-,,Barnetstr. 12-14,12305,52.39571,13.40258,,,,
+07K03,07K03,Gustav-Heinemann-Oberschule,Sekretariat@ghoberlin.de,http://gho.berlin,,-,,Waldsassener Str. 62,12279,52.40662,13.34754,,,,
+07K04,07K04,Theodor-Haubach-Schule,sekretariat@ths-berlin.de,http://www.ths-berlin.de,,-,,Grimmstr. 9-11,12305,52.398399,13.403988,,,,
+07K05,07K05,Solling-Schule,sekretariat@solling-schule.de,http://www.solling-schule.de,,-,,Alt-Marienfelde 52,12277,52.41397,13.36527,,,,
+07K06,07K06,Georg-von-Giesche-Schule,kontakt@georg-von-giesche-schule.de,http://www.georg-von-giesche-schule.de,,-,,Hohenstaufenstr. 47-48,10779,52.494144,13.342529,,,,
+07K07,07K07,Johanna-Eck-Schule (Integrierte Sekundarschule),sekretariat@johanna-eck-schule.de,http://www.johanna-eck-schule.de,,-,,Ringstr. 103-106,12105,52.44692,13.36411,,,,
+07K09,07K09,Gustav-Langenscheidt-Schule,schulleitung@langenscheidt.schule.berlin.de,http://www.gustav-langenscheidt-schule.de,,-,,Belziger Str. 43-51,10823,52.485997,13.350718,,,,
+07K10,07K10,Friedrich-Bergius-Schule,Sekretariat@fbs-schule.de,http://www.Friedrich-Bergius-Schule.de,,-,,Perelsplatz 6-9,12159,52.47618,13.33314,,,,
+07K11,07K11,Hugo-Gaudig-Schule,Jasmin.dohrmann@hugo-gaudig-schule.de,http://www.hugo-gaudig-schule.de,,-,,Boelckestraße 58,12101,52.478179,13.375777,,,,
+07K12,07K12,Friedenauer Gemeinschaftsschule,07K12@07K12.schule.berlin.de,http://www.friedenauer-gemeinschaftsschule.de,,-,,Rubensstr. 63,12157,52.469784,13.344068,,,,
+07K13,07K13,Schule am Berlinickeplatz (Integrierte Sekundarschule),schule07k13@gmx.de,http://schuleberlinickeplatz.blogspot.de,,-,,Alt-Tempelhof 53-57,12103,52.465657,13.379583,,,,
+07S01,07S01,Prignitz-Schule,07s01@07s01.schule.berlin.de,,,-,,Pöppelmannstr. 2,12157,52.46884,13.34519,,,,
+07S03,07S03,Steinwald-Schule,schulleitung@steinwald.schule.berlin.de,http://www.steinwald-schule-berlin.de,,-,,Hanielweg 7-9,12277,52.41783,13.36458,,,,
+07S04,07S04,Marianne-Cohn-Schule,sekretariat@cohn.schulen-ts.de,http://www.marianne-cohn-schule.de,,-,,Holzmannstr. 7,12099,52.46433,13.41815,,,,
+07Y01,07Y01,Robert-Blum-Gymnasium,sekretariat@robert-blum-schule.de,http://www.robert-blum-schule.de,,-,,Kolonnenstr. 21,10829,52.48483,13.36487,,,,
+07Y02,07Y02,Rückert-Gymnasium,schulleitung@rueckert-gymnasium-berlin.de,http://www.rueckert-gymnasium.berlin,,-,,Mettestr. 8,10825,52.48047,13.33924,,,,
+07Y03,07Y03,Rheingau-Gymnasium,sekretariat@rheingau-gymnasium.de,http://www.rheingau-gymnasium.de,,-,,Schwalbacher Str. 3-4,12161,52.470206,13.322611,,,,
+07Y04,07Y04,Paul-Natorp-Gymnasium,sekretariat@natorp-gymnasium.de,http://www.natorp.de,,-,,Goßlerstr. 13-15,12161,52.46939,13.32431,,,,
+07Y05,07Y05,Luise-Henriette-Gymnasium,sekretariat@l-h-g.de,http://www.luise-henriette-berlin.de,,-,,Germaniastr. 4-6,12099,52.46546,13.39059,,,,
+07Y06,07Y06,Askanisches Gymnasium,sekretariat@askanisches-gymnasium.de,http://www.askanisches-gymnasium.de,,-,,Kaiserin-Augusta-Str. 19-20,12103,52.45992,13.37992,,,,
+07Y07,07Y07,Eckener-Gymnasium,info@eckener-gymnasium.de,http://www.eckener-gymnasium.de,,-,,Kaiserstr. 17-21,12105,52.4451,13.38052,,,,
+07Y08,07Y08,Ulrich-von-Hutten-Gymnasium,uvh@uvh-online.de,http://www.uvh-online.de,,-,,Rehagener Str. 35-37,12307,52.38563,13.40388,,,,
+07Y09,07Y09,Georg-Büchner-Gymnasium,sekretariat@gbgonline.de,http://www.gbgonline.de,,-,,Lichtenrader Damm 224,12305,52.39186,13.406604,,,,
+08B01,08B01,Annedore-Leber-Oberschule,sekr.br@aloberlin.de,http://www.aloberlin.de,,,,,,,,,,,
+08B02,08B02,"Lise-Meitner-Schule (OSZ Chemie, Physik und Biologie)",verwaltung@osz-lise-meitner.eu,http://osz-lise-meitner.eu,,,,,,,,,,,
+08B04,08B04,OSZ Informations- und Medizintechnik,dahms@oszimt.de,http://www.oszimt.de,,,,,,,,,,,
+08B05,08B05,Carl-Legien-Schule,sekretariat@carl-legien-schule.de,http://www.Carl-Legien-Schule.de,,,,,,,,,,,
+08G01,08G01,Rixdorfer Schule (Grundschule),berlin.08G01@t-online.de,http://www.die-rixdorfer.de,,-,,Donaustr. 120,12043,52.484904,13.431792,,,,
+08G02,08G02,Theodor-Storm-Schule (Grundschule),sekretariat@theodor-storm.schuel.berlin.de,http://www.Theodor-Storm-Grundschule.de,,-,,Hobrechtstr. 76,12043,52.486488,13.426763,,,,
+08G03,08G03,Hans-Fallada-Schule (Grundschule),hans-fallada-schule@gmx.de,http://www.hans-fallada-schule.de,,-,,Harzer Str. 73,12059,52.483564,13.451851,,,,
+08G05,08G05,Elbe-Schule (Grundschule),berlin-08g05@versanet.de,http://www.elbeschule.de,,-,,Elbestr. 11,12045,52.48442,13.44062,,,,
+08G06,08G06,Karl-Weise-Schule (Grundschule),08G06@08G06.schule.berlin.de,http://karl-weise-schule.de,,-,,Weisestr. 20,12049,52.476503,13.423961,,,,
+08G07,08G07,Hermann-Boddin-Schule (Grundschule),berlin.08g07@t-online.de,http://www.boddin-schule.de,,-,,Boddinstr. 55,12053,52.480416,13.431252,,,,
+08G08,08G08,Karlsgarten-Schule (Grundschule),berlin.08G08@versanet.de,http://www.karlsgarten.de,,-,,Karlsgartenstr. 7,12049,52.482099,13.422505,,,,
+08G09,08G09,Regenbogen-Schule (Grundschule),schulleitung@regenbogen.schule.berlin.de,http://www.regenbogen-grundschule.de,,-,,Morusstr. 32,12053,52.47578,13.43333,,,,
+08G11,08G11,Schliemann-Grundschule,sekretariat@schliemann-grundschule.de,http://www.schliemann-grundschule.de,,-,,Groß-Ziethener Chaussee 73,12355,52.41198,13.48526,,,,
+08G12,08G12,Peter-Petersen-Schule (Grundschule),info@pps-berlin.de,http://www.pps-berlin.de,,-,,Jonasstr. 15,12053,52.47189,13.43548,,,,
+08G13,08G13,Bruno-Taut-Schule (Grundschule),Berlin_08G13@versanet.de,http://www.bruno-taut.de,,-,,Bruno-Taut-Ring 9C,12359,52.44095,13.44886,,,,
+08G14,08G14,Konrad-Agahd-Schule (Grundschule),schulleitung@schule.agahd.berlin.de,http://www.agahd.de,,-,,Thomasstr. 39,12053,52.4725,13.43556,,,,
+08G15,08G15,Hermann-Sander-Schule (Grundschule),info@hermann-sander-schule.de,http://www.hermann-sander-schule.de,,-,,Mariendorfer Weg 69,12051,52.46416,13.43005,,,,
+08G16,08G16,Hugo-Heimann-Schule (Grundschule),sekretariat@hugoheimann.schule.berlin.de,http://www.hugoheimannschule.de,,-,,Hugo-Heimann-Str. 20,12353,52.42538,13.45705,,,,
+08G17,08G17,Richard-Schule (Grundschule),08G17@o8G17.schule.berlin.de,http://www.richard-grundschule.de,,-,,Richardplatz 14,12055,52.47359,13.44439,,,,
+08G18,08G18,Eduard-Mörike-Schule (Grundschule),eduard-moerike@freenet.de,http://ems-neukoelln.de,,-,,Stuttgarter Str. 35-39,12059,52.477969,13.450143,,,,
+08G19,08G19,Herman-Nohl-Schule (Grundschule),sekretariat@nohl-schule.de,http://www.herman-nohl.de,,-,,Hannemannstr. 69,12347,52.455159,13.43894,,,,
+08G20,08G20,Sonnen-Schule (Grundschule),sekretariat@sonnen.schule.berlin.de,,,-,,Dammweg 228,12057,52.47197,13.46714,,,,
+08G21,08G21,Silberstein-Schule (Grundschule),info@silberstein-schule.de,http://www.silberstein-schule.de,,-,,Silbersteinstr. 42,12051,52.466965,13.434906,,,,
+08G22,08G22,Schule am Regenweiher (Grundschule),info@Grundschule-am-Regenweiher.de,http://www.Grundschule-am-Regenweiher.de,,-,,Johannisthaler Chaussee 328,12351,52.42985,13.45178,,,,
+08G23,08G23,Zürich-Schule (Grundschule),Sekretariat@zuerich.schule.berlin.de,http://www.zuerich-schule-berlin.de,,-,,Wederstr. 49,12347,52.462585,13.439533,,,,
+08G24,08G24,Schule am Teltowkanal (Grundschule),08G24@08G24.schule.berlin.de,http://www.schule-am-teltowkanal.de,,-,,Rungiusstr. 46,12347,52.45925,13.44063,,,,
+08G25,08G25,Michael-Ende-Schule (Grundschule),sekretariat@michael-ende.schule.berlin.de,http://www.michael-ende-schule-berlin.de,,-,,Neuhofer Str. 41,12355,52.41346,13.50984,,,,
+08G26,08G26,Christoph-Ruden-Schule (Grundschule),sekretariat@08G26.schule.berlin.de,http://www.christoph-ruden-schule.de,,-,,An den Achterhöfen 13,12349,52.421067,13.435095,,,,
+08G27,08G27,Oskar-Heinroth-Schule (Grundschule),08G27@08G27.schule.berlin.de,http://oskar-heinroth-schule.de,,-,,Rohrdommelweg 1,12359,52.44057,13.47209,,,,
+08G28,08G28,Matthias-Claudius-Schule (Grundschule),post@mcgs.berlin,http://www.mcgs.berlin,,-,,Köpenicker Str. 148,12355,52.420381,13.501675,,,,
+08G29,08G29,Wetzlar-Schule (Grundschule),Berlin.08G29@t-online.de,http://www.wetzlar-schule.de,,-,,Tischlerzeile 34,12351,52.43092,13.44294,,,,
+08G30,08G30,Schule am Sandsteinweg (Grundschule),sekretariat@sams.schule.berlin.de,http://www.sams.gs,,-,,Hornblendeweg 2,12349,52.41829,13.40469,,,,
+08G31,08G31,Janusz-Korczak-Schule (Grundschule),sekretariat@jkgs.schule.berlin.de,http://jkgs-berlin.de,,-,,Wildhüterweg 5,12353,52.42179,13.45659,,,,
+08G33,08G33,Schule am Fliederbusch (Grundschule),sekretariat@fliederbusch.schule.berlin.de,http://www.schule-am-fliederbusch.de,,-,,Kornradenstr. 2,12357,52.42424,13.48673,,,,
+08G34,08G34,Lisa-Tetzner-Schule (Grundschule),berlin.08g34@t-online.de,http://www.lisa-tetzner.de,,-,,Hasenhegerweg 12,12353,52.42254,13.44504,,,,
+08G35,08G35,Schule in der Köllnischen Heide (Grundschule),grundheide@t-online.de,,,-,,Hänselstr. 6,12057,52.4666,13.4721,,,,
+08G36,08G36,Löwenzahn-Schule (Grundschule),sekretariat@loewenzahn.schule.berlin.de,http://www.loewenzahn-schule.de,,-,,Drorystr. 3,12055,52.472499,13.448771,,,,
+08G37,08G37,Rose-Oehmichen-Schule (Grundschule),sekretariat@08g37.schule.berlin.de,http://www.rose-oehmichen-schule-berlin.de,,-,,Lieselotte-Berger-Str. 65,12355,52.401126,13.501995,,,,
+08K01,08K01,Walter-Gropius-Schule (Gemeinschaftsschule),Gemeinschaftsschule@walter-gropius-schule-berlin.de,http://www.walter-gropius-schule-berlin.de,,-,,Fritz-Erler-Allee 86,12351,52.42934,13.46355,,,,
+08K02,08K02,Hermann-von-Helmholtz-Schule,info@hvhschule.de,http://www.hvhschule.de,,-,,Wutzkyallee 68,12353,52.421823,13.472974,,,,
+08K03,08K03,Otto-Hahn-Schule,sekretariat@ohs.berlin,http://ohs.berlin,,-,,Buschkrugallee 63,12359,52.45809,13.449,,,,
+08K04,08K04,Heinrich-Mann-Schule,08K04@08K04.schule.berlin.de,http://www.heinrichmannschule.de/,,-,,Gerlinger Str. 22,12353,52.41578,13.43231,,,,
+08K05,08K05,Clay-Schule,sekretariat@clay-schule.de,http://www.clay-schule.de,,-,,Bildhauerweg 9,12355,52.41759,13.48999,,,,
+08K06,08K06,Fritz-Karsen-Schule (Gemeinschaftsschule),sekretariat@fritz-karsen.de,http://www.fritz-karsen.de,,-,,Onkel-Bräsig-Str. 76-78,12359,52.44865,13.44389,,,,
+08K08,08K08,Gemeinschaftsschule auf dem Campus Rütli,schulleitung@campusruetli.de,http://www.campusruetli.de,,-,,Rütlistr. 41,12045,52.487309,13.434226,,,,
+08K09,08K09,Röntgen-Schule,berlin.08K09@versanet.de,http://www.roentgen-sekundarschule.de,,-,,Wildenbruchstr. 53,12435,52.488886,13.449558,,,,
+08K10,08K10,Zuckmayer-Schule,08K10@08K10.schule.berlin.de,http://www.zuckmayer-schule.de,,-,,Kopfstr. 55,12053,52.4761,13.43129,,,,
+08K11,08K11,Alfred-Nobel-Schule,alfred-nobel-schule@t-online.de,http://www.alfred-nobel-schule.de,,-,,Britzer Damm 164,12347,52.448,13.43469,,,,
+08K12,08K12,Kepler-Schule,08K12@08K12.schule.berlin.de,,,-,,Zwillingestr. 21,12057,52.46737,13.46477,,,,
+08K13,08K13,Gemeinschaftsschule Campus Efeuweg,verwaltung@campus-efeuweg.de,http://www.gemeinschaftsschule.campus-efeuweg.de,,-,,Efeuweg 34,12357,52.427206,13.47409,,,,
+08S01,08S01,Adolf-Reichwein-Schule,sekretariat@adolf-reichwein.schule.berlin.de,http://www.adolf-reichwein-schule.com,,-,,Sonnenallee 188,12059,52.475733,13.450826,,,,
+08S04,08S04,Schule am Zwickauer Damm,Schule_am_Zwickauer_Damm1@t-online.de,http://www.schule-am-zwickauer-damm.de,,-,,Zwickauer Damm 17-22,12353,52.422,13.48315,,,,
+08S05,08S05,Schule am Hasenhegerweg,08S05@web.de,http://www.hasenheger.de,,-,,Hasenhegerweg 12,12353,52.42254,13.44504,,,,
+08S06,08S06,Hans-Fallada-Schule,hans-fallada-schule@gmx.de,http://www.hans-fallada-schule.de,,-,,Harzer Str. 73-74,12059,52.483564,13.451851,,,,
+08S07,08S07,Schule am Bienwaldring,berlin.08S07@t-online.de,http://www.bienwaldring.cidsnet.de,,-,,Breitunger Weg 1,12349,52.42178,13.42537,,,,
+08S08,08S08,Schilling-Schule,schulleitung@schillingschule.de,http://www.schillingschule.de,,-,,Paster-Behrens-Str. 81,12359,52.442637,13.444198,,,,
+08S09,08S09,Schule an der Windmühle,08S09@08S09.schule.berlin.de,http://www.schule-an-der-windmuehle.de,,-,,Buckower Damm 176,12349,52.42741,13.43451,,,,
+08Y01,08Y01,Albrecht-Dürer-Gymnasium,email@albrecht-duerer-gymnasium.de,http://www.albrecht-duerer-gymnasium.de,,-,,Emser Str. 132-137,12051,52.46947,13.43907,,,,
+08Y02,08Y02,Albert-Schweitzer-Gymnasium,sekretariat@die-schweitzer.de,http://www.die-schweitzer.de,,-,,Karl-Marx-Str. 14,12043,52.4852,13.42649,,,,
+08Y03,08Y03,Albert-Einstein-Gymnasium,sekretariat@aeo.de,http://www.aeo.de,,-,,Parchimer Allee 109,12359,52.44553,13.44245,,,,
+08Y04,08Y04,Ernst-Abbe-Gymnasium,schule@ernst-abbe.de,http://www.ernst-abbe.de,,-,,Sonnenallee 79,12045,52.48349,13.43711,,,,
+08Y05,08Y05,Leonardo-da-Vinci-Gymnasium,sekretariat@08y05.schule.berlin.de,http://Leonardo-da-Vinci-Gymnasium.de,,-,,Haewererweg 35,12349,52.41623,13.42658,,,,
+08Y06,08Y06,Hannah-Arendt-Gymnasium,h-a-os997@t-online.de,http://www.hannah-arendt-os.de,,-,,Elfriede-Kuhr-Str. 17,12355,52.40411,13.508639,,,,
+09A05,09A05,Treptow-Kolleg,Schulleitung@treptow-kolleg.de,http://www.treptow-kolleg.de,SVDSL,250,,Kiefholzstr. 274,12437,52.46818,13.48463,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09A06,09A06,Zweiter Bildungsweg Treptow-Köpenick,zbwtk-sekretariat@gmx.de,,,,,,,,,,,,
+09A07,09A07,Flatow-Oberschule,sekretariat@flatow-os.de,http://www.flatow-os.de,,,,,,,,,,,
+09B03,09B03,Hermann-Scheer-Schule (OSZ Wirtschaft),sekretariat@hs-osz.de,http://www.hermann-scheer-schule.de,,,,,,,,,,,
+09G01,09G01,Bouché-Schule (Grundschule),sekretariat@bouche.schule.berlin.de,http://www.bouche-schule.de,VDSL,100,,Bouchestr. 5-10,12435,52.49327,13.45252,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G03,09G03,Schule am Heidekampgraben (Grundschule),kontakt@heidekampgraben.de,http://www.grundschuleamheidekampgraben.de,ADSL,16,,Hänselstr. 14,12437,52.46872,13.47837,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+09G04,09G04,Sonnenblumen-Schule (Grundschule),sekretariat@sonnenblumen.de,http://www.sonnenblumen-grundschule.de,VDSL,25,,Radenzer Str. 16,12437,52.46163,13.48872,MagentaZuhause XL,175 MBit/s,50 MBit/s,300 MBit/s
+09G05,09G05,Schule am Ginkobaum (Grundschule),Sekretariat@ginkobaum.schule.berlin.de,http://www.ginkobaumschule.de,SVDSL,250,,Springbornstr. 250,12487,52.44014,13.4979,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G06,09G06,Melli-Beese-Schule (Grundschule),Sekretariat@melli-beese.schule.berlin.de,http://www.melli-beese-schule.de,SVDSL,175,,Engelhardstr. 18,12487,52.44696,13.51031,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G07,09G07,Schule an der alten Feuerwache (Grundschule),Sekretariat@09G07.schule.berlin.de,http://www.schuleanderfeuerwache.de,SVDSL,250,,Schnellerstr. 31,12439,52.45459,13.51379,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G09,09G09a,Heide-Schule (Grundschule),heidegrundschule-berlin@gmx.de,http://www.heideschule-berlin.de,SVDSL,250,,Florian-Geyer-Str. 87,12489,52.438648,13.543713,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G09,09G09b,Heide-Schule (Grundschule),,,VDSL,100,Filiale,Waldstraße 7,12489,52.442714,13.551495,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G10,09G10,Schule am Berg (Grundschule),grundschuleamberg@t-online.de,http://www.schuleamberg.de,ADSL,16,,Köpenicker Str. 31,12524,52.41866,13.538044,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G11,09G11,Schule am Pegasuseck (Grundschule),09g11@09g11.schule.berlin.de,http://www.pegasuseck.de,SVDSL,250,,Pegasuseck 5,12524,52.40638,13.5294,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G13,09G13,Schule am Altglienicker Wasserturm (Grundschule),info@wasserturm-schule.de,http://www.wasserturm-schule.de,SVDSL,175,,Sachsenstr. 22,12524,52.41079,13.55406,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G14,09G14,Schule am Buntzelberg (Grundschule),sekretariat@schule.buntzelberg.berlin.de,http://www.schule-am-buntzelberg.de,VDSL,100,,Schulzendorfer Str. 112,12526,52.40671,13.57427,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G15,09G15,Schule am Mohnweg (Grundschule),sekretariat@mohnweg.schule.berlin.de,http://www.grundschuleammohnweg.de,SVDSL,250,,Mohnweg 20,12524,52.40733,13.53679,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G16,09G16,Wendenschloß-Schule (Grundschule),wendenschloss-g.rektorat@t-online.de,,SVDSL,175,,Köpenzeile 123,12557,52.42845,13.5953,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G17,09G17,Uhlenhorst-Grundschule,Sekretariat@09G17.schule.berlin.de,http://www.uhlenhorst-grundschule.de,VDSL,50,,Wongrowitzer Steig 37,12555,52.467512,13.579352,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G18,09G18,Schule in der Köllnischen Vorstadt (Grundschule),schulbuero.09G18@t-online.de,http://www.gs-kvstd.cidsnet.de,VDSL,100,,Rudower Str. 201,12557,52.43946,13.56429,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G19,09G19,Amtsfeld-Schule (Grundschule),amtsfeld-grundschule@t-online.de,http://www.amtsfeld-schule.de,VDSL,100,,Pablo-Neruda-Str. 8,12559,52.44262,13.58891,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G20,09G20,Müggelheimer Schule (Grundschule),sekretariat@09g20.schule.berlin.de,http://mueggelheimer-grundschule.de,SVDSL,250,,Odernheimer Str. 28,12559,52.41469,13.66739,MagentaZuhause XL,250 MBit/s,40 MBit/s,
+09G21,09G21,Edison-Grundschule,sekretariat@edison.schule.berlin.de,http://www.edison-grundschule.de,SVDSL,250,,Wattstr. 69-70,12459,52.46607,13.50886,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09G22,09G22,Schule an der Wuhlheide (Grundschule),09G22@09G22.schule.berlin.de,http://www.grundschule-an-der-wuhlheide.de,VDSL,50,,Kottmeierstr. 2,12459,52.462579,13.524106,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G23,09G23,Hauptmann-von-Köpenick-Schule (Grundschule),hvkschule@t-online.de,http://www.hvkschule.de,VDSL,100,,Borgmannstr. 2,12555,52.45624,13.58095,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G24,09G24a,Müggelsee-Schule (Grundschule),info@mueggelsee-grundschule.de,http://www.mueggelsee-grundschule.de,SVDSL,175,,Aßmannstr. 63,12587,52.45072,13.62746,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09G24,09G24b,Müggelsee-Schule (Grundschule),,,VDSL,100,Filiale,Rahnsdorfer Str. 35,12587,52.450956,13.632986,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G25,09G25,Müggelschlößchen-Schule (Grundschule),mueggelschloesschen-schule@t-online.de,http://www.ms-schule.de,SVDSL,250,,Alfred-Randt-Str. 56,12559,52.43884,13.6059,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G26,09G26,Schule an den Püttbergen (Grundschule),Sekretariat@09G26.schule.berlin.de,http://www.schule-an-den-puettbergen.de,ADSL,16,,Fürstenwalder Allee 182,12589,52.43385,13.70158,MagentaZuhause M,25 MBit/s,5 MBit/s,300 MBit/s
+09G27,09G27,Friedrichshagener Schule (Grundschule),09g27@09g27.schule.berlin.de,http://www.friehagrund.de,VDSL,100,,Peter-Hille-Str. 7,12587,52.454606,13.621399,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09G29,09G29,Schmöckwitzer Insel-Schule (Grundschule),grundschule-schmoeckwitz@gmx.de,http://www.schmöckis.de,SVDSL,250,,Adlergestell 776,12527,52.376769,13.647546,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09G30,09G30,Kiefholz-Grundschule,sekretariat@kiefholz.schule.berlin.de,http://kiefholz-grundschule.de,VDSL,50,,Kiefholzstr. 45,12435,52.48626,13.45609,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+09G31,09G31,31. Schule,,,SVDSL,175,,Keplerstr. 10,12459,52.459334,13.532459,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09K01,09K01a,Merian-Schule (Integrierte Sekundarschule),Sekretariat-Hoernlestrasse@09K01.schule.berlin.de,http://www.merian.schule,VDSL,100,,Hoernlestr. 80,12555,52.46431,13.57643,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09K01,09K01b,Merian-Schule (Integrierte Sekundarschule),,,VDSL,100,Filiale,Mittelheide 49,12555,52.462941,13.590616,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09K02,09K02,Anna-Seghers-Schule (Gemeinschaftsschule),09k02@09k02.schule.berlin.de,http://www.anna-seghers-schule.de,VDSL,50,,Radickestr. 43,12489,52.435416,13.548246,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09K03,09K03,Fritz-Kühn-Schule (Integrierte Sekundarschule),sekretariat@fritz-kuehn-schule.de,http://www.fritz-kuehn-schule.de,SVDSL,250,,Dahmestr. 45,12526,52.40141,13.5647,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09K04,09K04,Isaac-Newton-Schule (Integrierte Sekundarschule),sekretariat@isaac-newton-schule.de,http://www.isaac-newton-schule.de,VDSL,100,,Zeppelinstr. 76-80,12459,52.4659,13.51817,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K05,09K05,Wilhelm-Bölsche-Schule (Integrierte Sekundarschule),Sekretariat@boelsche.schule.berlin.de,http://wilhelm-boelsche-schule.de/,VDSL,100,,Aßmannstr. 11,12587,52.45109,13.61894,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K06,09K06,Hans-Grade-Schule (Integrierte Sekundarschule),09k06@09k06.schule.berlin.de,http://hans-grade-schule.de,VDSL,50,,Heubergerweg 37,12487,52.444484,13.499022,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K07,09K07a,Sophie-Brahe-Gemeinschaftsschule,sophie-brahe-schule@gmx.de,http://www.sophie-brahe-schule.de,VDSL,100,,Am Plänterwald 17-23,12435,52.48171,13.47804,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K07,09K07b,Sophie-Brahe-Gemeinschaftsschule,,,SVDSL,250,2. Anschluß,,,52.481810,13.478326,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K07,09K07c,Sophie-Brahe-Gemeinschaftsschule,,,VDSL,50,3. Anschluß,,,52.481919,13.478629,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09K08,09K08,Schule an der Dahme (Integrierte Sekundarschule),info@dahmeschule.de,http://www.dahmeschule.de/,SVDSL,175,,Glienicker Str. 24 -30,12557,52.44056,13.56727,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09K09,09K09,Grünauer Gemeinschaftsschule,sekretariat@gruenauer-schule.de,http://www.gruenauer-schule.de,VDSL,50,,Walchenseestr. 40,12527,52.419368,13.576124,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09S03,09S03,Albatros-Schule,info@albatros.schule.berlin.de,http://www.albatros.schule-berlin.de,ADSL,16,,Treskowallee 222,12459,52.471245,13.516154,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+09S04,09S04,Ahorn-Schule,09S04@09S04.schule.berlin.de,http://www.ahorn-schule.de,SVDSL,175,,Peter-Hille-Str. 118,12587,52.44782,13.61966,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09S06,09S06,Schule am Wildgarten,foerderzentrum.trep-koep@t-online.de,http://www.schule-wildgarten.de,SVDSL,250,,Köpenicker Landstr. 185A,12437,52.473436,13.48707,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09Y03,09Y03,Archenhold-Gymnasium,sekretariat@archenhold.de,http://pi.archenhold.de,VDSL,50,,Rudower Str. 7,12439,52.4514,13.52271,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+09Y04,09Y04,Anne-Frank-Gymnasium,sekretariat@afg.schule.berlin.de,http://www.anne-frank-schule-berlin.de,SVDSL,250,,Uranusstr. 15 -17,12524,52.399327,13.525296,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09Y05,09Y05,Alexander-von-Humboldt-Gymnasium,sekretariat@avh-schule.de,http://www.avh-schule.de,SVDSL,250,,Oberspreestr. 173,12555,52.445252,13.566972,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+09Y06,09Y06,Gerhart-Hauptmann-Gymnasium,sekretariat@ghs-berlin.de,http://www.ghs-berlin.de,VDSL,100,,Bruno-Wille-Str. 37-45,12587,52.45227,13.63269,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+09Y10,09Y10,Gebrüder-Montgolfier-Gymnasium,sekretariat@gemont.de,http://www.gemont.de,VDSL,100,,Ellernweg 20-22,12487,52.44833,13.50379,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+09Y11,09Y11,Emmy-Noether-Gymnasium,sekretariat@noether-gymnasium.de,http://www.noether-gymnasium.de,VDSL,100,,Pablo-Neruda-Str. 6-7,12559,52.44275,13.588735,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10A04,10A04,Victor-Klemperer-Kolleg,hoffmann@victor-klemperer-kolleg.de,http://www.abi-vkk.de,,-,,Martha-Arendsee-Str. 15,12681,52.5363,13.53885,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10B01,10B01,Oscar-Tietz-Schule (OSZ Handel II),info@oscar-tietz-schule.de,http://www.oscar-tietz-schule.de,,,,,,,,,,,
+10B02,10B02,Rahel-Hirsch-Schule (OSZ Gesundheit/Medizin),sekretariat@rahel-hirsch.schule,,,,,,,,,,,,
+10G01,10G01,Paavo-Nurmi-Grundschule,nurmi-grundschule@gmx.de,http://www.paavo-nurmi-grundschule.de,DSL 16000,16,Hauptstandort,Schorfheidestr. 42,12689,52.570866,13.576437,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10G03,10G03,Selma-Lagerlöf-Grundschule,slagerloefg@aol.com,http://www.slgs.de,VDSL 50,50,Hauptstandort,Wörlitzer Str. 31,12689,52.56767,13.57023,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G04,10G04,Falken-Grundschule,sekretariat@falken-gs.schule.berlin.de,http://www.falken-grundschule.de,VDSL 50,50,Hauptstandort,Geraer Ring 2,12689,52.56593,13.5564,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G05,10G05,Ebereschen-Grundschule,ebereschen-gs@hotmail.de,http://www.ebereschen-grundschule.de,DSL 16000,16,Hauptstandort,Borkheider Str. 27,12689,52.56407,13.57294,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G07,10G07,Karl-Friedrich-Friesen-Grundschule,K.-F.-Friesen-Grundschule@t-online.de,http://kff.schule,VDSL 100,100,Filiale,Max-Herrmann-Str. 5,12687,52.55335,13.56415,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G08,10G08,Wilhelm-Busch-Grundschule,Wilhelm-Busch-GS@t-online.de,http://wilhelm-busch-gs.de,DSL 6000,6,Hauptstandort,Parsteiner Ring 24,12679,52.55325,13.58137,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10G09,10G09,Grundschule am Bürgerpark,sekretariat@buergerpark.schule.berlin.de,http://www.gs-am-buergerpark.de,VDSL 100,100,Hauptstandort,Jan-Petersen-Str. 18B,12679,52.55062,13.56569,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G10,10G10,Peter-Pan-Grundschule,Sekretariat@peter-pan.schule.berlin.de,http://www.peter-pan-grundschule.de,VDSL 100,100,Hauptstandort,Stolzenhagener Str. 9,12679,52.548156,13.551672,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G11,10G11,Grundschule an der Mühle,schulleitung@10G11.schule.berlin.de,,DSL 6000,6,Hauptstandort,Kienbergstr. 59,12685,52.53976,13.5657,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+10G12,10G12,Grundschule an der Geißenweide,sekretariat@geissenweide.schule.berlin.de,http://www.gsadgw.de,DSL 16000,16,Hauptstandort,Amanlisweg 40,12685,52.537783,13.551797,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10G13,10G13,Johann-Strauss-Grundschule,sekretariat@johannstrauss.schule.berlin.de,http://www.johann-strauss-grundschule.de,VDSL 25,25,Hauptstandort,Cecilienstr. 81,12683,52.52982,13.55966,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10G14,10G14,Grundschule unter dem Regenbogen,10g14@10g14.schule.berlin.de,http://www.grundschule-unterm-regenbogen.de,DSL 16000,16,Hauptstandort,Murtzaner Ring 37,12681,52.5301,13.54212,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G16,10G16,Fuchsberg-Grundschule,Sekretariat@fuchsberg.schule.berlin.de,http://www.grundschule-fuchsberg.de,DSL 16000,16,Hauptstandort,Dankratweg 19,12683,52.49039,13.551484,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+10G17,10G17,Beatrix-Potter-Grundschule,Sekretariat@beatrix-potter.schule.berlin.de,http://www.beatrix-potter-grundschule.de,DSL 6000,6,Hauptstandort,Ludwigsfelder Str. 7,12629,52.54682,13.58926,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G18,10G18a,Pusteblume-Grundschule,sekretariat@pusteblume-Grundschule.de,http://www.pusteblume-grundschule.de,VDSL 100,100,Hauptstandort,Kastanienallee 118,12627,52.54256,13.6001,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10G18,10G18b,Pusteblume-Grundschule,,,DSL 16000,16,Filiale,Kastanienallee 61,12627,52.540970,13.599913,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G19,10G19a,Bücherwurm-Schule am Weiher (Grundschule),schulleitung@buecherwurm.schule.berlin.de,http://www.buecherwurm-grundschule.de,DSL 6000,6,Hauptstandort,Eilenburger Str. 1,12627,52.54068,13.62913,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10G19,10G19b,Bücherwurm-Schule am Weiher (Grundschule),,,DSL 16000,16,Filiale,Eilenburger Str. 6-8,12627,52.539784,13.630111,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+10G22,10G22,Kolibri-Grundschule,10G22@10G22.schule.berlin.de,http://www.kolibri-grundschule.de,VDSL 100,100,Hauptstandort,Schönewalder Str. 9,12627,52.532527,13.618558,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10G25,10G25,Grundschule am Schleipfuhl,schulleitung@schleipfuhl.schule.berlin.de,http://www.grundschule-am-schleipfuhl.de,DSL 16000,16,Hauptstandort,Nossener Str. 85,12627,52.52913,13.6081,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10G26,10G26,Friedrich-Schiller-Grundschule,sekretariat@fsg.schule.berlin.de,http://friedrich-schiller-grundschule.de,DSL 16000,16,Hauptstandort,An der Schule 13-17,12623,52.5115,13.614782,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G28,10G28,Grundschule am Hollerbusch,10G28@10G28.schule.berlin.de,http://www.ganztaegig-lernen.de/grundschule-am-hollerbusch-berlin,DSL 16000,16,Hauptstandort,Erich-Kästner-Str. 64,12619,52.52593,13.59512,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G29,10G29,Grundschule an der Wuhle,grundschulea.d.wuhle@gmx.de,http://grundschuleanderwuhle.de,DSL 16000,16,Hauptstandort,Teterower Ring 79,12619,52.52118,13.58041,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+10G30,10G30,Mahlsdorfer Grundschule,sekretariat@mahlsdorfer-gs.schule.berlin.de,http://www.mahlsdorfer-grundschule.de,DSL 6000,6,Hauptstandort,Feldrain 47,12623,52.522102,13.628787,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+10G31,10G31,Franz-Carl-Achard-Grundschule,sekretariat@achard.schule.berlin.de,http://www.achard-grundschule.org,DSL 16000,16,Hauptstandort,Adolfstr. 25,12621,52.507928,13.585120,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10G32,10G32,Kiekemal-Schule (Grundschule),10G32@10G32.schule.berlin.de,http://www.kiekemal-grundschule.de,DSL 16000,16,Hauptstandort,Hultschiner Damm 219,12623,52.49407,13.60915,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10G33,10G33,Ulmen-Grundschule,10g33@10g33.schule.berlin.de,http://www.ulmenschule.de,VDSL 25,25,Hauptstandort,Ulmenstr. 79-85,12621,52.48584,13.58006,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+10G34,10G34,Schule am grünen Stadtrand,10G34@10G34.schule.berlin.de,http://www.schule-am-gruenen-stadtrand.de,DSL 6000,6,Hauptstandort,Geraer Ring 54,12689,52.56973,13.56193,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K01,10K01,Rudolf-Virchow-Schule,kontakt@rvo-berlin.de,http://www.rvo-berlin.de,SVDSL 250,25,Hauptstandort,Glambecker Ring 90,12679,52.5555,13.57573,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K02,10K02,Ernst-Haeckel-Schule,haeckel-os@arcor.de,,DSL 6000,6,Hauptstandort,Luckenwalder Str. 53,12629,52.54322,13.58574,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10K03,10K03,Kerschensteiner-Schule,k-iss@gmx.net,http://www.k-iss.de,VDSL 100,100,Hauptstandort,Golliner Str. 2,12689,52.56681,13.579505,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10K05,10K05,Jean-Piaget-Schule,jean-piaget.oberschule@berlin.de,http://www.piaget-schule-berlin.de,VDSL 50,50,Hauptstandort,Mittenwalder Str. 5,12629,52.54542,13.59615,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K06,10K06a,Georg-Klingenberg-Schule,sekretariat@klingenberg.schule.berlin.de,http://www.georg-klingenberg.schule,VDSL 100,100,Hauptstandort,Alberichstr. 24,12683,52.49015,13.55783,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K06,10K06b,Georg-Klingenberg-Schule,,,VDSL 100,100,2. Anschluss,,,52.490637,13.557930,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K07,10K07,Caspar-David-Friedrich-Schule,cdf-schulsekretariat@web.de,http://cdf-oberschule.de,DSL 6000,6,Hauptstandort,Alte Hellersdorfer Str. 7,12629,52.535223,13.591017,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+10K08,10K08,Johann-Julius-Hecker-Schule,hecker@jjh-iss.de,http://www.jjh-iss.de,DSL 16000,16,Hauptstandort,Hohenwalder Str. 2,12689,52.56993,13.57866,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K09,10K09,Konrad-Wachsmann-Schule,sekretariat@konrad-wachsmann.schule.berlin.de,http://www.konrad-wachsmann-schule.de,DSL 16000,16,Hauptstandort,Geithainer Str. 12,12627,52.529047,13.622082,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K10,10K10,Wolfgang-Amadeus-Mozart-Schule (Gemeinschaftsschule),sekretariat@mozart.schule.berlin.de,www.mozart-schule.berlin,DSL 16000,16,Hauptstandort,Cottbusser Str. 23,12627,52.53699,13.59663,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10K11,10K11,Marcana-Schule (Gemeinschaftsschule),marcanaschule@t-online.de,http://www.marcana-schule.de,DSL 16000,16,Hauptstandort,Flämingstr. 16-18,12689,52.56382,13.56592,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10K12,10K12a,Gretel-Bergmann-Gemeinschaftsschule,gb-gems@mail.de,,DSL 16000,16,Hauptstandort,Liebensteiner Straße 24,12687,52.557970,13.560062,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10K12,10K12b,Gretel-Bergmann-Gemeinschaftsschule,,,unbekannt,-,Filiale,,,,,,,,
+10K13,10K13,13. Schule (Integrierte Sekundarschule),sekretariat@10K13.schule.berlin.de,,VDSL 50,50,Hauptstandort,An der Schule 41-59,12623,52.508010,13.615787,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+10S04,10S04,Schule am Pappelhof,info@pappelhof.schule.berlin.de,http://schule-am-pappelhof.de,VDSL 50,50,Hauptstandort,Ketschendorfer Weg 21,12683,52.531157,13.553338,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+10S07,10S07,Schule am Rosenhain,Sekretariat@rosenhain.schule.berlin.de,,DSL 16000,16,Hauptstandort,Klingenthaler Str. 32,12627,52.53,13.60199,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+10S08,10S08,Schule am Mummelsoll,schulleitung@10S08.schule.berlin.de,http://www.mummelsoll.de,DSL 16000,16,Hauptstandort,Eilenburger Str. 4,12627,52.540282,13.629414,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+10Y01,10Y01,Tagore-Gymnasium,schulleitung@tagore-gymnasium.de,http://www.tagore-gymnasium.de,DSL 16000,16,Hauptstandort,Sella-Hasse-Str. 25,12687,52.55271,13.55658,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10Y02,10Y02,Otto-Nagel-Gymnasium,sekretariat@otto-nagel-gymnasium.de,http://ong.berlin,VDSL 100,100,Hauptstandort,Schulstr. 11,12683,52.511922,13.549199,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10Y03,10Y03,Wilhelm-von-Siemens-Gymnasium,schulleitung@wvsg.schule.berlin.de,http://wivonsi.be.schule.de,VDSL 100,100,Hauptstandort,Allee der Kosmonauten 134,12683,52.533571,13.551106,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+10Y08,10Y08,Sartre-Gymnasium,sekretariat@sartre-gymnasium.de,sartre-gymnasium.de,VDSL 100,100,Hauptstandort,Kyritzer Str. 103,12629,52.54332,13.59106,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+10Y11,10Y11a,Melanchthon-Gymnasium,spieler@melanchthon-schule-berlin.de,http://www.melanchthon-schule-berlin.de,VDSL 25,25,Hauptstandort,Adele-Sandrock-Str. 73-75,12627,52.534367,13.618584,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+10Y11,10Y11b,Melanchthon-Gymnasium,,,VDSL 25,25,2. Anschluss,,,52.534901,13.618280,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11A07,11A07,Schul- und Leistungssportzentrum Berlin (Sportforum),sekretariat@slzb.de,http://www.slzb.de,,,,,,,,,,,
+11B01,11B01,Hein-Moeller-Schule (OSZ Energietechnik II),sekretariat@hein-moeller-schule.de,http://www.Hein-Moeller-Schule.de,,,,,,,,,,,
+11B02,11B02,"Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik)",michael.nitsche@max-taut-schule.de,http://www.max-taut-schule.de,,,,,,,,,,,
+11B04,11B04,Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen),info@fls-berlin.de,http://www.fls-berlin.de,,,,,,,,,,,
+11G01,11G01,Sonnenuhr-Schule (Grundschule),11G01@11G01.schule.berlin.de,http://www.sonnenuhr-schule.de,16.000 Kbit/s,16,,Franz-Jacob-Str. 33,10369,52.52933,13.46695,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G02,11G02,Schule am Roederplatz (Grundschule),sekretariat-gs-am-roederplatz@t-online.de,http://gs-am-roederplatz.de,VDSL 50,50,,Bernhard-Bästlein-Str. 22,10367,52.52899,13.48214,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G03,11G03,Schule im Gutspark (Grundschule),sekretariat@gutspark.schule.berlin.de,http://www.grundschule-im-gutspark.de,16.000 Kbit/s,16,,Josef-Orlopp-Str. 20,10367,52.52237,13.48307,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11G05,11G05a,Schule auf dem lichten Berg (Grundschule),schulleitung@11G05.schule.berlin.de,http://www.gs-lichtenberg-berlin.de,VDSL 100,100,,Atzpodienstr. 19,10365,52.51686,13.49421,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G05,11G05b,Schule auf dem lichten Berg (Grundschule),,,VDSL 25,25,Filiale,Siegfriedstr. 208-210,10365,52.513152,13.497628,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G06,11G06,Adam-Ries-Schule (Grundschule),sekretariat-11g06@gmx.de,http://www.adamries.schule,VDSL 50,50,,Alt-Friedrichsfelde 66,10315,52.5114,13.53125,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G07,11G07,Hermann-Gmeiner-Schule (Grundschule),Schulleitung@gmeiner.schule.berlin.de,http://www.gmeiner-schule-berlin.de,VDSL 25,25,Gebäude 1,Harnackstr. 17,10365,52.5101,13.48594,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G08,11G08,Robinson-Schule (Grundschule),11g08@11g08.schule.berlin.de,http://www.robinsonschule-berlin.de,16.000 Kbit/s,16,,Wönnichstr. 7,10317,52.510047,13.50046,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11G09,11G09,Bürgermeister-Ziethen-Schule (Grundschule),sekretariat@buezie.schule.berlin.de,http://www.buezie.de,VDSL 100,100,,Massower Str. 39,10315,52.50818,13.51665,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11G10,11G10,Schule im Ostseekarree (Grundschule),Sekretariat@11G10.schule.berlin.de,http://www.ostseekarree.net,16.000 Kbit/s,16,,Barther Str. 27,13051,52.56409,13.50024,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G11,11G11,Bernhard-Grzimek-Schule (Grundschule),Sekretariat@grzimek.schule.berlin.de,http://bernhard-grzimek-schule.de,VDSL 25,25,,Sewanstr. 184,10319,52.49572,13.51176,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+11G12,11G12,Lew-Tolstoi-Schule (Grundschule),sekretariat@11g12.schule.berlin.de,http://www.lew-tolstoi-schule.de,16.000 Kbit/s,16,,Römerweg 120,10318,52.49199,13.53678,MagentaZuhause L,100 MBit/s,40 MBit/s,
+11G13,11G13,Karlshorster Schule (Grundschule),Sekr.KarlshorsterG@t-online.de,http://www.karlshorster-grundschule.de,16.000 Kbit/s,16,,Lisztstr. 6,10318,52.48925,13.51994,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G14,11G14,Richard-Wagner-Schule (Grundschule),sekretariat@richard-wagner.schule.berlin.de,http://www.richard-wagner-grundschule.de,VDSL 50,50,,Ehrenfelsstr. 36,10318,52.479326,13.53427,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G16,11G16,Schule an der Victoriastadt (Grundschule),11g16@11g16.schule.berlin.de,http://www.gs-victoriastadt.de,16.000 Kbit/s,16,,Nöldnerstr. 44,10317,52.50159,13.48054,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11G17,11G17,Brodowin-Schule (Grundschule),11G17@11G17.schule.berlin.de,http://www.brodowinschule.de,VDSL 50,50,,Liebenwalder Str. 22,13055,52.53738,13.50067,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G18,11G18,Schule am Wilhelmsberg (Grundschule),Wilhelmsberg@t-online.de,http://www.gs-am-wilhelmsberg.de,VDSL 50,50,,Sandinostr. 8,13055,52.537206,13.483664,MagentaZuhause via Funk,50 MBit/s,10 MBit/s,
+11G19,11G19,Obersee-Schule (Grundschule),sekretariat@obersee.schule.berlin.de,http://www.obersee-schule.de,VDSL 100,100,,Roedernstr. 69-72,13053,52.543711,13.488079,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G21,11G21,Schule Am Faulen See (Grundschule),schule-am-faulen-see@gmx.de,http://www.schule-am-faulen-see.schule-berlin.net,16.000 Kbit/s,16,,Degnerstr. 71,13053,52.5521,13.49837,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G22,11G22,Martin-Niemöller-Grundschule,MN11G22@t-online.de,http://Martin-Niemoeller-Schule.de,16.000 Kbit/s,16,,Am Breiten Luch 5,13053,52.56339,13.51209,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G23,11G23,Friedrichsfelder Schule (Grundschule),Sekretariat11G23@t-online.de,http://friedrichsfelder-schule.de,16.000 Kbit/s,16,,Lincolnstr. 67,10315,52.503,13.50355,MagentaZuhause M,50 MBit/s,10 MBit/s,300 MBit/s
+11G25,11G25,Schule am Wäldchen (Grundschule),Grundschule-am-Waeldchen@t-online.de,http://www.schule-am-waeldchen.de,16.000 Kbit/s,16,,Wustrower Str. 28,13051,52.56846,13.50628,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G26,11G26,Randow-Schule (Grundschule),Sekretariat@randow.schule.berlin.de,http://www.randow-schule.de,VDSL 25,25,,Randowstr. 45,13057,52.56405,13.51904,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G28,11G28,Feldmark-Schule (Grundschule),sekretariat@feldmark.schule.berlin.de,http://www.Feldmark-Schule.de,VDSL 50,50,,Wartiner Str. 23,13057,52.569161,13.531731,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G29,11G29,Matibi-Schule (Grundschule),sekretariat-11G29@t-online.de,http://www.matibi-grundschule.de,VDSL100,100,,Prendener Str. 15,13059,52.5724,13.52072,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11G29,11G29F,Matibi-Schule (Grundschule),,,VDSL 25,25,Filiale,Straße 3 Nr. 21,13059,52.581300,13.534435,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11G31,11G31,Schmetterlings-Grundschule,Sekretariat@11G31.schule.berlin.de,http://www.schmetterlings-grundschule.de,VDSL 100,100,,Dolgenseestr. 60,10319,52.49417,13.50546,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G32,11G32,Hans-Rosenthal-Grundschule,11G32@11G32.schule.berlin.de,http://www.11G32.de,16.000 Kbit/s,16,Doppelstandort,Bernhard-Bästlein-Straße 56,10367,52.531774,13.480860,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11G33,11G33,33. Schule (Grundschule),11G33@11G33.schule.berlin.de,,VDSL 100,100,,Rüdigerstr. 76,10365,52.516342,13.501205,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G34,11G34,34. Schule (Grundschule),11G34@11G34.schule.berlin.de,,16.000 Kbit/s,16,,Konrad-Wolf-Str. 11,13055,52.547866,13.498831,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11G35,11G35,35. Schule (Grundschule),11g35@11g35.schule.berlin.de,,16.000 Kbit/s,16,,Sewanstr. 43,10319,52.498978,13.502358,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11K01,11K01,Alexander-Puschkin-Schule,mail@puschkinschule.eu,http://www.puschkinschule.eu,16.000 Kbit/s,16,,Massower Str. 37,10315,52.50795,13.51556,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11K02,11K02,Mildred-Harnack-Schule,sekretariat@mh.schule.berlin.de,http://www.mildred-harnack-schule.de,VDSL 25,25,,Schulze-Boysen-Str. 12,10365,52.511321,13.481213,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11K04,11K04,Gutenberg-Schule,gutenberg-os@t-online.de,http://www.gutenberg-os.de,16.000 Kbit/s,16,,Sandinostr. 10,13055,52.53573,13.48743,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11K05,11K05,Fritz-Reuter-Schule,fritz@fritz-reuter-oberschule.de,http://www.Fritz-Reuter-Oberschule.de,VDSL 50,50,,Prendener Str. 29,13059,52.570237,13.52104,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11K06,11K06,Schule am Rathaus,OberschuleamRathaus@t-online.de,http://www.schuleamrathaus.de,VDSL 50,50,,Rathausstr. 8,10367,52.515892,13.48038,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11K07,11K07,Vincent-van-Gogh-Schule,vincent-van-gogh@t-online.de,,16.000 Kbit/s,16,,Wustrower Str. 26,13051,52.5678,13.50702,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11K08,11K08,George-Orwell-Schule,info@george-orwell-oberschule.de,http://www.george-orwell-oberschule.de,16.000 Kbit/s,16,,Sewanstr. 223,10319,52.496354,13.514933,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11K09,11K09,Philipp-Reis-Schule,info@philipp-reis-oberschule.de,http://www.philipp-reis-oberschule.de,16.000 Kbit/s,16,,Werneuchener Str. 15,13055,52.53952,13.49572,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11K10,11K10a,Grüner Campus Malchow,schulleiter@gruener-campus-malchow.de,http://www.gruener-campus-malchow.de,16.000 Kbit/s,16,Malchower Chaussee,Malchower Chaussee 2,13051,52.569831,13.479469,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11K10,11K10b,Grüner Campus Malchow,,,16.000 Kbit/s,16,Filiale Doberaner Str.,Doberaner Str. 55,13051,52.569228,13.491782,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11K11,11K11,Paul-Schmidt-Schule (Integrierte Sekundarschule),info@paul-schmidt-schule.de,http://www.paul-schmidt-schule.de,VDSL 50,50,,Malchower Weg 54,13053,52.55475,13.50438,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11K12,11K12a,Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule),sekretariat@kniese-schule-berlin.de,http://www.kniese-schule-berlin.de,16.000 Kbit/s,16,,Erich-Kurz-Str. 6-10,10319,52.498846,13.519748,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11K12,11K12b,Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule),,,16.000 Kbit/s,16,Filiale Dolgenseestr.,Dolgenseestr. 60,10319,52.494202,13.505215,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11S02,11S02,Schule am Fennpfuhl,Schule-am-Fennpfuhl@t-online.de,,VDSL 50,50,,Alfred-Jung-Str. 19,10369,52.52392,13.4769,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11S04,11S04,Paul-und-Charlotte-Kniese-Schule,sekretariat@kniese-schule-berlin.de,http://www.kniese-schule-berlin.de,16.000 Kbit/s,16,,Erich-Kurz-Str. 6-10,10319,52.498353,13.519085,MagentaZuhause S,16 MBit/s,"2,4 MBit/s",300 MBit/s
+11S05,11S05,Schule am grünen Grund,schule-am-gruenen-grund@t-online.de,,16.000 Kbit/s,16,,Herzbergstr. 79,10365,52.52822,13.50858,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+11S06,11S06,Selma-Lagerlöf-Schule,sekretariat@11S06.schule.berlin.de,http://www.sprachheilschule-selma-lagerloef.de,VDSL 100,100,Doppelstandort,Bernhard-Bästlein-Str. 56,10367,52.53183,13.47998,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11S07,11S07,Carl-von-Linné-Schule,sekretariat@linne.schule.berlin.de,,VDSL 100,100,,Paul-Junius-Str. 15,10367,52.5217,13.47301,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11S08,11S08,Schule Am Breiten Luch,Sekretariat@11S08.schule.berlin.de,,16.000 Kbit/s,16,,Am Breiten Luch 19,13053,52.5627,13.5136,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11S12,11S12,Nils-Holgersson-Schule,mail@nils-holgersson-schule-berlin.de,,16.000 Kbit/s,16,,Otto-Marquardt-Str. 12-14,10369,52.53405,13.47214,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11Y02,11Y02,Johann-Gottfried-Herder-Gymnasium,sekretariat@jgherder.de,http://www.jgherder.de,VDSL 25,25,,Franz-Jacob-Str. 8,10369,52.52671,13.467245,MagentaZuhause L,100 MBit/s,40 MBit/s,300 MBit/s
+11Y05,11Y05,Hans-und-Hilde-Coppi-Gymnasium,sekretariat@coppi-gym.de,http://www.coppi-gym.de,6.000 Kbit/s,6,,Römerweg 30-32,10318,52.4918,13.52343,MagentaZuhause S,6 MBit/s,"2,4 MBit/s",300 MBit/s
+11Y09,11Y09a,Barnim-Gymnasium,kontakt@barnim-gymnasium.net,http://www.barnim-gymnasium.net,VDSL 50,50,,Ahrensfelder Chaussee 41,13057,52.569201,13.549303,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11Y09,11Y09b,Barnim-Gymnasium,,,16.000 Kbit/s,16,,,,52.570012,13.547932,MagentaZuhause XL,175 MBit/s,40 MBit/s,300 MBit/s
+11Y10,11Y10,Manfred-von-Ardenne-Gymnasium,info@ardenne-gymnasium.de,http://www.ardenne-gymnasium.de,VDSL 50,50,,Werneuchener Str. 27-28,13055,52.54188,13.49242,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+11Y11,11Y11,Immanuel-Kant-Gymnasium,sekretariat@kant-gymnasium.de,http://www.kant-gymnasium.de,VDSL 100,100,,Lückstr. 63,10317,52.501956,13.489635,MagentaZuhause XL,250 MBit/s,40 MBit/s,300 MBit/s
+12B01,12B01,Georg-Schlesinger-Schule (OSZ Maschinen- und Fertigungstechnik),schulbuero@gs-schule.de,http://www.gs-schule.de,,,,,,,,,,,
+12B02,12B02,Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik),sekretariat@emilfischerschule.de,http://www.emilfischerschule.de,,,,,,,,,,,
+12B03,12B03,Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie),litfass@ernst-litfass-schule.de,http://www.ernst-litfass-schule.de,,,,,,,,,,,
+12G01,12G01,Havelmüller-Grundschule,12G01@12G01.schule.berlin.de,http://havelmueller-grundschule.de,,-,,Namslaustr. 49-57,13507,52.578512,13.284936,,,,
+12G02,12G02,Grundschule am Schäfersee,schulleitung@schaefersee-grundschule.de,http://www.schaefersee-grundschule.de,,-,,Baseler Str. 2-6,13407,52.5622,13.3554,,,,
+12G03,12G03,Reginhard-Grundschule,12g03@12g03.schule.berlin.de,http://www.reginhard.cidsnet.de,,-,,Letteallee 39-41,13409,52.563219,13.370292,,,,
+12G04,12G04,Till-Eulenspiegel-Grundschule,sekretariat@eulenspiegel-schule-berlin.de,http://www.eulenspiegel-schule-berlin.de,,-,,Humboldtstr. 8-13,13407,52.5732,13.3423,,,,
+12G05,12G05,Kolumbus-Grundschule,Kolumbus-Grundschule@t-online.de,http://www.kolumbus-schule.de,,-,,Büchsenweg 23A,13409,52.57569,13.36622,,,,
+12G06,12G06,Hausotter-Grundschule,hausotter-grundschule@gmx.de,http://hausotter-grundschule.de,,-,,Hausotterplatz 4,13409,52.56963,13.375634,,,,
+12G07,12G07,Mark-Twain-Grundschule,schulleitung@twainmail.de,http://www.twainweb.de,,-,,Auguste-Viktoria-Allee 95,13403,52.56864,13.3264,,,,
+12G09,12G09,Grundschule an der Peckwisch,schulleitung@peckwisch.de,http://www.peckwisch.de,,-,,Tornower Weg 26-34,13439,52.59299,13.34869,,,,
+12G10,12G10,Peter-Witte-Grundschule,sekretariat@12g10.schule.berlin.de,http://www.peter-witte-schule.de,,-,,Rathauspromenade 75,13437,52.5863,13.33039,,,,
+12G11,12G11,Ringelnatz-Grundschule,Ringelnatz-Schule@t-online.de,http://www.ringelnatz-grundschule.de/,,-,,Wilhelm-Gericke-Str. 7,13437,52.5861,13.33753,,,,
+12G12,12G12,Borsigwalder Grundschule,sekretariat@borsigwaldergs.de,http://borsigwaldergs.de,,-,,Miraustr. 100,13509,52.58822,13.30561,,,,
+12G13,12G13,Franz-Marc-Grundschule,sekretariat@fmg.schule.berlin.de,http://www.fmg-tegel.de,,-,,Treskowstr. 26-31,13507,52.58822,13.2828,,,,
+12G14,12G14,Alfred-Brehm-Grundschule,brehm-schule@web.de,http://www.alfred-brehm-schule.de,,-,,Ascheberger Weg 8A,13507,52.57359,13.28368,,,,
+12G15,12G15,Hoffmann-von-Fallersleben-Grundschule,Sekretariat@hvfg.schule.berlin.de,http://www.fallersleben-grundschule-berlin.de,,-,,Ziekowstr. 80-88,13509,52.58744,13.29515,,,,
+12G17,12G17,Ellef-Ringnes-Grundschule,sekretariat@erg.schule.berlin.de,http://www.ellef-ringnes-grundschule.de,,-,,Im Erpelgrund 11-17,13503,52.60802,13.23202,,,,
+12G18,12G18,Grundschule am Tegelschen Ort,info@grundschule-tegelort.de,http://www.grundschule-tegelort.de,,-,,Gerlindeweg 11-23,13505,52.576181,13.228007,,,,
+12G19,12G19,Münchhausen-Grundschule,muenchhausen-gs@web.de,http://www.muenchhausen-grundschule.de,,-,,Artemisstr. 22-26,13469,52.60851,13.31718,,,,
+12G20,12G20,Grundschule am Vierrutenberg,sekretariat@gs-am-vierrutenberg.de,http://www.grundschule-am-vierrutenberg.de,,-,,Am Vierrutenberg 59-65,13469,52.617516,13.339396,,,,
+12G21,12G21,Grundschule am Fließtal,buero@gsfliesstal.de,http://www.grundschule-am-fliesstal.de,,-,,Seebadstr. 42-43,13467,52.61528,13.32062,,,,
+12G22,12G22,Gustav-Dreyer-Grundschule,schulleitung@gustav-dreyer-schule.de,http://www.gustav-dreyer-schule.de,,-,,Freiherr-vom-Stein-Str. 31,13467,52.61309,13.30379,,,,
+12G23,12G23,Victor-Gollancz-Grundschule,schule@gollancz.de,http://www.victor-gollancz-grundschule.de,,-,,Gollanczstr. 18-24,13465,52.63826,13.28757,,,,
+12G24,12G24,Renée-Sintenis-Grundschule,Renee.Sintenis@t-online.de,http://www.Renee-Sintenis-Grundschule.de,,-,,Laurinsteig 39-45,13465,52.63695,13.27237,,,,
+12G26,12G26,Märkische Grundschule,26.G@staatliche-Europa-schule.de,http://www.staatliche-europa-schule.de,,-,,Dannenwalder Weg 163-165,13439,52.5952,13.36016,,,,
+12G27,12G27,Chamisso-Grundschule,info@chamisso-grundschule.de,http://www.chamisso-grundschule.com,,-,,Senftenberger Ring 27,13435,52.60169,13.35807,,,,
+12G28,12G28,Grundschule in den Rollbergen,rollberge@web.de,http://www.rollberge.de,,-,,Waldshuter Zeile 6,13469,52.609905,13.335731,,,,
+12G29,12G29,Hermann-Schulz-Grundschule,hermann.schulz.grundschule@googlemail.com,http://www.hermann-schulz-grundschule.de,,-,,Kienhorststr. 67-79,13403,52.57359,13.32554,,,,
+12G30,12G30,Reineke-Fuchs-Grundschule,sekretariat@reineke-fuchs.schule.berlin.de,http://www.reineke-fuchs-grundschule.de/,,-,,Foxweg 15,13403,52.574,13.30985,,,,
+12G32,12G32,Charlie-Chaplin-Grundschule,charlie-chaplin.grundschule@web.de,http://charlie-chaplin-grundschule.de,,-,,Wilhelmsruher Damm 90-94,13439,52.59744,13.36465,,,,
+12G33,12G33,Lauterbach-Grundschule,sek.12G33@lauterbach.schule.berlin.de,http://www.lauterbach-schule.de,,-,,Senftenberger Ring 41,13435,52.603879,13.359443,,,,
+12G34,12G34,Otfried-Preußler-Grundschule,sekretariat@ops.schule.berlin.de,http://www.ops-berlin.de,,-,,Schulzendorfer Str. 99,13503,52.613129,13.227141,,,,
+12K01,12K01,Julius-Leber-Schule,sekretariat@jls-berlin.de,http://www.jls-berlin.de,,-,,Treskowstr. 26-31,13507,52.58822,13.2828,,,,
+12K02,12K02,Bettina-von-Arnim-Schule,info@bettina-schule.de,http://www.bettina-schule.de,,-,,Senftenberger Ring 49,13435,52.60511,13.35859,,,,
+12K03,12K03,Max-Beckmann-Schule (Integrierte Sekundarschule),schulleitung@m-b-o.net,http://www.m-b-o.net,,-,,Auguste-Viktoria-Allee 37,13403,52.57153,13.31463,,,,
+12K04,12K04,Paul-Löbe-Schule,paul-loebe-schule@gmx.de,http://www.paul-loebe-schule.de,,-,,Lindauer Allee 23-25,13407,52.57316,13.35461,,,,
+12K05,12K05,Gustav-Freytag-Schule (Integrierte Sekundarschule),kontakt@gustav-freytag-schule.berlin,http://www.gustav-freytag-schule.berlin,,-,,Breitkopfstr. 66-80,13409,52.56976,13.36575,,,,
+12K06,12K06,Benjamin-Franklin-Schule (Integrierte Sekundarschule),info@benjamin-franklin-schule.de,http://www.benjamin-franklin-schule.de,,-,,Sommerfelder Str. 5-7,13509,52.581447,13.300983,,,,
+12K07,12K07,Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau,12K07@12K07.schule.berlin.de,http://www.jeankraemerschule.de,,-,,Alt-Wittenau 8-12,13437,52.58995,13.33545,,,,
+12K09,12K09,Carl-Benz-Schule (Integrierte Sekundarschule),sek@cbo-iss.de,,,-,,Heidenheimer Str. 53-54,13467,52.615646,13.298748,,,,
+12K10,12K10,Carl-Bosch-Schule,buero.cabo@t-online.de,http://www.carlbosch.de,,-,,Frohnauer Str. 74-80,13467,52.62349,13.29375,,,,
+12K11,12K11,Albrecht-Haushofer-Schule,sekretariat@12k11.schule.berlin.de,http://www.albrecht-haushofer-schule.de,,-,,Kurzebracker Weg 40-46,13503,52.61914,13.22771,,,,
+12K12,12K12,Campus Hannah Höch (Gemeinschaftsschule),12K12@12K12.schule.berlin.de,http://www.campus-hannah-hoech.de,,-,,Finsterwalder Str. 52-56,13435,52.60028,13.34229,,,,
+12S01,12S01,Stötzner-Schule,verwaltung@stoetznerschule-berlin.de,http://www.stoetznerschule-berlin.de,,-,,Tietzstr. 26-28,13509,52.584273,13.304873,,,,
+12S03,12S03,Lauterbach-Schule,sek.12S03@lauterbach.schule.berlin.de,http://www.lauterbach-schule.de,,-,,Senftenberger Ring 41,13435,52.603879,13.359443,,,,
+12S04,12S04,Schule am Park,schule.am.park@web.de,http://www.schule-am-park-berlin.de,,-,,Eichborndamm 276-284,13437,52.594285,13.330313,,,,
+12S05,12S05,Wiesengrund-Schule,wiesengrund-schule@t-online.de,,,-,,Frohnauer Str. 74-80,13467,52.62349,13.29375,,,,
+12S06,12S06,Toulouse-Lautrec-Schule,sekretariat@toulouse-lautrec-schule.de,http://www.toulouse-lautrec-schule.de,,-,,Miraustr. 120-126,13509,52.58901,13.30389,,,,
+12Y01,12Y01,Friedrich-Engels-Gymnasium,feg@freenet.de,http://www.feg.berlin,,-,,Emmentaler Str. 67,13407,52.56959,13.35743,,,,
+12Y02,12Y02,Europäisches Gymnasium Bertha-von-Suttner,verwaltung@bertha-von-suttner.de,http://www.bertha-von-suttner.de,,-,,Reginhardstr. 172,13409,52.57145,13.36873,,,,
+12Y03,12Y03,Humboldt-Gymnasium,sekretariat@humboldtschule-berlin.eu,http://www.humboldtschule-berlin.de,,-,,Hatzfeldtallee 2-4,13509,52.59176,13.28891,,,,
+12Y04,12Y04,Gabriele-von-Bülow-Gymnasium,info@gvb-berlin.de,http://www.gvb-berlin.de,,-,,Tile-Brügge-Weg 63,13509,52.592148,13.297061,,,,
+12Y05,12Y05,Georg-Herwegh-Gymnasium,mail@herwegh-gymnasium.de,http://www.herwegh-gymnasium.de,,-,,Fellbacher Str. 18-19,13467,52.616834,13.303382,,,,
+12Y06,12Y06,Schulfarm Insel Scharfenberg,verwaltung@insel-scharfenberg.de,http://www.insel-scharfenberg.de,,-,,Schwarzer Weg 101-105,13505,52.574383,13.247293,,,,
+12Y07,12Y07,Romain-Rolland-Gymnasium,sekretariat@roromail.de,http://www.romain-rolland-gymnasium.eu,,-,,Place Moliere 4,13469,52.598998,13.317865,,,,
+12Y08,12Y08,Thomas-Mann-Gymnasium,sekretariat@tmgberlin.de,http://www.tmgberlin.de,,-,,Königshorster Str. 10,13439,52.59848,13.35224,,,,
