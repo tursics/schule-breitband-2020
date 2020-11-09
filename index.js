@@ -45,16 +45,18 @@ function setupStickyfill() {
 }
 
 function setupScrollerController() {
-	var openElement = document.querySelector('.overMap.open');
-	var closeElement = document.querySelector('.overMap.close');
+	var openElement = document.querySelector('.overMap .open');
+	var closeElement = document.querySelector('.overMap .close');
+	var overMapElement = document.querySelector('.overMap');
 	var articleElement = document.querySelector('article');
 
 	openElement.addEventListener('click', function (event) {
 		event.preventDefault();
 
-		openElement.className = openElement.className.substring(0, openElement.className.length - 5);
+		openElement.className = 'open';
 		closeElement.className += ' show';
 		articleElement.className += ' small';
+		overMapElement.className += ' small';
 
 		ddj.map.get().scrollWheelZoom.enable();
 	}, false);
@@ -63,8 +65,9 @@ function setupScrollerController() {
 		event.preventDefault();
 
 		openElement.className += ' show';
-		closeElement.className = closeElement.className.substring(0, closeElement.className.length - 5);
+		closeElement.className = 'close';
 		articleElement.className = articleElement.className.substring(0, articleElement.className.length - 6);
+		overMapElement.className = overMapElement.className.substring(0, overMapElement.className.length - 6);
 
 		ddj.map.get().scrollWheelZoom.disable();
 	}, false);

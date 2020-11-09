@@ -186,10 +186,11 @@ article {
 	max-width: 20rem;
 	margin: 0 0 0 auto;
 	right: 0;
-	transition: all 1s ease;
+	transition: all 400ms ease-in;
 }
 
 article.small {
+	pointer-events: none;
 	right: -19rem;
 }
 
@@ -207,41 +208,29 @@ figure {
 }
 
 figure .overMap {
+	border-radius: 0 0 1rem 1rem;
 	cursor: pointer;
-	display: none;
 	font-size: 1rem;
-	font-weight: 300;
-	left: 50%;
-	padding: 1rem;
+	font-weight: 500;
 	position: absolute;
+	right: 21.5rem;
 	text-align: center;
-	top: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	z-index: 500;
-}
-
-figure .overMap.show {
-	display: block;
-}
-
-figure .overMap.open {
-	left: unset;
-	margin-right: 1.5rem;
-	right: 20rem;
 	top: 50vh;
 	-moz-transform: translate(0, -50%);
 	-webkit-transform: translate(0, -50%);
 	transform: translate(50%, 0) rotate(90deg);
+	transition: all 400ms ease-in;
+	z-index: 500;
 }
-
-figure .overMap.close {
-	left: 1rem;
-	top: 1rem;
-	-moz-transform: none;
-	-webkit-transform: none;
-	transform: none;
+figure .overMap.small {
+	right: 2.5rem;
+}
+figure .overMap span {
+	display: none;
+	padding: 1rem;
+}
+figure .overMap span.show {
+	display: block;
 }
 
 .step {
