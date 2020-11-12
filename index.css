@@ -208,6 +208,7 @@ figure {
 }
 
 figure .overMap {
+	border:.2rem solid #ffffff80;
 	border-radius: 0 0 1rem 1rem;
 	cursor: pointer;
 	font-size: 1rem;
@@ -216,11 +217,11 @@ figure .overMap {
 	right: 21.5rem;
 	text-align: center;
 	top: 50vh;
-	-moz-transform: translate(0, -50%);
-	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(50%, 0) rotate(90deg);
+	-webkit-transform: translate(50%, 0) rotate(90deg);
 	transform: translate(50%, 0) rotate(90deg);
 	transition: all 400ms ease-in;
-	z-index: 500;
+	z-index: 501;
 }
 figure .overMap.small {
 	right: 2.5rem;
@@ -231,6 +232,43 @@ figure .overMap span {
 }
 figure .overMap span.show {
 	display: block;
+}
+
+figure [data-quickinfo="box"] {
+	border:.2rem solid #ffffff80;
+	display: none;
+	font-size: 1rem;
+	left: 2rem;
+	margin-top: -.2rem;
+	position: absolute;
+	right: 22rem;
+	z-index: 500;
+}
+figure [data-quickinfo="box"] h3 {
+	font-size: 1rem;
+	font-weight: 900;
+	padding: 1rem .5rem;
+	text-align: center;
+}
+figure [data-quickinfo="box"] .content {
+	padding: .5rem;
+}
+figure [data-quickinfo="box"] [data-quickinfo="close"] {
+	border:.2rem solid #ffffff80;
+	border-radius: 0 0 1rem 1rem;
+	left: 50%;
+	padding: .5rem;
+	position: absolute;
+	-moz-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+.empty {
+	height: 1.3rem;
+}
+.bold {
+	font-weight: 900;
 }
 
 .step {

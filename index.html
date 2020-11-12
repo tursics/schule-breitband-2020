@@ -9,8 +9,8 @@
 	<!-- put in your app icon here -->
 
 	<!-- put in the lib here -->
-	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.8/dist/ddj.map.css" />
-	<script src="https://unpkg.com/ddj.map@1.0.8/dist/ddj.map.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.9/dist/ddj.map.css" />
+	<script src="https://unpkg.com/ddj.map@1.0.9/dist/ddj.map.js"></script>
 
 	<!-- put in the data here -->
 	<meta name="ddj:data" content="https://docs.google.com/spreadsheets/d/e/2PACX-1vScl7jb69gHjX5QPH_JU3Aj3z2v4kd1PhiTt1lHwa0oyS1AgsJmVNiwV8UjIgq63a9q1fsSHtLH_qlx/pub?gid=0&single=true&output=csv">
@@ -75,6 +75,25 @@
 						<i class="fas fa-angle-double-down" style="margin-right: .5rem"></i> Text einblenden <i class="fas fa-angle-double-down" style="margin-left: .5rem"></i>
 					</span>
 				</div>
+				<div class="bgGray colorBlack" id="receipt" data-quickinfo="box">
+					<h3 class="bgDarkYellow">
+						<span data-quickdata="Name"></span> (<span data-quickdata="BSN"></span>)
+					</h3>
+					<div class="content">
+						<div data-quickdata="Standort" class="bold"></div>
+						<div data-quickdata="Straße"></div>
+						<div><span data-quickdata="PLZ"></span> Berlin</div>
+						<div class="empty"></div>
+						<div>Aktueller Anschluss: <span data-quickdata="AktuellerTarif"></span> (bis <span data-quickdata="AktuelleBandbreite"></span> MBit/s)</div>
+						<div data-quickdata="Notizen"></div>
+						<div class="empty"></div>
+						<div>Telekom-Tarif: <span data-quickdata="TelekomTarif"></span> (bis <span data-quickdata="TelekomDownload"></span>)</div>
+						<div data-hide-if-zero="TelekomLTE">Mit LTE der Telekom: <span data-quickdata="TelekomLTE"></span></div>
+					</div>
+					<div class="bgDarkYellow" id="receiptClose" data-quickinfo="close">
+						Info schließen
+					</div>
+				</div>
 			</figure>
 
 			<article>
@@ -84,7 +103,8 @@
 						Der Text kommt noch. Bestimmt.
 					</p>
 					<p>
-						Derzeit habe ich Daten aus 4 Bezirken aufgenommen. Mehr folgen hoffentlich noch.
+						Derzeit habe ich Daten aus allen 12 Bezirken, allerdings noch nicht alle Daten der Telekom eingesammelt.
+						Mehr folgen in den nächsten Tagen.
 					</p>
 					<p>
 						Sobald Pins auf der Karte zu finden sind kannst du hier scrollen und den Text lesen.
