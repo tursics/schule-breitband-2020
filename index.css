@@ -109,9 +109,9 @@ margin-right: 0.5rem;
 }*/
 
 #intro {
-max-width: 40rem;
-margin: 1rem auto;
-text-align: center;
+	max-width: 40rem;
+	margin: 1rem auto;
+	text-align: center;
 }
 
 #intro h1 {
@@ -119,7 +119,15 @@ text-align: center;
 	margin: 2rem auto 0.5rem auto;
 }
 
+#intro p.pre {
+	font-size: 1.3rem;
+	text-align: center;
+}
+
 #intro p {
+	font-size: 1rem;
+	margin: 1rem 0 0 0;
+	text-align: justify;
 }
 
 #intro small {
@@ -232,6 +240,16 @@ figure .overMap span {
 }
 figure .overMap span.show {
 	display: block;
+}
+figure .overMap.progress {
+	background: #b9b0acc0;
+	border: none;
+	border-radius: 0;
+	left: 1.5rem;
+	padding: 2rem;
+	pointer-events: none;
+	top: 1.5rem;
+	transform: unset;
 }
 
 figure [data-quickinfo="box"] {

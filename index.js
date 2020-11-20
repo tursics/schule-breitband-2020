@@ -3,7 +3,7 @@ var scrolly = main.querySelector('#scrolly');
 var figure = scrolly.querySelector('figure');
 var article = scrolly.querySelector('article');
 var step = article.querySelectorAll('.step');
-var currentDistrict = '';
+var currentDistrict = 'none';
 var currentType = 'today';
 var dataLoaded = false;
 
@@ -23,6 +23,7 @@ function handleStepEnter(response) {
 		}
 
 		if (dataLoaded) {
+//			ddj.tools.showSelection('.visibleWithoutData', true);
 			ddj.marker.update();
 			ddj.map.get().flyToBounds(
 				ddj.marker.default.layerGroup.getBounds(),
@@ -30,6 +31,7 @@ function handleStepEnter(response) {
 					paddingBottomRight: L.point(300, 0)
 				}
 			);
+//			ddj.tools.showSelection('.visibleWithoutData', false);
 		}
 	}
 }
