@@ -229,6 +229,7 @@ figure .overMap {
 	-webkit-transform: translate(50%, 0) rotate(90deg);
 	transform: translate(50%, 0) rotate(90deg);
 	transition: all 400ms ease-in;
+	white-space: nowrap;
 	z-index: 501;
 }
 figure .overMap.small {
@@ -236,10 +237,12 @@ figure .overMap.small {
 }
 figure .overMap span {
 	display: none;
+	opacity: 0;
 	padding: 1rem;
 }
 figure .overMap span.show {
 	display: block;
+	opacity: 1;
 }
 figure .overMap.progress {
 	background: #b9b0acc0;
@@ -251,15 +254,20 @@ figure .overMap.progress {
 	top: 1.5rem;
 	transform: unset;
 }
+.openMap {
+	background: #fff;
+	color: #888;
+	margin: 0 .5rem;
+}
 
 figure [data-quickinfo="box"] {
 	border:.2rem solid #ffffff80;
 	display: none;
 	font-size: 1rem;
-	left: 2rem;
-	margin-top: -.2rem;
+	left: 1rem;
+	margin-top: .8rem;
+	max-width: calc(100vw - 22rem);
 	position: absolute;
-	right: 22rem;
 	z-index: 500;
 }
 figure [data-quickinfo="box"] h3 {
@@ -274,6 +282,7 @@ figure [data-quickinfo="box"] .content {
 figure [data-quickinfo="box"] [data-quickinfo="close"] {
 	border:.2rem solid #ffffff80;
 	border-radius: 0 0 1rem 1rem;
+	cursor: pointer;
 	left: 50%;
 	padding: .5rem;
 	position: absolute;
@@ -282,11 +291,37 @@ figure [data-quickinfo="box"] [data-quickinfo="close"] {
 	transform: translate(-50%, 0);
 }
 
+.hiddenOnSmallScreen {
+	display: block;
+}
+.hiddenOnBigScreen {
+	display: none;
+}
+
+@media (max-width: 40rem) {
+	article {
+		margin: 0 auto;
+	}
+	article.small {
+		opacity: 0;
+	}
+	figure .overMap {
+		right: 1rem !important;
+	}
+	.hiddenOnSmallScreen,
+	figure .overMap span.show.hiddenOnSmallScreen {
+		display: none;
+	}
+	.hiddenOnBigScreen {
+		display: block;
+	}
+}
+
 .empty {
 	height: 1.3rem;
 }
 .bold {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .step {

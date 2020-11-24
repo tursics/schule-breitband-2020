@@ -13,6 +13,10 @@ function handleResize() {
 	scroller.resize();
 }
 
+function convertRemToPixels(rem) {    
+	return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
 function handleStepEnter(response) {
 	if (response.element.dataset.district && response.element.dataset.type) {
 		currentDistrict = response.element.dataset.district;
@@ -23,12 +27,16 @@ function handleStepEnter(response) {
 		}
 
 		if (dataLoaded) {
+			var vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+			var rem40 = convertRemToPixels(40);
+//			console.log(vw < rem40 ? 0 : 300);
+
 //			ddj.tools.showSelection('.visibleWithoutData', true);
 			ddj.marker.update();
 			ddj.map.get().flyToBounds(
 				ddj.marker.default.layerGroup.getBounds(),
 				{
-					paddingBottomRight: L.point(300, 0)
+					paddingBottomRight: L.point(vw < rem40 ? 0 : 300, 0)
 				}
 			);
 //			ddj.tools.showSelection('.visibleWithoutData', false);
@@ -51,30 +59,40 @@ function setupScrollerController() {
 	var closeElement = document.querySelector('.overMap .close');
 	var overMapElement = document.querySelector('.overMap');
 	var articleElement = document.querySelector('article');
+	var openMapElementList = document.querySelectorAll('.openMap');
+	var openElementClass = openElement.className;
+	var closeElementClass = closeElement.className;
 
-	openElement.addEventListener('click', function (event) {
+	function openElementCb(event) {
 		event.preventDefault();
 
-		openElement.className = 'open';
+		openElement.className = openElementClass;
 		closeElement.className += ' show';
 		articleElement.className += ' small';
 		overMapElement.className += ' small';
 
 		ddj.map.get().scrollWheelZoom.enable();
-	}, false);
+	}
 
-	closeElement.addEventListener('click', function (event) {
+	function closeElementCb(event) {
 		event.preventDefault();
 
 		openElement.className += ' show';
-		closeElement.className = 'close';
+		closeElement.className = closeElementClass;
 		articleElement.className = articleElement.className.substring(0, articleElement.className.length - 6);
 		overMapElement.className = overMapElement.className.substring(0, overMapElement.className.length - 6);
 
 		ddj.map.get().scrollWheelZoom.disable();
-	}, false);
+	}
 
 	openElement.className += ' show';
+
+	openElement.addEventListener('click', openElementCb, false);
+	closeElement.addEventListener('click', closeElementCb, false);
+	for (o = 0; o < openMapElementList.length; ++o) {
+		var element = openMapElementList[o];
+		element.addEventListener('click', openElementCb, false);
+	}
 }
 
 function init() {
