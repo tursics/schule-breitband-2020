@@ -29,16 +29,23 @@ function handleStepEnter(response) {
 		if (dataLoaded) {
 			var vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 			var rem40 = convertRemToPixels(40);
-//			console.log(vw < rem40 ? 0 : 300);
 
 //			ddj.tools.showSelection('.visibleWithoutData', true);
 			ddj.marker.update();
-			ddj.map.get().flyToBounds(
-				ddj.marker.default.layerGroup.getBounds(),
-				{
-					paddingBottomRight: L.point(vw < rem40 ? 0 : 300, 0)
-				}
-			);
+
+			var layerGroup = ddj.marker.default.layerGroup;
+			var layerCount = 0;
+			if (layerGroup) {
+				layerCount = layerGroup.getLayers().length;
+			}
+			if (layerCount > 0) {
+				ddj.map.get().flyToBounds(
+					ddj.marker.default.layerGroup.getBounds(),
+					{
+						paddingBottomRight: L.point(vw < rem40 ? 0 : 300, 0)
+					}
+				);
+			}
 //			ddj.tools.showSelection('.visibleWithoutData', false);
 		}
 	}
