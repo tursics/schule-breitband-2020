@@ -76,8 +76,6 @@ function statistics() {
 			console.log('TelekomUpload:', TelekomUpload,'/',cTelekomUpload,'=',parseInt(TelekomUpload / cTelekomUpload, 10),'MBit/s');
 			console.log('TelekomLTE:', cTelekomLTE);
 		}
-
-		console.log(data[0]);
 	}
 }
 
@@ -189,7 +187,7 @@ ddj.autostart.onDone(function() {
 	ddj.map.get().scrollWheelZoom.disable();
 	dataLoaded = true;
 
-	statistics();
+//	statistics();
 });
 
 ddj.autostart.onAddMarker(function(marker, value) {
