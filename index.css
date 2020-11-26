@@ -111,17 +111,29 @@ margin-right: 0.5rem;
 #intro {
 	max-width: 40rem;
 	margin: 1rem auto;
+	padding: 0 1rem;
 	text-align: center;
 }
 
 #intro h1 {
 	font-size: 2em;
-	margin: 2rem auto 0.5rem auto;
+	margin: 1rem auto 0.5rem auto;
 }
 
 #intro p.pre {
 	font-size: 1.3rem;
 	text-align: center;
+}
+
+#intro p.small {
+	color: #888;
+	font-size: .9rem;
+	font-weight: 300;
+}
+#intro p.small a {
+	border-bottom: none;
+	color: #888;
+	font-weight: 500;
 }
 
 #intro p {

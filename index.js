@@ -17,6 +17,70 @@ function convertRemToPixels(rem) {
 	return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
 }
 
+function statistics() {
+	var data = ddj.data.get();
+	if (data) {
+		var districts = ['01','02','03','04','05','06','07','08','09','10','11','12',''];
+
+		for (d = 0; d < districts.length; ++d) {
+			var district = districts[d];
+			var valueCount = 0;
+			var AktuelleBandbreite = 0;
+			var cAktuelleBandbreite = 0;
+			var cAktuelleBandbreite16 = 0;
+			var TelekomDownload = 0;
+			var cTelekomDownload = 0;
+			var TelekomUpload = 0;
+			var cTelekomUpload = 0;
+			var cTelekomLTE = 0;
+			console.log('->', district);
+
+			for (v = 0; v < data.length; ++v) {
+				var value = data[v];
+
+				if (value.BSN.indexOf(district) === 0) {
+					++valueCount;
+					
+					var vAktuelleBandbreite = parseInt(value.AktuelleBandbreite, 10);
+					if (!isNaN(vAktuelleBandbreite)) {
+						AktuelleBandbreite += vAktuelleBandbreite;
+						++cAktuelleBandbreite;
+						if (vAktuelleBandbreite <= 16) {
+							++cAktuelleBandbreite16;
+						}
+					}
+
+					var vTelekomDownload = parseInt(value.TelekomDownload, 10);
+					if (!isNaN(vTelekomDownload)) {
+						TelekomDownload += vTelekomDownload;
+						++cTelekomDownload;
+					}
+
+					var vTelekomUpload = parseInt(value.TelekomUpload, 10);
+					if (!isNaN(vTelekomUpload)) {
+						TelekomUpload += vTelekomUpload;
+						++cTelekomUpload;
+					}
+
+					var vTelekomLTE = parseInt(value.TelekomLTE, 10);
+					if (!isNaN(vTelekomLTE)) {
+						++cTelekomLTE;
+					}
+				}
+			}
+
+			console.log('schools:', valueCount);
+			console.log('AktuelleBandbreite:', AktuelleBandbreite,'/',cAktuelleBandbreite,'=',parseInt(AktuelleBandbreite / cAktuelleBandbreite, 10),'MBit/s');
+			console.log('AktuelleBandbreite <= 16:', cAktuelleBandbreite16,'=',parseInt(cAktuelleBandbreite16 / valueCount * 100, 10),'%');
+			console.log('TelekomDownload:', TelekomDownload,'/',cTelekomDownload,'=',parseInt(TelekomDownload / cTelekomDownload, 10),'MBit/s');
+			console.log('TelekomUpload:', TelekomUpload,'/',cTelekomUpload,'=',parseInt(TelekomUpload / cTelekomUpload, 10),'MBit/s');
+			console.log('TelekomLTE:', cTelekomLTE);
+		}
+
+		console.log(data[0]);
+	}
+}
+
 function handleStepEnter(response) {
 	if (response.element.dataset.district && response.element.dataset.type) {
 		currentDistrict = response.element.dataset.district;
@@ -124,6 +188,8 @@ init();
 ddj.autostart.onDone(function() {
 	ddj.map.get().scrollWheelZoom.disable();
 	dataLoaded = true;
+
+	statistics();
 });
 
 ddj.autostart.onAddMarker(function(marker, value) {
