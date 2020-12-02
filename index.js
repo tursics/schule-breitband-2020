@@ -104,7 +104,8 @@ function handleStepEnter(response) {
 				ddj.map.get().flyToBounds(
 					ddj.marker.default.layerGroup.getBounds(),
 					{
-						paddingBottomRight: L.point(vw < rem40 ? 0 : 300, 0)
+						paddingTopLeft: L.point(15, 40),
+						paddingBottomRight: L.point(vw < rem40 ? 15 : 300, 0)
 					}
 				);
 			}
