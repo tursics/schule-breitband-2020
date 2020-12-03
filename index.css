@@ -113,11 +113,19 @@ margin-top: 1rem;
 margin-right: 0.5rem;
 }*/
 
-#intro {
+#intro, #outro {
 	max-width: 40rem;
 	margin: 1rem auto;
 	padding: 0 1rem;
 	text-align: center;
+}
+
+#outro {
+	background: #f5f3f2;
+	margin: 0;
+	max-width: inherit;
+	padding: 5rem 1rem 1rem 1rem;
+	position: relative;
 }
 
 #intro h1 {
@@ -130,21 +138,25 @@ margin-right: 0.5rem;
 	text-align: center;
 }
 
-#intro p.small {
+p.small {
 	color: #888;
 	font-size: .9rem;
 	font-weight: 300;
 }
-#intro p.small a {
+p.small a {
 	border-bottom: none;
 	color: #888;
 	font-weight: 500;
 }
 
-#intro p {
+#intro p, #outro p, #outro div {
 	font-size: 1rem;
 	margin: 1rem 0 0 0;
 	text-align: justify;
+}
+#outro p, #outro div {
+	margin: 0rem auto 1em auto;
+	max-width: 40rem;
 }
 
 #intro small {
@@ -180,13 +192,6 @@ animation: none;
 .github-corner .octo-arm {
 animation: octocat-wave 560ms ease-in-out;
 }
-}
-
-#intro {
-}
-
-#outro {
-height: 80vh;
 }
 
 @media (min-width: 840px) {
