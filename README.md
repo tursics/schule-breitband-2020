@@ -31,6 +31,10 @@ Vier von zehn Schulen sind unzureichend an das Internet angeschlossen. Nur 3 Bez
   **Selbst ist die Zivilgesellschaft!**<br>
   Thomas Tursics recherchiert selbst und visualisiert die Internetanbindung in Berliner Schulen
 
+## Ableitungen
+
+**Internet und Schule in Hamburg** vom 6. Dezember 2020: https://voss-hh.de/bandbreiten/
+
 ## Daten
 
 Die Daten stammen aus 12 Kleine Anfragen. Da sie allesamt amtliche Werke sind, stehen sie als Public Domain zur freien Verwendung zur Verfügung.
