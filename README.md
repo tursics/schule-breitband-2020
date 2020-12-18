@@ -31,6 +31,11 @@ Vier von zehn Schulen sind unzureichend an das Internet angeschlossen. Nur 3 Bez
   **Selbst ist die Zivilgesellschaft!**<br>
   Thomas Tursics recherchiert selbst und visualisiert die Internetanbindung in Berliner Schulen
 
+- [Neues Deutschland](https://www.neues-deutschland.de/artikel/1145915.digitales-lernen-leider-nicht-erreichbar.html) vom 17.12.2020
+
+  **Leider nicht erreichbar**<br>
+  Für viele Schulen ist digitaler Distanzunterricht noch ferne Zukunftsmusik
+
 ## Ableitungen
 
 **Internet und Schule in Hamburg** vom 6. Dezember 2020: https://voss-hh.de/bandbreiten/
