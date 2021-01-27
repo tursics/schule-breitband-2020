@@ -26,8 +26,8 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- put in the lib here -->
-	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.9/dist/ddj.map.css" />
-	<script src="https://unpkg.com/ddj.map@1.0.9/dist/ddj.map.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/ddj.map@1.0.10/dist/ddj.map.css" />
+	<script src="https://unpkg.com/ddj.map@1.0.10/dist/ddj.map.js"></script>
 
 	<!-- put in the data here -->
 	<meta name="ddj:data" content="data/bandbreiten.csv">
@@ -176,6 +176,10 @@
 						<div><span data-quickdata="TelekomTarif"></span> (bis <span data-quickdata="TelekomDownload"></span>)</div>
 						<div>Upload (bis <span data-quickdata="TelekomUpload"></span>)</div>
 						<div data-hide-if-zero="TelekomLTE">(mit LTE bis <span data-quickdata="TelekomLTE"></span>)</div>
+
+						<div data-hide-if-zero="LetzteBandbreite" style="padding-top: .5rem" class="bold">Update vom <span data-quickdata="Latest"></span>:</div>
+						<div data-hide-if-zero="LetzteBandbreite"><span data-quickdata="LetzterTarif"></span> (bis <span data-quickdata="LetzteBandbreite"></span> Mbit/s)</div>
+						<div data-hide-if-zero="LetzteBandbreite">Quelle: <span data-quickdata="LatestSource"></span></div>
 					</div>
 					<div class="bgDarkYellow" id="receiptClose" data-quickinfo="close">
 						Info schließen
