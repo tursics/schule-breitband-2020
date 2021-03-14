@@ -177,9 +177,10 @@
 						<div>Upload (bis <span data-quickdata="TelekomUpload"></span>)</div>
 						<div data-hide-if-zero="TelekomLTE">(mit LTE bis <span data-quickdata="TelekomLTE"></span>)</div>
 
-						<div data-hide-if-zero="LetzteBandbreite" style="padding-top: .5rem" class="bold">Update vom <span data-quickdata="Latest"></span>:</div>
-						<div data-hide-if-zero="LetzteBandbreite"><span data-quickdata="LetzterTarif"></span> (bis <span data-quickdata="LetzteBandbreite"></span> Mbit/s)</div>
-						<div data-hide-if-zero="LetzteBandbreite">Quelle: <span data-quickdata="LatestSource"></span></div>
+						<div data-hide-if-empty="LetzteBandbreite" style="padding-top: .5rem" class="bold">Update vom <span data-quickdata="Latest"></span>:</div>
+						<div data-hide-if-empty="LetzteBandbreite" style="padding-top: .5rem" class="bold">Aktueller Anschluss:</div>
+						<div data-hide-if-empty="LetzteBandbreite"><span data-quickdata="LetzterTarif"></span> (bis <span data-quickdata="LetzteBandbreite"></span> Mbit/s)</div>
+						<div data-hide-if-empty="LetzteBandbreite">Quelle: <span data-quickdata="LatestSource"></span></div>
 					</div>
 					<div class="bgDarkYellow" id="receiptClose" data-quickinfo="close">
 						Info schließen
@@ -659,7 +660,7 @@
 				<a href="https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/SchrAnfr/S18-25315.pdf">Treptow-Köpenick</a>.
 			</div>
 			<div>
-				Die <a href="http://www.tursics.de/story/schule-breitband-2020/data/breitband.csv">Rohdaten können heruntergeladen</a> werden.
+				Die <a href="http://www.tursics.de/story/schule-breitband-2020/data/bandbreiten.csv">Rohdaten können heruntergeladen</a> werden.
 				Die Webseitenquelltexte können Sie <a href="https://github.com/tursics/schule-breitband-2020">auf github</a> ansehen und frei (MIT-Lizenz) verwenden.
 			</div>
 			<div>
